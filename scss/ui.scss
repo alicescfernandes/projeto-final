@@ -2,6 +2,7 @@
 
 *{
   font-family: "Open Sans";
+  margin: 0px;
 }
 body{
   margin:0px;
@@ -9,6 +10,7 @@ body{
   width: 112%;
   width: 120%;
   overflow:hidden;
+  background-color: $black-body-background;
 }
 
 h1,h2,h3,h4,p{
@@ -141,13 +143,15 @@ li.menu-item:before {
 
 .main-content{
   display: inline-block;
-  width: 88%;
+  width: 83%; //88%
   position: relative;
   //background-image: url(../img/bg-dummy@1700.jpg);
   //background-position: center;
   //background-size: cover;
   //background-repeat: no-repeat;
   height: 100vh;
+
+overflow-y: scroll;
 
 }
 
@@ -235,6 +239,10 @@ i.icon-cross {
 
 //Slider
 .slideshow{
+  position: relative;;
+}
+
+.slideshow-absolute-pos{
   position: absolute;
   top: 0px;
   left: 0px;
@@ -245,6 +253,19 @@ i.icon-cross {
   width:100vw;
   overflow: hidden;
 }
+
+
+
+.slideshow-medium{
+  height: 300px;
+  width:100vw;
+  overflow: hidden;
+  .slide{
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 
 .slide-container{
   height:inherit;
@@ -299,4 +320,166 @@ i.icon-cross {
     li.active{
       background-color: $bullet-color;
     }
+}
+
+
+.panel-shadow{
+  box-shadow:$box-shadow;
+}
+
+
+.panel-container{
+  width: 80%;
+  //border: 1px solid red;
+  display: block;
+  margin:auto;
+  margin-bottom: 70px;
+}
+
+.panel{
+  min-height: 100px;
+  box-sizing:border-box;
+  padding: 30px;
+  box-shadow: $box-shadow;
+  margin-bottom: 30px;
+  background-color: $black-card-background;
+  color: $card-text-color;
+  font-weight: 300;
+  letter-spacing: 0.85px;
+  font-size: 14px;
+  p{
+    padding-bottom: 20px;
+  }
+
+  .tag p{
+    padding: 0px;
+  }
+
+  .tag{
+    display: inline-block;
+    background-color: $tag-background;
+    color:$tag-text-color;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    user-select:none;
+    -webkit-user-select:none;
+    cursor: pointer;
+  }
+}
+
+.panel-noshadow{
+  box-shadow: none !important;
+}
+.align-center{
+  text-align: center;
+  margin: auto;
+}
+
+
+.panel-title{
+  h3,h4,h5{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro";
+    letter-spacing:0.85px;
+    font-size: 28.55px;
+  }
+
+  h6,p{
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  h6:before,h6:after,  p:before,p:after{
+    display: inline-block;
+    content: "-";
+    margin: 0px 10px 10px 0px
+  }
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-top:30px;
+  color:white;
+  margin-bottom: 30px;
+  line-height: 50px;
+}
+
+
+
+.panel-sharer{
+
+      line-height: 50px;
+ h5{
+   font-size: 16px;
+   font-weight: 500;
+ }
+  .stats{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 0px;
+
+    i{
+      margin-right: 10px;
+      font-size: 20px;
+      vertical-align: text-top;
+    }
+  }
+
+  .stats:first-child{
+    margin-left: 00px;
+  }
+}
+.panel-nobackground{
+  background-color: transparent;
+
+}
+
+
+
+.btn{
+  box-shadow: $box-shadow;
+  line-height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: $black-card-background;
+  color:$card-text-color;
+  display:block;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+button:focus{
+  outline:none;
+}
+
+
+footer{
+  width: 100%;
+  background-color: $footer-background-color;
+  text-align: center;
+  height: 150px;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.85px;
+  color:white;
+
+
+  i{
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .letring{
+    margin-bottom: 20px;
+  }
 }
