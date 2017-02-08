@@ -1,0 +1,22 @@
+
+label.menu-label(for='menu-show')
+  i.icon-menu
+
+nav.sidebar
+  label(for="menu-show")
+    button.ui-component.btn.btn-navbar(onclick="return clickFunction()") 
+      i.icon-cross
+      | Close Menu
+  div.container
+    ul
+      li.menu-item Home
+      li.menu-item Portfolio
+      input(type="checkbox" id="submenu-toggle")
+      ul.sub-menu
+        div.padding-box
+          li.submenu-item 3D
+          li.submenu-item Web Development
+          li.submenu-item Design Gráfico
+          li.submenu-item Fotografia
+      li.menu-item Sobre mim
+      li.menu-item Contactos

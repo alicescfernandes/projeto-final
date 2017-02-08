@@ -1,0 +1,302 @@
+@import "_includes/_colors";
+
+*{
+  font-family: "Open Sans";
+}
+body{
+  margin:0px;
+  padding:0px;
+  width: 112%;
+  width: 120%;
+  overflow:hidden;
+}
+
+h1,h2,h3,h4,p{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,li{
+  list-style-type: none;
+  padding: 0px;
+}
+
+.sidebar ul, .sidebar li{
+    //font-weight: 400;
+    cursor: pointer;
+    user-select:none;
+    -webkit-user-select:none;
+}
+
+.menu-label{
+position: fixed;
+top: 0px;
+left:0px;
+display: block;
+z-index:98;
+}
+
+input{
+  display: none;
+}
+.sidebar{
+  display: inline-block;
+  width: 12%;
+  position: relative;
+  background-color: $black-menu-background;
+  height: 100vh;
+  //color: $black-menu-foreground;
+  text-transform: uppercase;
+
+  font-size: 15px;
+  float: left;
+  z-index:99;
+
+}
+
+.menu-item{
+  padding: 10px;
+  padding-left: 32px;
+  line-height: 43px;
+  font-weight: 500;
+  //text-shadow: rgba(152, 152, 152, 0.3) 0px 0px 1px;
+  font-size: 13px;
+  font-weight: $semi-bold;
+  color: $black-menu-foreground;
+
+}
+
+li.menu-item:before {
+    width: 20px;
+    content: "//";
+    margin-right: 13px;
+}
+
+.submenu-item{
+  font-size: 12px;
+  padding: 5px;
+  padding-left: 60px;
+  line-height: 30px;
+  font-weight: 600;
+  color:$black-submenu-foreground;
+}
+
+
+.sidebar .container{
+
+  //width: 265px;
+  box-sizing: border-box;
+
+
+}
+
+.site-container{
+  position: relative;
+  left: -12%;
+  transition: left 0.5s;
+}
+
+.sub-menu{
+
+  background-color: $black-submenu-background;
+  //text-shadow: rgba(125, 125, 125, 0.4) 0 0 1px;
+  max-height: 0px;
+  overflow: hidden;
+  //padding: 0px;
+  transition:0.2s max-height;
+
+}
+
+
+.padding-box{
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#submenu-toggle:checked + .sub-menu{
+  //padding-top: 20px;
+  //padding-bottom: 20px;
+  max-height: 200px;
+  transition:0.2s max-height;
+
+}
+.btn-navbar{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  line-height: initial;
+  height:63px;
+  background-color: $black-btn-menu-background;
+  color: $black-btn-menu-foreground;
+  text-transform: uppercase;
+  font-weight: $regular;
+  font-size: 12px;
+  text-shadow: rgba(255, 255, 255, 0.33) 0 0 1px;
+
+}
+
+.btn{
+  border:0px;
+}
+
+.main-content{
+  display: inline-block;
+  width: 88%;
+  position: relative;
+  //background-image: url(../img/bg-dummy@1700.jpg);
+  //background-position: center;
+  //background-size: cover;
+  //background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+
+.index{
+  display: block;
+  height: 100%;
+  height:100vh;
+}
+
+header {
+    width: 100vw;
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 40pt;
+  color: white;
+  text-shadow: rgba(255, 255, 255, 1) 0 0 1px;
+  margin-top: 15%;
+  font-family: "Source Sans Pro";
+  user-select:none;
+  width:100vw;
+}
+
+.letring{
+
+    margin: auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    position: relative;
+    top: 0px;
+    width: 220px;
+    letter-spacing: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: block;
+
+  p:first-child{
+    font-weight: bold;
+    font-family: "Open Sans";
+    text-rendering: optimizeLegibility;
+
+  }
+
+  p:last-child{
+    font-weight: 100;
+    font-family: "Open Sans";
+    text-rendering: optimizeLegibility;
+  }
+}
+
+
+
+//Icons
+
+#menu-show:checked + .site-container{
+  position: relative;
+  left: 0px !important;
+  transition: left 0.5s;
+}
+
+.icon-menu{
+  font-size: 35px;
+  color:white;
+  margin: 10px;
+  display: block;
+  user-select:none;
+  -webkit-user-select:none;
+  cursor:pointer;
+}
+
+i.icon-cross {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+//Slider
+.slideshow{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: scroll;
+}
+.slideshow-fullpage{
+  height: 100vh;
+  width:100vw;
+  overflow: hidden;
+}
+
+.slide-container{
+  height:inherit;
+  //width:inherit;
+  //width: 3400px; //screen size * number images of the slide
+  position: relative;
+  left: 0;
+  transition: left 0.5s;
+  z-index: -1;
+}
+.slide{
+  width:33.33%;
+  height: 100%;
+  display: block;
+  float:left;
+}
+
+.slide:nth-child(1){
+  background-color: red;
+}
+
+.slide:nth-child(2){
+  background-color: blue;
+}
+
+.slide:nth-child(3){
+  background-color: orange;
+}
+
+.slide-controller {
+    position: absolute;
+    bottom: 50px;
+    display: block;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+    ul,li{
+      display: inline;
+    }
+
+    li{
+      width: $bullet-size;
+      height: $bullet-size;
+      display: inline-block;
+      margin-right: 20px;
+      border:1px solid $bullet-color;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+
+    li.active{
+      background-color: $bullet-color;
+    }
+}

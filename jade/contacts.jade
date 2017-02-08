@@ -1,0 +1,35 @@
+doctype html
+html.contacts
+  head
+    include _includes/_header.jade
+  body
+    include _includes/_sidebar.jade
+    div.main-content
+      div.ui-component.slideshow.slideshow-medium
+        div.slide
+        div.slide
+        div.slide
+    div.panel-container
+      div.panel.panel-noshadow.panel-fullwidth.align-center
+        h3 Project title
+        p
+          i Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+      
+      div.panel.panel-contacts
+        form
+          div.row.col100
+            label(for="nome") Nome
+            input(type="text" id="nome" name="nome"  required)
+          div.row.col100
+            label(for="email") Endereço de Contacto
+            input(type="email" id="email" nome="email" required)
+          div.row.col100
+            textarea(name="mensagem" required minlength="100" maxlength="230")
+          div.row.col100
+          button.ui-compoment.btn-simple(type="sumbit")
+            i icon-arrow
+            |Enviar
+          button.ui-compoment.btn-simple(type="reset")
+            i icon-refresh
+            |Apagar dados
+      include _includes/_footer.jade

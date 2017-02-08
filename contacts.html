@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="contacts">
+  <head>
+    <!--meta(http-equiv="refresh" content="5")-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="https://cdn.rawgit.com/alicescfernandes/entypo-webfont/0fef4a46/style.css">
+    <link rel="stylesheet" href="css/ui.css">
+    <script scr="script/script.js"></script>
+  </head>
+  <body>
+    <label for="menu-show">Menu <!-- For menu bar --></label>
+    <input type="checkbox" id="menu-show">
+    <nav class="sidebar">
+      <button class="ui-component btn btn-navbar">Close Menu</button>
+      <div class="container">
+        <ul>
+          <li>Home</li>
+          <li>Portfolio
+            <ul>
+              <li>3D</li>
+              <li>Web Development</li>
+              <li>Design Gráfico</li>
+              <li>Fotografia</li>
+            </ul>
+          </li>
+          <li>Sobre mim</li>
+          <li>Contactos</li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main-content">
+      <div class="ui-component slideshow slideshow-medium">
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+      </div>
+    </div>
+    <div class="panel-container">
+      <div class="panel panel-noshadow panel-fullwidth align-center">
+        <h3>Project title</h3>
+        <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</i></p>
+      </div>
+      <div class="panel panel-contacts">
+        <form>
+          <div class="row col100">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div class="row col100">
+            <label for="email">Endereço de Contacto</label>
+            <input type="email" id="email" nome="email" required>
+          </div>
+          <div class="row col100">
+            <textarea name="mensagem" required minlength="100" maxlength="230"></textarea>
+          </div>
+          <div class="row col100"></div>
+          <button class="ui-compoment btn-simple" type="sumbit"><i>icon-arrow</i>Enviar</button>
+          <button class="ui-compoment btn-simple" type="reset"><i>icon-refresh</i>Apagar dados</button>
+        </form>
+      </div>
+      <footer><span class="letring letring-small">
+          <p>Alice Fernandes</p>
+          <p>Design and development</p></span><span class="final-countdown">
+          <p>made with<i>Icon</i>by alice fernandes</p></span></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+doctype html
+html.index
+  head
+    include _includes/_header.jade
+  body
+    input(type='checkbox' id="menu-show")
+
+    .site-container
+
+      include _includes/_sidebar.jade
+
+      div.main-content
+        header
+          span.letring
+            p Alice Fernandes
+            p Design & Development
+        div.container
+          div.title
+            p design
+        div.ui-component.slideshow.slideshow-fullpage
+          div.slide-container
+            div.slide(style="background-image:url(img/bg-dummy@1700.jpg)")
+            div.slide
+            div.slide
+          div.ui-component.slide-controller
+            ul
+              li 
+              li(onclick="alert(1)")
+              li 
