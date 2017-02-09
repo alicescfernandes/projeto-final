@@ -1,42 +1,7 @@
 <!DOCTYPE html>
 <html class="simple-page">
-  <head>
-    <!--meta(http-equiv="refresh" content="5")-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="https://cdn.rawgit.com/alicescfernandes/entypo-webfont/0fef4a46/style.css">
-    <link rel="stylesheet" href="css/ui.css">
-    <link rel="stylesheet" href="webfont/entypo social/style.css">
-    <script src="script/script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <label class="menu-label" for="menu-show"><i class="icon-menu"></i></label>
-    <nav class="sidebar">
-      <label for="menu-show">
-        <button class="ui-component btn btn-navbar" onclick="return clickFunction()"> <i class="icon-cross"></i>Close Menu</button>
-      </label>
-      <div class="container">
-        <ul>
-          <li class="menu-item"> <a href="index.html">Home</a></li>
-          <li class="menu-item"> 
-            <label for="submenu-toggle">Portfolio</label>
-          </li>
-          <input type="checkbox" id="submenu-toggle">
-          <ul class="sub-menu">
-            <div class="padding-box">
-              <li class="submenu-item">3D</li>
-              <li class="submenu-item">Web Development</li>
-              <li class="submenu-item">Design Gráfico</li>
-              <li class="submenu-item">Fotografia</li>
-            </div>
-          </ul>
-          <li class="menu-item">Sobre mim</li>
-          <li class="menu-item">Contactos</li>
-        </ul>
-      </div>
-    </nav>
+  <head><?php require_once('./includes/_header.php') ?></head>
+  <body><?php require_once('./includes/_sidebar.php') ?>
     <div class="main-content">
       <div class="ui-component slideshow slideshow-medium">
         <div class="slide"></div>
@@ -54,11 +19,7 @@
         <p>Praesent at nulla lacinia, condimentum diam eget, mattis libero. Nullam condimentum pretium posuere. In in luctus dui. Nullam ornare scelerisque nisl nec varius. Aliquam erat volutpat. Aenean accumsan vulputate maximus. Maecenas quam mauris, mattis at neque vel, imperdiet accumsan dui. Nullam et risus et mi fringilla volutpat at et mi. In gravida cursus massa id fermentum. Donec aliquam arcu nec risus tincidunt viverra. Aenean blandit faucibus condimentum.</p>
         <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur hendrerit purus, ut volutpat enim posuere a. Donec efficitur quam nec orci aliquam, ac fringilla ipsum vehicula. Praesent sagittis lacinia diam. Suspendisse fringilla varius diam, in rhoncus libero auctor ut. Aliquam sed justo lorem. Vivamus venenatis lacus ligula, faucibus aliquet enim malesuada at. Sed vel eros nunc. Donec erat risus, tincidunt vitae commodo vel, congue eget lectus.</p>
         <p>Praesent at nulla lacinia, condimentum diam eget, mattis libero. Nullam condimentum pretium posuere. In in luctus dui. Nullam ornare scelerisque nisl nec varius. Aliquam erat volutpat. Aenean accumsan vulputate maximus. Maecenas quam mauris, mattis at neque vel, imperdiet accumsan dui. Nullam et risus et mi fringilla volutpat at et mi. In gravida cursus massa id fermentum. Donec aliquam arcu nec risus tincidunt viverra. Aenean blandit faucibus condimentum.</p>
-      </div>
-      <footer><span class="letring letring-small">
-          <p>Alice Fernandes</p>
-          <p>Design and development</p></span><span class="final-countdown">
-          <p>made with<i class="icon-heart"></i>by alice fernandes</p></span></footer>
+      </div><?php require_once('./includes/_footer.php') ?>
     </div>
   </body>
 </html>

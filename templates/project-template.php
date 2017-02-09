@@ -1,50 +1,15 @@
 <!DOCTYPE html>
 <html class="project-page">
-  <head>
-    <!--meta(http-equiv="refresh" content="5")-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="https://cdn.rawgit.com/alicescfernandes/entypo-webfont/0fef4a46/style.css">
-    <link rel="stylesheet" href="css/ui.css">
-    <link rel="stylesheet" href="webfont/entypo social/style.css">
-    <script src="script/script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+  <head><?php require_once('./includes/_header.php') ?></head>
   <body>
     <input type="checkbox" id="menu-show">
-    <div class="site-container">
-      <label class="menu-label" for="menu-show"><i class="icon-menu"></i></label>
-      <nav class="sidebar">
-        <label for="menu-show">
-          <button class="ui-component btn btn-navbar" onclick="return clickFunction()"> <i class="icon-cross"></i>Close Menu</button>
-        </label>
-        <div class="container">
-          <ul>
-            <li class="menu-item"> <a href="index.html">Home</a></li>
-            <li class="menu-item"> 
-              <label for="submenu-toggle">Portfolio</label>
-            </li>
-            <input type="checkbox" id="submenu-toggle">
-            <ul class="sub-menu">
-              <div class="padding-box">
-                <li class="submenu-item">3D</li>
-                <li class="submenu-item">Web Development</li>
-                <li class="submenu-item">Design Gráfico</li>
-                <li class="submenu-item">Fotografia</li>
-              </div>
-            </ul>
-            <li class="menu-item">Sobre mim</li>
-            <li class="menu-item">Contactos</li>
-          </ul>
-        </div>
-      </nav>
+    <div class="site-container"><?php require_once('./includes/_sidebar.php') ?>
       <div class="main-content">
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
-            <div class="slide" style="background-image:url(img/slide1-dummy@1900.jpg);" data-slide="1"></div>
-            <div class="slide" style="background-image:url(img/slide2-dummy@1900.jpg);" data-slide="2"></div>
-            <div class="slide" style="background-image:url(img/slide3-dummy@1900.jpg);" data-slide="3"></div>
+            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide1-dummy@1900.jpg") ?>);" data-slide="1"></div>
+            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide2-dummy@1900.jpg") ?>);" data-slide="2"></div>
+            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide3-dummy@1900.jpg") ?>);" data-slide="3"></div>
           </div>
           <div class="ui-component slide-controller">
             <ul>
@@ -86,11 +51,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <footer><span class="letring letring-small">
-            <p>Alice Fernandes</p>
-            <p>Design and development</p></span><span class="final-countdown">
-            <p>made with<i class="icon-heart"></i>by alice fernandes</p></span></footer>
+        </div><?php require_once('./includes/_footer.php') ?>
       </div>
     </div>
   </body>
