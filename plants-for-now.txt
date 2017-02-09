@@ -1,5 +1,17 @@
-//  PLANO PARA HOJE (à NOITE :) )
+﻿/*TO DO:
 
-- Substituir todos os links relativos para absolutos;
-- Preparar páginas dinâmicas
-- Preparar API REST para apresentação dinamica de conteúdos
+- Style and edit contacts.jade && simple-article.jade
+	- Convert generated contacts.html && simple-article.html to php template;
+		- Implement dinamic page content for contacts.php and simple-pages.php
+
+- Implement project dinamic page for simple-article, project-template
+- Implement random image slider for index.php, simple-article.php and contacts.php
+- Implement random tag-related slider for project-category.php
+- Implement random project-related slider for project-template.php
+- Prepare databse for analytics
+	- Implement analytics-retrieve data for server-sider
+		-Implement generated graph views for saved analytics data
+
+
+</A_L_I_C_E>
+*/
