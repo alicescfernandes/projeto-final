@@ -27,10 +27,10 @@ window.onload = function(){
 
     document.querySelector("#animation").onclick = function(){
         document.querySelector("#animation > div").classList.add("button-animate");
-      /*  window.setTimeout(function(){
+      window.setTimeout(function(){
           document.querySelector("#animation > div").classList.remove("button-animate");
           location.href=location.href+document.querySelector("#animation").getAttribute('href');
-        }, 150)*/
+        }, 150)
         return false;
 
     }
