@@ -9,14 +9,14 @@ html.project-page
     div.main-content
       div.ui-component.slideshow.slideshow-medium.panel-shadow
         div.slide-container
-          div.slide(style="background-image:url(img/slide1-dummy@1900.jpg)")
-          div.slide(style="background-image:url(img/slide2-dummy@1900.jpg)")
-          div.slide(style="background-image:url(img/slide3-dummy@1900.jpg)")
+          div.slide(style="background-image:url(img/slide1-dummy@1900.jpg)" data-slide="1")
+          div.slide(style="background-image:url(img/slide2-dummy@1900.jpg)" data-slide="2")
+          div.slide(style="background-image:url(img/slide3-dummy@1900.jpg)" data-slide="3")
         div.ui-component.slide-controller
           ul
-            li 
-            li(onclick="alert(1)")
-            li 
+            li.slider-control(data-slide="1")
+            li.slider-control(data-slide="2")
+            li.slider-control(data-slide="3")
       div.panel-container
         div.panel.panel-noshadow.panel-fullwidth.align-center.panel-title.panel-nobackground
           h3 Project title
@@ -28,13 +28,13 @@ html.project-page
           p orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur hendrerit purus, ut volutpat enim posuere a. Donec efficitur quam nec orci aliquam, ac fringilla ipsum vehicula. Praesent sagittis lacinia diam. Suspendisse fringilla varius diam, in rhoncus libero auctor ut. Aliquam sed justo lorem. Vivamus venenatis lacus ligula, faucibus aliquet enim malesuada at. Sed vel eros nunc. Donec erat risus, tincidunt vitae commodo vel, congue eget lectus.
           p Praesent at nulla lacinia, condimentum diam eget, mattis libero. Nullam condimentum pretium posuere. In in luctus dui. Nullam ornare scelerisque nisl nec varius. Aliquam erat volutpat. Aenean accumsan vulputate maximus. Maecenas quam mauris, mattis at neque vel, imperdiet accumsan dui. Nullam et risus et mi fringilla volutpat at et mi. In gravida cursus massa id fermentum. Donec aliquam arcu nec risus tincidunt viverra. Aenean blandit faucibus condimentum.
         div.panel
-          a.tag
+          a.tag(href="#")
             p html
-          a.tag
+          a.tag(href="#")
             p CSS
-          a.tag
+          a.tag(href="#")
             p Web Design
-          a.tag
+          a.tag(href="#")
             p Web Development
         div.panel.panel-noshadow.panel-nobackground.align-center
           a.ui-compoment.btn.btn-simple.align-center(href="")#animation

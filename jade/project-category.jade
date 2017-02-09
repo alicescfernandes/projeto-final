@@ -9,14 +9,14 @@ html.project-categories
       div.main-content
         div.ui-component.slideshow.slideshow-medium.panel-shadow
           div.slide-container
-            div.slide(style="background-image:url(img/bg-dummy@1700.jpg)")
-            div.slide
-            div.slide
+            div.slide(style="background-image:url(img/slide1-dummy@1900.jpg)" data-slide="1")
+            div.slide(style="background-image:url(img/slide2-dummy@1900.jpg)" data-slide="2")
+            div.slide(style="background-image:url(img/slide3-dummy@1900.jpg)" data-slide="3")
           div.ui-component.slide-controller
             ul
-              li
-              li
-              li
+              li.slider-control(data-slide="1")
+              li.slider-control(data-slide="2")
+              li.slider-control(data-slide="3")
         div.panel-container
           div.panel.panel-noshadow.panel-fullwidth.align-center.panel-title.panel-nobackground
             h3 o meu portfólio

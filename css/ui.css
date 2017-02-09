@@ -290,9 +290,9 @@ i.icon-cross {
   display: block;
   color: white;
   width: 100%;
-  text-align: center; }
-  .slide-controller ul, .slide-controller li {
-    display: inline; }
+  text-align: center;
+  background-color: transparent ul, li;
+    background-color-display: inline; }
   .slide-controller li {
     width: 10px;
     height: 10px;
@@ -300,9 +300,11 @@ i.icon-cross {
     margin-right: 20px;
     border: 1px solid #ecf0f1;
     border-radius: 100%;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: background-color 0.5s; }
   .slide-controller li.active {
-    background-color: #ecf0f1; }
+    background-color: #ecf0f1;
+    transition: background-color 0.5s; }
 
 .panel-shadow {
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.18); }
