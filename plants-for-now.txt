@@ -1,5 +1,5 @@
-/// PLANO PARA AGORA :)
+//  PLANO PARA HOJE (à NOITE :) )
 
-- Acabar/Testar o responsivo
-- Preparar o PHP/Servidor
-- Preparar a base de dados
+- Substituir todos os links relativos para absolutos;
+- Preparar páginas dinâmicas
+- Preparar API REST para apresentação dinamica de conteúdos
