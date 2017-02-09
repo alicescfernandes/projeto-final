@@ -20,6 +20,16 @@
           </div>
         </div>
         <div class="panel-container">
+
+       <?php
+        /*
+        THE PLAN
+
+        - Generate an URI on the previous page using the name
+        - Take that URI, explode it and retrieve the data
+
+        */ 
+        ?>
           <div class="panel panel-noshadow panel-fullwidth align-center panel-title panel-nobackground">
             <h3>Project title</h3>
             <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</i></p>
