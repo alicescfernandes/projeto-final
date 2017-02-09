@@ -1,5 +1,7 @@
 ﻿/*TO DO:
 
+GOALS TO BECOME THE ULTIMATE CODEBENDER (ง ͠° ͟ل͜ ͡°)ง
+
 - Style and edit contacts.jade && simple-article.jade
 	- Convert generated contacts.html && simple-article.html to php template;
 		- Implement dinamic page content for contacts.php and simple-pages.php
@@ -9,9 +11,9 @@
 - Implement random tag-related slider for project-category.php
 - Implement random project-related slider for project-template.php
 - Upload and implement on remote webserver
-- Prepare databse for analytics
-	- Implement analytics-retrieve data for server-sider
-		-Implement generated graph views for saved analytics data
+[OPTIONAL]- Prepare databse for analytics 
+	[OPTIONAL]- Implement analytics-retrieve data for server-sider
+		[OPTIONAL]-Implement generated graph views for saved analytics data
 
 
 </A_L_I_C_E> :)
