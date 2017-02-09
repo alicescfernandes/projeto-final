@@ -18,10 +18,27 @@ window.onload = function(){
     console.log((screenW*(slides.length - 1)) * -1)
     if(currentWidth > ((screenW* (slides.length-1)) * -1)){
       currentWidth = currentWidth - screenW;
-}else{
-  currentWidth = 0;
-}
-console.log(currentWidth)
-slideContainer.style.left = currentWidth+ "px";
-}, 6000);
+    }else{
+      currentWidth = 0;
+    }
+    console.log(currentWidth)
+    slideContainer.style.left = currentWidth+ "px";
+    }, 6000);
+
+    document.querySelector("#animation").onclick = function(){
+        document.querySelector("#animation > div").classList.add("button-animate");
+      /*  window.setTimeout(function(){
+          document.querySelector("#animation > div").classList.remove("button-animate");
+          location.href=location.href+document.querySelector("#animation").getAttribute('href');
+        }, 150)*/
+        return false;
+
+    }
+
+
+
+
+
+
+
 }

@@ -54,6 +54,7 @@ input {
   font-weight: 500;
   font-size: 13px;
   font-weight: 600;
+  position: relative;
   color: #7d7d7d; }
 
 li.menu-item:before {
@@ -106,7 +107,61 @@ li.menu-item:before {
   text-shadow: rgba(255, 255, 255, 0.33) 0 0 1px; }
 
 .btn {
+  position: relative;
+  border: 0px;
+  display: inline-block; }
+
+.button-circle-animation {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #5d5d5d;
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: circle(0px at 50% 50%);
+  clip-path: circle(0px at 50% 50%);
+  position: absolute;
   border: 0px; }
+
+.button-animate {
+  -webkit-animation-name: button-animation;
+  animation-name: button-animation;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1; }
+
+@-webkit-keyframes button-animation {
+  0% {
+    -webkit-clip-path: circle(6px at 50% 50%);
+    clip-path: circle(6px at 50% 50%);
+    opacity: 1; }
+  40% {
+    -webkit-clip-path: circle(100% at 50% 50%);
+    clip-path: circle(100% at 50% 50%);
+    opacity: 0.4; }
+  99% {
+    -webkit-clip-path: circle(100% at 50% 50%);
+    clip-path: circle(100% at 50% 50%);
+    opacity: 0; }
+  100% {
+    display: none; } }
+
+@keyframes button-animation {
+  0% {
+    -webkit-clip-path: circle(6px at 50% 50%);
+    clip-path: circle(6px at 50% 50%);
+    opacity: 1; }
+  40% {
+    -webkit-clip-path: circle(100% at 50% 50%);
+    clip-path: circle(100% at 50% 50%);
+    opacity: 0.4; }
+  99% {
+    -webkit-clip-path: circle(100% at 50% 50%);
+    clip-path: circle(100% at 50% 50%);
+    opacity: 0; }
+  100% {
+    display: none; } }
 
 .main-content {
   display: inline-block;
@@ -288,7 +343,8 @@ i.icon-cross {
     -ms-user-select: none;
     user-select: none;
     -webkit-user-select: none;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-right: 10px; }
 
 .panel-noshadow {
   box-shadow: none !important; }
@@ -369,6 +425,7 @@ i.icon-cross {
     height: 100%; }
 
 .btn {
+  text-decoration: none;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.18);
   line-height: 60px;
   text-align: center;
@@ -377,13 +434,20 @@ i.icon-cross {
   padding-right: 20px;
   background-color: #2e2e2e;
   color: #cfcfcf;
-  display: block;
+  display: inline-block;
   font-size: 15px;
-  font-weight: 100; }
+  font-weight: 100;
+  cursor: pointer;
+  transition: all 0.3s; }
   .btn i {
     margin-right: 12px;
     vertical-align: middle;
     font-size: 21px; }
+
+.btn:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.18);
+  background-color: #333;
+  transition: all 0.3s; }
 
 button:focus {
   outline: none; }
@@ -415,6 +479,11 @@ footer {
 
 .index .main-content {
   overflow: hidden; }
+
+label[for="submenu-toggle"] {
+  display: inline-block;
+  width: 100px;
+  height: inherit; }
 
 @media screen and (max-width: 700px) {
   .site-container, body, .main-content {

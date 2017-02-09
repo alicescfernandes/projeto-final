@@ -65,6 +65,7 @@ input{
   //text-shadow: rgba(152, 152, 152, 0.3) 0px 0px 1px;
   font-size: 13px;
   font-weight: $semi-bold;
+  position: relative;
   color: $black-menu-foreground;
 
 }
@@ -100,16 +101,13 @@ li.menu-item:before {
 }
 
 .sub-menu{
-
   background-color: $black-submenu-background;
-  //text-shadow: rgba(125, 125, 125, 0.4) 0 0 1px;
   max-height: 0px;
   overflow: hidden;
   //padding: 0px;
   transition:0.2s max-height;
 
 }
-
 
 .padding-box{
   box-sizing: border-box;
@@ -139,23 +137,59 @@ li.menu-item:before {
 }
 
 .btn{
+  position: relative;
   border:0px;
+  display: inline-block;
 }
+
+
+.button-circle-animation{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #5d5d5d;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(0px at 50% 50%);
+  position: absolute;
+  border:0px;
+  //clip-path: circle(100% at 50% 50%);
+
+}
+
+.button-animate{
+  animation-name: button-animation;
+  animation-duration: 0.7s;
+  animation-iteration-count: 1;
+}
+
+@keyframes button-animation {
+  0%{
+    clip-path: circle(6px at 50% 50%);
+    opacity: 1;
+  }
+  40%{
+    clip-path: circle(100% at 50% 50%);
+    opacity: 0.4;
+  }
+  99%{
+    clip-path: circle(100% at 50% 50%);
+    opacity: 0;
+  }
+  100%{display: none}
+
+}
+
 
 .main-content{
   display: inline-block;
   width: 83%; //88%
   position: relative;
-  //background-image: url(../img/bg-dummy@1700.jpg);
-  //background-position: center;
-  //background-size: cover;
-  //background-repeat: no-repeat;
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
 
 }
-
 
 .index{
   display: block;
@@ -372,6 +406,7 @@ i.icon-cross {
     user-select:none;
     -webkit-user-select:none;
     cursor: pointer;
+        margin-right: 10px;
   }
 }
 
@@ -484,6 +519,7 @@ i.icon-cross {
 
 .btn{
   //Make circle for hover and click state
+  text-decoration: none;
   box-shadow: $box-shadow;
   line-height: 60px;
   text-align: center;
@@ -492,15 +528,23 @@ i.icon-cross {
   padding-right: 20px;
   background-color: $black-card-background;
   color:$card-text-color;
-  display:block;
+  display:inline-block;;
   font-size: 15px;
   font-weight: 100;
+  cursor:pointer;
+  transition: all 0.3s;
 
   i{
     margin-right: 12px;
     vertical-align: middle;
     font-size: 21px;
   }
+}
+
+.btn:hover{
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.18);
+  background-color: #333;
+  transition: all 0.3s;
 }
 
 button:focus{
@@ -553,5 +597,12 @@ footer{
   }
 }
 
+
+label[for="submenu-toggle"]{
+  display: inline-block;
+  width: 100px;
+  height:inherit;
+
+}
 
 @import "media-queries";
