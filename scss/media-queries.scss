@@ -1,0 +1,34 @@
+@media screen and(max-width:700px){
+.site-container, body, .main-content{
+  width: 100% ;
+  left:0px ;
+}
+input{
+  display: none
+}
+
+  .panel-container{
+    display: inline-block;
+    width: 100% ;
+    box-sizing: border-box;
+    padding: 50px;
+
+  }
+
+  .panel-small{
+    width: 100% ;
+  }
+
+  .sidebar{
+    display:none  ;
+    position: absolute ;
+    top: 0px ;
+    width: 100% ;
+  }
+
+  #menu-show:checked + .site-container > .sidebar{
+    display: block;
+  }
+
+
+}

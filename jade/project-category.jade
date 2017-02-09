@@ -7,43 +7,58 @@ html.project-categories
     .site-container
       include _includes/_sidebar.jade
       div.main-content
-        div.ui-component.slideshow.slideshow-medium
-          div.slide
-          div.slide
-          div.slide
+        div.ui-component.slideshow.slideshow-medium.panel-shadow
+          div.slide-container
+            div.slide(style="background-image:url(img/bg-dummy@1700.jpg)")
+            div.slide
+            div.slide
+          div.ui-component.slide-controller
+            ul
+              li
+              li
+              li
         div.panel-container
-          div.panel.panel-noshadow.panel-fullwidth.align-center
-            h3 Project title
-            p
-              i Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
-          div.panel.panel-project
+          div.panel.panel-noshadow.panel-fullwidth.align-center.panel-title.panel-nobackground
+            h3 o meu portfólio
+            p 
+              i Just another random subtitle 
+          div.panel.panel-small
+            a.panel-link(href="#")
+            div.panel-image
             h3 Maasai
-            div.panel-project-bottom
-              div.tag
+            div.panel-small-bottom
+              a.tag(href="#tag")
                 p branding
-          div.panel.panel-project
+          div.panel.panel-small
+            a.panel-link(href="#")
+            div.panel-image        
             h3 Maasai 
-            div.panel-project-bottom
-              div.tag
+            div.panel-small-bottom
+              a.tag(href="#tag")
                 p branding
-
-          div.panel.panel-project
+          div.panel.panel-small
+            a.panel-link(href="#")
+            div.panel-image
             h3 Maasai
-            div.panel-project-bottom
-              div.tag
+            div.panel-small-bottom
+              a.tag(href="#tag")
+                p branding
+              a.tag(href="#tag")
+                p web development
+          div.panel.panel-small
+            a.panel-link(href="#")
+            div.panel-image
+            h3 Maasai
+            div.panel-small-bottom
+              a.tag(href="#tag")
                 p branding
 
+          div.panel.panel-small
+            a.panel-link(href="#")
+            div.panel-image
+            h3 Maasai
+            div.panel-small-bottom
+              a.tag(href="#tag")
+                p branding
 
-            div.panel.panel-project
-              h3 Maasai
-              div.panel-project-bottom
-                div.tag
-                  p branding
-
-            div.panel.panel-project
-              h3 Maasai
-              div.panel-project-bottom
-                div.tag
-                  p branding
-
-          include _includes/_footer.jade
+        include _includes/_footer.jade
