@@ -5,6 +5,11 @@
   margin: 0px;
   padding: 0px;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+
+}
 body{
   margin:0px;
   padding:0px;
@@ -68,6 +73,12 @@ input{
   position: relative;
   color: $black-menu-foreground;
 
+    a {
+    display: inline-block;
+    width: 80%;
+  }
+
+
 }
 
 li.menu-item:before {
@@ -121,20 +132,7 @@ li.menu-item:before {
   transition:0.2s max-height;
 
 }
-.btn-navbar{
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  line-height: initial;
-  height:63px;
-  background-color: $black-btn-menu-background;
-  color: $black-btn-menu-foreground;
-  text-transform: uppercase;
-  font-weight: $regular;
-  font-size: 12px;
-  text-shadow: rgba(255, 255, 255, 0.33) 0 0 1px;
 
-}
 
 .btn{
   position: relative;
@@ -180,7 +178,23 @@ li.menu-item:before {
 
 }
 
+.btn-navbar{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  line-height: initial;
+  height:63px;
+  background-color: $black-btn-menu-background;
+  color: $black-btn-menu-foreground;
+  text-transform: uppercase;
+  font-weight: $regular;
+  font-size: 12px;
+  text-shadow: rgba(255, 255, 255, 0.33) 0 0 1px;
+  font-weight: 900 ;
+  font-size: 12px ;
+  vertical-align: middle;
 
+}
 .main-content{
   display: inline-block;
   width: 83%; //88%
@@ -362,6 +376,26 @@ i.icon-cross {
 
 .panel-shadow{
   box-shadow:$box-shadow;
+}
+
+.panel-foto{
+  position: relative;
+  height:300px !important;
+  a{
+    background-size: cover;
+  }
+  h3{
+    position: absolute;
+    bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 100%;
+    left: 0px;
+    line-height: 41px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+  }
 }
 
 .panel-container{
@@ -603,6 +637,24 @@ label[for="submenu-toggle"]{
   display: inline-block;
   width: 100px;
   height:inherit;
+
+}
+
+.btn-navbar{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  line-height: initial;
+  height:63px;
+  background-color: $black-btn-menu-background;
+  color: $black-btn-menu-foreground;
+  text-transform: uppercase;
+  font-weight: $regular;
+  font-size: 12px;
+  text-shadow: rgba(255, 255, 255, 0.33) 0 0 1px;
+  font-weight: 900 ;
+  font-size: 12px ;
+  vertical-align: middle;
 
 }
 

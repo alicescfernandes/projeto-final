@@ -1,0 +1,47 @@
+doctype html
+html.project-categories
+  head
+    include _includes/_header.jade
+  body
+    input(type='checkbox' id="menu-show")
+    .site-container
+      include _includes/_sidebar.jade
+      div.main-content
+        div.ui-component.slideshow.slideshow-medium.panel-shadow
+          div.slide-container
+            div.slide(style="background-image:url(img/slide1-dummy@1900.jpg)" data-slide="1")
+            div.slide(style="background-image:url(img/slide2-dummy@1900.jpg)" data-slide="2")
+            div.slide(style="background-image:url(img/slide3-dummy@1900.jpg)" data-slide="3")
+          div.ui-component.slide-controller
+            ul
+              li.slider-control(data-slide="1")
+              li.slider-control(data-slide="2")
+              li.slider-control(data-slide="3")
+        div.panel-container
+          div.panel.panel-noshadow.panel-fullwidth.align-center.panel-title.panel-nobackground
+            h3 Fotografias
+            p 
+              i *snap* *snap*
+          div.panel.panel-small.panel-foto
+            a.panel-link(href="#" style="background-image:url(../img/slide2-dummy@1280.jpg)")
+            h3 Maasai
+            
+          div.panel.panel-small.panel-foto
+            a.panel-link(href="#" style="background-image:url(../img/slide1-dummy@1280.jpg)")
+            h3 Maasai 
+            
+          div.panel.panel-small.panel-foto
+            a.panel-link(href="#" style="background-image:url(../img/slide3-dummy@1280.jpg)")
+            h3 Maasai
+            
+          div.panel.panel-small.panel-foto
+            a.panel-link(href="#")
+            h3 Maasai
+            
+
+          div.panel.panel-small.panel-foto
+            a.panel-link(href="#")
+            h3 Maasai
+            
+
+        include _includes/_footer.jade

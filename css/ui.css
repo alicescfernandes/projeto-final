@@ -3,6 +3,10 @@
   margin: 0px;
   padding: 0px; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 body {
   margin: 0px;
   padding: 0px;
@@ -56,6 +60,9 @@ input {
   font-weight: 600;
   position: relative;
   color: #7d7d7d; }
+  .menu-item a {
+    display: inline-block;
+    width: 80%; }
 
 li.menu-item:before {
   width: 20px;
@@ -92,19 +99,6 @@ li.menu-item:before {
 #submenu-toggle:checked + .sub-menu {
   max-height: 200px;
   transition: 0.2s max-height; }
-
-.btn-navbar {
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  line-height: initial;
-  height: 63px;
-  background-color: #272827;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 12px;
-  text-shadow: rgba(255, 255, 255, 0.33) 0 0 1px; }
 
 .btn {
   position: relative;
@@ -162,6 +156,22 @@ li.menu-item:before {
     opacity: 0; }
   100% {
     display: none; } }
+
+.btn-navbar {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  line-height: initial;
+  height: 63px;
+  background-color: #272827;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  text-shadow: rgba(255, 255, 255, 0.33) 0 0 1px;
+  font-weight: 900;
+  font-size: 12px;
+  vertical-align: middle; }
 
 .main-content {
   display: inline-block;
@@ -308,6 +318,23 @@ i.icon-cross {
 
 .panel-shadow {
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.18); }
+
+.panel-foto {
+  position: relative;
+  height: 300px !important; }
+  .panel-foto a {
+    background-size: cover; }
+  .panel-foto h3 {
+    position: absolute;
+    bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 100%;
+    left: 0px;
+    line-height: 41px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5); }
 
 .panel-container {
   width: 80%;
@@ -486,6 +513,22 @@ label[for="submenu-toggle"] {
   display: inline-block;
   width: 100px;
   height: inherit; }
+
+.btn-navbar {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  line-height: initial;
+  height: 63px;
+  background-color: #272827;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  text-shadow: rgba(255, 255, 255, 0.33) 0 0 1px;
+  font-weight: 900;
+  font-size: 12px;
+  vertical-align: middle; }
 
 @media screen and (max-width: 700px) {
   .site-container, body, .main-content {

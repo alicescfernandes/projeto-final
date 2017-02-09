@@ -1,7 +1,5 @@
 /// PLANO PARA AGORA :)
 
-- Clean all console.log
-- Escolher Fotos
 - Acabar/Testar o responsivo
 - Preparar o PHP/Servidor
 - Preparar a base de dados
