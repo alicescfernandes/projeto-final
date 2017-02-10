@@ -7,15 +7,15 @@
   <div class="container">
     <ul>
       <li class="menu-item"> <a href="index.php">Home</a></li>
-      <li class="menu-item"> 
+      <li class="menu-item">
         <label for="submenu-toggle">Portfolio</label>
       </li>
       <input type="checkbox" id="submenu-toggle"/>
       <ul class="sub-menu">
         <div class="padding-box">
-          <li class="submenu-item"><a href="/projetos/3d">3D</a></li>
-          <li class="submenu-item"><a href="/projetos/web-development">Web Development</a></li>
-          <li class="submenu-item"><a href="/projetos/design-grafico">Design Gráfico</a></li>
+          <li class="submenu-item"><a href="/portfolio/3d">3D</a></li>
+          <li class="submenu-item"><a href="/portfolio/web-development">Web Development</a></li>
+          <li class="submenu-item"><a href="/portfolio/design-grafico">Design Gráfico</a></li>
           <li class="submenu-item"><a href="/fotografia">Fotografia</a></li>
         </div>
       </ul>

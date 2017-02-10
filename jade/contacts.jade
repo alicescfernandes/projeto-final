@@ -2,34 +2,46 @@ doctype html
 html.contacts
   head
     <!--include _includes/_header.jade->
+    <?php include_once('./includes/_header.php') ?>
   body
-    <!--include _includes/_sidebar.jade-->
-    div.main-content
-      div.ui-component.slideshow.slideshow-medium
-        div.slide
-        div.slide
-        div.slide
-    div.panel-container
-      div.panel.panel-noshadow.panel-fullwidth.align-center
-        h3 Project title
-        p
-          i Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
-      
-      div.panel.panel-contacts
-        form
-          div.row.col100
-            label(for="nome") Nome
-            input(type="text" id="nome" name="nome"  required)
-          div.row.col100
-            label(for="email") Endereço de Contacto
-            input(type="email" id="email" nome="email" required)
-          div.row.col100
-            textarea(name="mensagem" required minlength="100" maxlength="230")
-          div.row.col100
-          button.ui-compoment.btn-simple(type="sumbit")
-            i icon-arrow
-            |Enviar
-          button.ui-compoment.btn-simple(type="reset")
-            i icon-refresh
-            |Apagar dados
-      <!--include _includes/_footer.jade-->
+    input(type='checkbox' id="menu-show")
+    .site-container
+        <!--include _includes/_sidebar.jade-->
+        <?php include_once('./includes/_sidebar.php') ?>
+        div.main-content
+        
+          div.ui-component.slideshow.slideshow-medium.panel-shadow
+            div.slide-container
+              div.slide(style="background-image:url(img/slide1-dummy@1900.jpg)" data-slide="1")
+              div.slide(style="background-image:url(img/slide2-dummy@1900.jpg)" data-slide="2")
+              div.slide(style="background-image:url(img/slide3-dummy@1900.jpg)" data-slide="3")
+            div.ui-component.slide-controller
+              ul
+                li.slider-control(data-slide="1")
+                li.slider-control(data-slide="2")
+                li.slider-control(data-slide="3")
+          div.panel-container
+            div.panel.panel-noshadow.panel-fullwidth.align-center.panel-title.panel-nobackground
+              h3 Project title
+              p
+                i Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+            
+            div.panel.panel-contacts
+              form
+                div.row.col100
+                  label(for="nome") Nome
+                  input(type="text" id="nome" name="nome"  required)
+                div.row.col100
+                  label(for="email") Endereço de Contacto
+                  input(type="email" id="email" nome="email" required)
+                div.row.col100
+                  textarea(name="mensagem" required minlength="100" maxlength="230")
+                div.row.col100
+                button.ui-compoment.btn.btn-simple(type="sumbit")
+                  i icon-arrow
+                  |Enviar
+                button.ui-compoment.btn.btn-simple(type="reset")
+                  i icon-refresh
+                  |Apagar dados
+            <!--include _includes/_footer.jade-->
+          <?php include_once('./includes/_footer.php') ?>

@@ -15,7 +15,11 @@ input{
 
   }
 
-  .panel-small{
+  .panel-small, .col30, .col70, input, {
+    width: 100% ;
+  }
+
+  form textarea{
     width: 100% ;
   }
 

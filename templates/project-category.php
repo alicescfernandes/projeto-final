@@ -24,11 +24,11 @@
             <h3>o meu portfólio</h3>
             <p> <i>Just another random subtitle </i></p>
           </div>
-          
-        
-        
-         <?php 
-       
+
+
+
+         <?php
+         echo(1);
           require_once('./php/db-constants.php');
           $tag = $urlStrings[2];
           $tabela = 'projetos';
@@ -44,12 +44,12 @@
               $tags = explode(",", $row['tags']);
               $tagsHTML = "";
               foreach($tags as $tag){
-                $tagsHTML.="<a class=\"tag\" href=\"/projetos/".str_replace(" ", "", $tag)."\">
+                $tagsHTML.="<a class=\"tag\" href=\"/portfolio/".str_replace(" ", "", $tag)."\">
                 <p>".str_replace("-", " ", $tag)."</p>
                </a>";
               }
 
-              $resultHTML = "<div class=\"panel panel-small\"><a class=\"panel-link\" href=\"#\"></a>
+              $resultHTML = "<div class=\"panel panel-small\"><a class=\"panel-link\" href=\"/projeto/".$row['uri']."\"></a>
                              <div class=\"panel-image\"></div>
                                 <h3>$nome</h3>
                               <div class=\"panel-small-bottom\">$tagsHTML</div>
@@ -57,6 +57,8 @@
 
             echo($resultHTML);
             }
+          }else{
+
           }
           $conn->close();
          ?>

@@ -2,16 +2,12 @@
 
 GOALS TO BECOME THE ULTIMATE CODEBENDER (ง ͠° ͟ل͜ ͡°)ง
 
-- Style and edit contacts.jade && simple-article.jade
-	- Convert generated contacts.html && simple-article.html to php template;
-		- Implement dinamic page content for contacts.php and simple-pages.php
 
-- Implement project dinamic page for simple-article, project-template
 - Implement random image slider for index.php, simple-article.php and contacts.php
 - Implement random tag-related slider for project-category.php
 - Implement random project-related slider for project-template.php
 - Upload and implement on remote webserver
-[OPTIONAL]- Prepare databse for analytics 
+[OPTIONAL]- Prepare databse for analytics
 	[OPTIONAL]- Implement analytics-retrieve data for server-sider
 		[OPTIONAL]-Implement generated graph views for saved analytics data
 
