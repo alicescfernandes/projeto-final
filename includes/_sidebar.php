@@ -6,7 +6,7 @@
   </label>
   <div class="container">
     <ul>
-      <li class="menu-item"> <a href="index.php">Home</a></li>
+      <li class="menu-item"> <a href="http://<?php echo($_SERVER['HTTP_HOST']) ?>">Home</a></li>
       <li class="menu-item">
         <label for="submenu-toggle">Portfolio</label>
       </li>

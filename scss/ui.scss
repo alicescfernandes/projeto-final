@@ -225,10 +225,11 @@ header {
   font-size: 40pt;
   color: white;
   text-shadow: rgba(255, 255, 255, 1) 0 0 1px;
-  margin-top: 15%;
   font-family: "Source Sans Pro";
   user-select:none;
   width:100vw;
+  height: 100vh;
+  line-height: 100vh;
 }
 
 .letring{
@@ -333,6 +334,9 @@ i.icon-cross {
   height: 100%;
   display: block;
   float:left;
+  background-position: center;
+  background-size: cover;
+background-position: center;
 }
 
 .slide:nth-child(1){
@@ -547,6 +551,7 @@ h3,h4,h5{
 
 }
 
+
 .panel-small{
   position: relative;
   width: 45%;
@@ -598,7 +603,9 @@ h3,h4,h5{
     z-index: 97;
   }
 }
-
+.panel-foto h3{
+  bottom: 0px;
+}
 .btn{
   position: relative;
   border:0px;

@@ -2,18 +2,13 @@ function clickFunction() {
     document.querySelector('#menu-show').checked = false;
 }
 window.onload = function() {
-
-
+  
     var currentSlide = 1;
     document.querySelector('li[data-slide="' + currentSlide + '"]').classList.add("active")
     var slideContainer = document.querySelector('.slide-container');
     var screenW = window.screen.availWidth;
-    console.log("screen width",screenW);
     var slides = document.getElementsByClassName('slide');
-    console.log('slides tag', slides.length)
     var slideDuration = 6 //6 segundos
-
-    //console.log(screenW/slides.length)
 
     slideContainer.style.width = screenW * slides.length + "px";
     for(var i = 0; i!= slides.length;i++){
@@ -38,10 +33,10 @@ window.onload = function() {
                 }
             }
         }
+
         document.querySelector('li[data-slide="' + currentSlide + '"]').classList.add("active")
         slideContainer.style.left = (currentSlideDOM.offsetLeft * -1) + "px"
     }, slideDuration * 1000);
-
 
     document.body.onclick = function(event) {
         if (event.target.className == "slider-control") {
@@ -56,10 +51,11 @@ window.onload = function() {
             document.querySelector('li[data-slide="' + event.target.getAttribute('data-slide') + '"]').classList.add("active")
             var currentWidth = document.querySelector('.slide[data-slide="' + event.target.getAttribute('data-slide') + '"]').offsetLeft * -1
             document.querySelector('.slide-container').style.left = currentWidth + "px";
+            currentSlide = parseInt(event.target.getAttribute('data-slide'));
         }
     }
 
-    document.querySelector("#animation").onclick = function() {
+    /*document.querySelector("#animation").onclick = function() {
         document.querySelector("#animation > div").classList.add("button-animate");
         window.setTimeout(function() {
             document.querySelector("#animation > div").classList.remove("button-animate");
@@ -67,6 +63,6 @@ window.onload = function() {
         }, 150)
         return false;
 
-    }
+    }*/
 
 }
