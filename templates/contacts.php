@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html class="contacts">
-  <head><!--include _includes/_header.jade->
+  <head><!--include _includes/_header.jade-->
 <?php include_once('./includes/_header.php') ?>
+
+ <title></title>
+
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="John Doe">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nytimesbits" />
+<meta name="twitter:creator" content="@nickbilton" />
+<meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
+<meta property="og:title" content="A Twitter for My Sister" />
+<meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
+<meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
+<meta property="og:type" content="blog"/>
+<meta property="og:site_name" content="David Walsh Blog"/>
+
   </head>
   <body>
     <input type="checkbox" id="menu-show">

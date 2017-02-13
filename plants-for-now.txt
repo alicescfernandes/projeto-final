@@ -3,10 +3,9 @@
 GOALS TO BECOME THE ULTIMATE CODEBENDER (ง ͠° ͟ل͜ ͡°)ง
 
 
-- Implement random image slider for index.php, simple-article.php and contacts.php
-- Implement random tag-related slider for project-category.php
-- Implement random project-related slider for project-template.php
-- Upload and implement on remote webserver
+- Implement favicon
+- Implement open graph for social
+- Implement meta tags for seo
 [OPTIONAL]- Prepare databse for analytics
 	[OPTIONAL]- Implement analytics-retrieve data for server-sider
 		[OPTIONAL]-Implement generated graph views for saved analytics data
