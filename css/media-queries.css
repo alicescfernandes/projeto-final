@@ -1,0 +1,1 @@
+@media screen and (max-width:700px){.main-content,.site-container,body{width:100%;left:0px}input{display:none}.panel-container{display:inline-block;width:100%;box-sizing:border-box;padding:50px}.col30,.col70,.panel-small,input{width:100%}form textarea{width:100%}.sidebar{display:none;position:absolute;top:0px;width:100%}#menu-show:checked+.site-container>.sidebar{display:block}}

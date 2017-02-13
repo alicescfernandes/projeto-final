@@ -2,34 +2,47 @@
 <html class="project-page">
   <head><?php require_once('./includes/_header.php') ?></head>
   <body>
+    <?php
+    require_once('./php/db-constants.php');
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+    $projeto = $urlStrings[2];
+    $tabela = 'projetos';
+    $query = "SELECT * FROM $tabela WHERE uri='$projeto'";
+    $result = $conn->query($query);
+    $row = $result->fetch_assoc();
+    ?>
     <input type="checkbox" id="menu-show">
     <div class="site-container"><?php require_once('./includes/_sidebar.php') ?>
       <div class="main-content">
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
-            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide1-dummy@1900.jpg") ?>);" data-slide="1"></div>
-            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide2-dummy@1900.jpg") ?>);" data-slide="2"></div>
-            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide3-dummy@1900.jpg") ?>);" data-slide="3"></div>
+            <?php
+             //SLIDES :)
+             $queryParaSlides = "SELECT * FROM media WHERE projeto_uri='".$row['uri']."'";
+             $resultadoDosSlides = $conn->query($queryParaSlides);
+             $slideHTML = '';
+             $slideControllerHTML = '';
+             $dataSlide = 1;
+             foreach($resultadoDosSlides as $mediaSource){
+               $slideHTML .="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </div>";
+               $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
+               //echo($mediaSource['src']);
+               $dataSlide+=1;
+             }
+
+             echo($slideHTML);
+
+              ?>
           </div>
           <div class="ui-component slide-controller">
             <ul>
-              <li class="slider-control" data-slide="1"></li>
-              <li class="slider-control" data-slide="2"></li>
-              <li class="slider-control" data-slide="3"></li>
+              <?php  echo($slideControllerHTML);?>
             </ul>
           </div>
         </div>
         <div class="panel-container">
 
-          <?php
-          require_once('./php/db-constants.php');
-          $projeto = $urlStrings[2];
-          $tabela = 'projetos';
-          $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-          $query = "SELECT * FROM $tabela WHERE uri='$projeto'";
-          $result = $conn->query($query);
-          $row = $result->fetch_assoc();
-           ?>
+
           <div class="panel panel-noshadow panel-fullwidth align-center panel-title panel-nobackground">
             <h3><?php echo($row['nome']) ?></h3>
             <p><i><?php echo($row['summary-line']) ?></i></p>

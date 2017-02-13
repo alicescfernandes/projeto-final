@@ -3,19 +3,45 @@
   <head><?php require_once('./includes/_header.php') ?></head>
   <body>
     <input type="checkbox" id="menu-show">
-    <div class="site-container"><?php require_once('./includes/_sidebar.php') ?>
+    <div class="site-container"><?php require_once('./includes/_sidebar.php')   ?>
       <div class="main-content">
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
-            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide1-dummy@1900.jpg") ?>)"; data-slide="1"></div>
-            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide2-dummy@1900.jpg") ?>)"; data-slide="2"></div>
-            <div class="slide" style="background-image:url(<?php echo("http://".$host . "/" ."img/slide3-dummy@1900.jpg") ?>)"; data-slide="3"></div>
+            <?php
+
+            require_once('./php/db-constants.php');
+            $tag = $urlStrings[2];
+            $tabela = 'projetos';
+            $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+            //SELECT * FROM `media` WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%web-development%' LIMIT 1)
+
+            $slideHTML = '';
+            $slideControllerHTML = '';
+            $dataSlide = 1;
+
+            $queryParaSlides = "SELECT * FROM `media` WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%$tag%' LIMIT 1)";
+            $resultadoDosSlides = $conn->query($queryParaSlides);
+
+
+
+            foreach($resultadoDosSlides as $mediaSource){
+              $slideHTML .="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </div>";
+              $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
+              //echo($mediaSource['src']);
+              $dataSlide+=1;
+            }
+
+            echo($slideHTML);
+
+            ?>
+           <!--<div class="slide" style="background-image:url(<?php// echo("http://".$host . "/" ."img/slide1-dummy@1900.jpg") ?>)"; data-slide="1"></div>
+            <div class="slide" style="background-image:url(<?php //echo("http://".$host . "/" ."img/slide2-dummy@1900.jpg") ?>)"; data-slide="2"></div>
+            <div class="slide" style="background-image:url(<?php //echo("http://".$host . "/" ."img/slide3-dummy@1900.jpg") ?>)"; data-slide="3"></div>-->
           </div>
           <div class="ui-component slide-controller">
             <ul>
-              <li class="slider-control" data-slide="1"></li>
-              <li class="slider-control" data-slide="2"></li>
-              <li class="slider-control" data-slide="3"></li>
+              <?php  echo($slideControllerHTML);?>
             </ul>
           </div>
         </div>
@@ -28,14 +54,8 @@
 
 
          <?php
-         echo(1);
-          require_once('./php/db-constants.php');
-          $tag = $urlStrings[2];
-          $tabela = 'projetos';
-          $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-          $query = "SELECT * FROM  $tabela  WHERE  `tags` LIKE  '%$tag%'";
-
+         $query = "SELECT * FROM  $tabela  WHERE  `tags` LIKE  '%$tag%'";
           if($conn->query($query)){
             $result = $conn->query($query);
             while($row = $result->fetch_assoc()){
@@ -49,8 +69,17 @@
                </a>";
               }
 
+
+              //Query for media;
+
+
+             $queryImages = "SELECT * FROM media WHERE projeto_uri='".$row['uri']."' LIMIT 1";
+             $resultImages = $conn->query($queryImages);
+             $media = $resultImages->fetch_assoc();
+
+
               $resultHTML = "<div class=\"panel panel-small\"><a class=\"panel-link\" href=\"/projeto/".$row['uri']."\"></a>
-                             <div class=\"panel-image\"></div>
+                             <div style=\"background-image:url(http://$host/media/".$media['src']."@1280.jpg)\" class=\"panel-image\"></div>
                                 <h3>$nome</h3>
                               <div class=\"panel-small-bottom\">$tagsHTML</div>
                               </div>";

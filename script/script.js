@@ -8,10 +8,17 @@ window.onload = function() {
     document.querySelector('li[data-slide="' + currentSlide + '"]').classList.add("active")
     var slideContainer = document.querySelector('.slide-container');
     var screenW = window.screen.availWidth;
+    console.log("screen width",screenW);
     var slides = document.getElementsByClassName('slide');
+    console.log('slides tag', slides.length)
     var slideDuration = 6 //6 segundos
 
+    //console.log(screenW/slides.length)
+
     slideContainer.style.width = screenW * slides.length + "px";
+    for(var i = 0; i!= slides.length;i++){
+      slides[i].style.width = screenW + "px";
+    }
 
     var intervalo = window.setInterval(function() {
 
