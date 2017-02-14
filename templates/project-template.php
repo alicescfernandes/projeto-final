@@ -5,6 +5,7 @@
     <meta name="description" content="Free Web tutorials">
  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
  <meta name="author" content="John Doe">
+ <meta name="robots" content="index, follow"> 
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@nytimesbits" />
