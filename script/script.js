@@ -2,7 +2,7 @@ function clickFunction() {
     document.querySelector('#menu-show').checked = false;
 }
 window.onload = function() {
-  
+
     var currentSlide = 1;
     document.querySelector('li[data-slide="' + currentSlide + '"]').classList.add("active")
     var slideContainer = document.querySelector('.slide-container');
@@ -66,3 +66,15 @@ window.onload = function() {
     }*/
 
 }
+
+
+$(document).ready(function(){
+  console.log(1)
+  $('.fancybox').fancybox({
+		helpers	: {
+			title	: {
+				type: 'inside'
+			}
+		}
+	});
+})

@@ -10,9 +10,11 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet"/>
 <link rel="stylesheet" media="all" href="https://cdn.rawgit.com/alicescfernandes/entypo-webfont/0fef4a46/style.css"/>
-<link rel="stylesheet" href="http://<?php echo($host) ?>/css/ui.css?v2.3"/>
+<link rel="stylesheet" href="http://<?php echo($host) ?>/css/ui.css?v2.5"/>
 <link rel="stylesheet" href="http://<?php echo($host) ?>/webfont/entypo social/style.css"/>
-<script src="http://<?php echo($host) ?>/script/script.js?v1.4"></script>
+<script src="http://<?php echo($host) ?>/script/script.js?v1.6"></script>
+<script src="http://<?php echo($host) ?>/fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" href="http://<?php echo($host) ?>/fancybox/jquery.fancybox.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- RESPONSIVE STUFF -->
 <meta name="google-site-verification" content="iBlnRfkaUpwtA2UetXygzPveYuglRbIm7oKPwiv942k" />
 <meta name="description" content="Hi there, welcome to my portfolio website. I am a web developer that turns website into art pieces. I have knowledge on php, mysql & databses, html,css and javascript related languages. Feel free to explore the website and let me know  if you need any gig.">

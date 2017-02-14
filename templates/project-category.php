@@ -8,12 +8,9 @@
     $tabela = 'projetos';
     $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-    //SELECT * FROM `media` WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%web-development%' LIMIT 1)
-
     $slideHTML = '';
     $slideControllerHTML = '';
     $dataSlide = 1;
-
 
     $queryParaSlides = "SELECT * FROM `media`";
 
@@ -24,8 +21,6 @@
     }
 
     $resultadoDosSlides = $conn->query($queryParaSlides);
-
-
     foreach($resultadoDosSlides as $mediaSource){
       $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.jpg";
       $slideHTML .="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </div>";
@@ -35,7 +30,7 @@
     }
 
     ?>
-<title>Projetos em <?php if ($urlStrings[2]) echo("de " . ucfirst(str_replace("-", " ", $urlStrings[2]))) ?>| Alice Fernandes - Web Development & Design</title>
+<title>Projetos em <?php if ($urlStrings[2]) echo("de " . ucwords(str_replace("-", " ", $urlStrings[2]))) ?> | Alice Fernandes - Web Development & Design</title>
 
 <meta name="robots" content="index, follow">
 
@@ -94,8 +89,8 @@
 
 
               $resultHTML = "<div class=\"panel panel-small\"><a class=\"panel-link\" href=\"/projeto/".$row['uri']."\"></a>
-                             <div style=\"background-image:url(http://$host/media/".$media['src']."@1280.jpg)\" class=\"panel-image\"></div>
-                                <h3>$nome</h3>
+                             <div style=\"background-image:url(http://$host/media/".$media['src']."@1280.jpg)\" class=\"panel-image\"> <h3>$nome</h3></div>
+
                               <div class=\"panel-small-bottom\">$tagsHTML</div>
                               </div>";
 
