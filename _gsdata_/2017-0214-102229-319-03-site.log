@@ -1,0 +1,365 @@
+2017-02-14 10:22:31: -- Analysis Started by User
+2017-02-14 10:22:31: Esquerda: State file does not exist: C:/Users/Cet24/Desktop/projeto-final/_gsdata_/_file_state_v4._gs
+2017-02-14 10:22:31: Direita: State file does not exist: ftp://files.000webhost.com/public_html/_gsdata_/_file_state_v4._gs
+2017-02-14 10:22:44: /.gitattributes: Conflict: New files that differ
+2017-02-14 10:22:44: /.htaccess: Conflict: New files that differ
+2017-02-14 10:22:44: /css/media-queries.css: Conflict: New files that differ
+2017-02-14 10:22:44: /css/ui.css: Conflict: New files that differ
+2017-02-14 10:22:44: /img/bg-dummy@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /img/bg-dummy@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /img/slide1-dummy@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /img/slide1-dummy@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /img/slide2-dummy@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /img/slide2-dummy@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /img/slide3-dummy@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /img/slide3-dummy@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /includes/_footer.php: Conflict: New files that differ
+2017-02-14 10:22:44: /includes/_head.php: Conflict: New files that differ
+2017-02-14 10:22:44: /includes/_header.php: Conflict: New files that differ
+2017-02-14 10:22:44: /includes/_sidebar.php: Conflict: New files that differ
+2017-02-14 10:22:44: /index.php: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/_includes/_footer.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/_includes/_head.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/_includes/_header.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/_includes/_sidebar.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/contacts.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/galeria.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/index.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/project-category.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/project-template.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /jade/simple-article.jade: Conflict: New files that differ
+2017-02-14 10:22:44: /localhost.sql: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/class.phpmailer.php: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/class.phpmaileroauth.php: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/class.phpmaileroauthgoogle.php: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/class.pop3.php: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/class.smtp.php: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/code_generator.phps: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/contactform.phps: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/contents.html: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/contentsutf8.html: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/DKIM.phps: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/exceptions.phps: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/gmail.phps: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/gmail_xoauth.phps: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/images/phpmailer.png: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/images/phpmailer_mini.png: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/index.html: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/mail.phps: Conflict: New files that differ
+2017-02-14 10:22:44: /mail/examples/mailing_list.phps: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img1@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img1@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img2@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img2@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img3@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img3@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img4@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img4@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img5@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img5@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img6@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img6@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img@1280.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /media/img@1900.jpg: Conflict: New files that differ
+2017-02-14 10:22:44: /php/db-constants.php: Conflict: New files that differ
+2017-02-14 10:22:44: /plants-for-now.txt: Conflict: New files that differ
+2017-02-14 10:22:44: /prepros-6.config: Conflict: New files that differ
+2017-02-14 10:22:44: /projeto-final.zip: Conflict: New files that differ
+2017-02-14 10:22:44: /script/analytics.js: Conflict: New files that differ
+2017-02-14 10:22:44: /script/script.js: Conflict: New files that differ
+2017-02-14 10:22:44: /scss/_includes/_colors.scss: Conflict: New files that differ
+2017-02-14 10:22:44: /scss/media-queries.scss: Conflict: New files that differ
+2017-02-14 10:22:44: /scss/ui.scss: Conflict: New files that differ
+2017-02-14 10:22:44: /templates/contacts.php: Conflict: New files that differ
+2017-02-14 10:22:44: /templates/galeria.php: Conflict: New files that differ
+2017-02-14 10:22:44: /templates/index.php: Conflict: New files that differ
+2017-02-14 10:22:44: /templates/project-category.php: Conflict: New files that differ
+2017-02-14 10:22:44: /templates/project-template.php: Conflict: New files that differ
+2017-02-14 10:22:44: /templates/simple-article.php: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/demo-files/demo.css: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/demo-files/demo.js: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/demo.html: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/fonts/Entypo-Social-Extension.eot: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/fonts/Entypo-Social-Extension.svg: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/fonts/Entypo-Social-Extension.ttf: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/fonts/Entypo-Social-Extension.woff: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/Read Me.txt: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/selection.json: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/entypo social/style.css: Conflict: New files that differ
+2017-02-14 10:22:44: /webfont/source sans.txt: Conflict: New files that differ
+2017-02-14 10:22:44: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2017-02-14 10:22:44: Changes: 178, Conflicts: 86, CopyTime: 0, CopyState: 0/18, Errors: 0, All: 197
+2017-02-14 10:22:44: Left to Right: Copy File: 91 
+2017-02-14 10:22:44: Right to Left: Copy File: 1 
+2017-02-14 10:22:44: -- Analysis Complete. Time 00:00:15, Speed: 13 files/s
+2017-02-14 10:22:44: 
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /.gitattributes
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /.htaccess
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /css/media-queries.css
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /css/ui.css
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /img/bg-dummy@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /img/bg-dummy@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /img/slide1-dummy@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /img/slide1-dummy@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /img/slide2-dummy@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /img/slide2-dummy@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /img/slide3-dummy@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /img/slide3-dummy@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /includes/_footer.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /includes/_head.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /includes/_header.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /includes/_sidebar.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /index.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/_includes/_footer.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/_includes/_head.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/_includes/_header.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/_includes/_sidebar.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/contacts.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/galeria.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/index.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/project-category.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/project-template.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /jade/simple-article.jade
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /localhost.sql
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/class.phpmailer.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/class.phpmaileroauth.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/class.phpmaileroauthgoogle.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/class.pop3.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/class.smtp.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/code_generator.phps
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/contactform.phps
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/contents.html
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/contentsutf8.html
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/DKIM.phps
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/exceptions.phps
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/gmail.phps
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/gmail_xoauth.phps
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/images/phpmailer.png
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/images/phpmailer_mini.png
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/index.html
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/mail.phps
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /mail/examples/mailing_list.phps
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img1@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img1@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img2@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img2@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img3@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img3@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img4@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img4@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img5@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img5@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img6@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img6@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img@1280.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /media/img@1900.jpg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /php/db-constants.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /plants-for-now.txt
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /prepros-6.config
+2017-02-14 10:23:12: === User Changed Action from 'COPY_RIGHT_TO_LEFT' to 'COPY_LEFT_TO_RIGHT' on item /projeto-final
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /projeto-final.zip
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /script/analytics.js
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /script/script.js
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /scss/_includes/_colors.scss
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /scss/media-queries.scss
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /scss/ui.scss
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /templates/contacts.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /templates/galeria.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /templates/index.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /templates/project-category.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /templates/project-template.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /templates/simple-article.php
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/demo-files/demo.css
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/demo-files/demo.js
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/demo.html
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/fonts/Entypo-Social-Extension.eot
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/fonts/Entypo-Social-Extension.svg
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/fonts/Entypo-Social-Extension.ttf
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/fonts/Entypo-Social-Extension.woff
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/Read Me.txt
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/selection.json
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/entypo social/style.css
+2017-02-14 10:23:12: === User Changed Action from 'CONFLICT' to 'COPY_LEFT_TO_RIGHT' on item /webfont/source sans.txt
+2017-02-14 10:23:12: Done.
+2017-02-14 10:23:17: New _gsdata_ folder(s) created, so rescan all job folders for their ghosts
+2017-02-14 10:23:17: == Sync Started by User
+2017-02-14 10:23:19: Delete Folder 'ftp://files.000webhost.com/public_html/projeto-final' (User Action)
+2017-02-14 10:23:20: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_head.php' -> 'ftp://files.000webhost.com/public_html/includes/_head.php' (User Action)
+2017-02-14 10:23:21: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/_includes/_head.jade' -> 'ftp://files.000webhost.com/public_html/jade/_includes/_head.jade' (User Action)
+2017-02-14 10:23:21: Create Folder 'ftp://files.000webhost.com/public_html/mail/examples/scripts'
+2017-02-14 10:23:21: Create Folder 'ftp://files.000webhost.com/public_html/mail/examples/styles'
+2017-02-14 10:23:21: Create Folder 'ftp://files.000webhost.com/public_html/mail/extras'
+2017-02-14 10:23:22: Create Folder 'ftp://files.000webhost.com/public_html/mail/language'
+2017-02-14 10:23:23: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/source sans.txt' -> 'ftp://files.000webhost.com/public_html/webfont/source sans.txt' (User Action)
+2017-02-14 10:23:26: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/.gitattributes' -> 'ftp://files.000webhost.com/public_html/.gitattributes' (User Action)
+2017-02-14 10:23:27: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/.htaccess' -> 'ftp://files.000webhost.com/public_html/.htaccess' (User Action)
+2017-02-14 10:23:30: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/css/media-queries.css' -> 'ftp://files.000webhost.com/public_html/css/media-queries.css' (User Action)
+2017-02-14 10:23:31: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css' (User Action)
+2017-02-14 10:23:34: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/img/bg-dummy@1280.jpg' -> 'ftp://files.000webhost.com/public_html/img/bg-dummy@1280.jpg' (User Action)
+2017-02-14 10:23:37: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/img/bg-dummy@1900.jpg' -> 'ftp://files.000webhost.com/public_html/img/bg-dummy@1900.jpg' (User Action)
+2017-02-14 10:23:40: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/img/slide1-dummy@1280.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide1-dummy@1280.jpg' (User Action)
+2017-02-14 10:23:42: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/img/slide1-dummy@1900.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide1-dummy@1900.jpg' (User Action)
+2017-02-14 10:23:44: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/img/slide2-dummy@1280.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide2-dummy@1280.jpg' (User Action)
+2017-02-14 10:23:46: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/img/slide2-dummy@1900.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide2-dummy@1900.jpg' (User Action)
+2017-02-14 10:23:48: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/img/slide3-dummy@1280.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide3-dummy@1280.jpg' (User Action)
+2017-02-14 10:23:50: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/img/slide3-dummy@1900.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide3-dummy@1900.jpg' (User Action)
+2017-02-14 10:23:52: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_footer.php' -> 'ftp://files.000webhost.com/public_html/includes/_footer.php' (User Action)
+2017-02-14 10:23:54: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php' (User Action)
+2017-02-14 10:23:55: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_sidebar.php' -> 'ftp://files.000webhost.com/public_html/includes/_sidebar.php' (User Action)
+2017-02-14 10:23:57: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/index.php' -> 'ftp://files.000webhost.com/public_html/index.php' (User Action)
+2017-02-14 10:23:59: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/_includes/_footer.jade' -> 'ftp://files.000webhost.com/public_html/jade/_includes/_footer.jade' (User Action)
+2017-02-14 10:24:01: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/_includes/_header.jade' -> 'ftp://files.000webhost.com/public_html/jade/_includes/_header.jade' (User Action)
+2017-02-14 10:24:02: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/_includes/_sidebar.jade' -> 'ftp://files.000webhost.com/public_html/jade/_includes/_sidebar.jade' (User Action)
+2017-02-14 10:24:04: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/contacts.jade' -> 'ftp://files.000webhost.com/public_html/jade/contacts.jade' (User Action)
+2017-02-14 10:24:07: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/galeria.jade' -> 'ftp://files.000webhost.com/public_html/jade/galeria.jade' (User Action)
+2017-02-14 10:24:08: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/index.jade' -> 'ftp://files.000webhost.com/public_html/jade/index.jade' (User Action)
+2017-02-14 10:24:10: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/project-category.jade' -> 'ftp://files.000webhost.com/public_html/jade/project-category.jade' (User Action)
+2017-02-14 10:24:11: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/project-template.jade' -> 'ftp://files.000webhost.com/public_html/jade/project-template.jade' (User Action)
+2017-02-14 10:24:13: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/jade/simple-article.jade' -> 'ftp://files.000webhost.com/public_html/jade/simple-article.jade' (User Action)
+2017-02-14 10:24:14: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/localhost.sql' -> 'ftp://files.000webhost.com/public_html/localhost.sql' (User Action)
+2017-02-14 10:24:17: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/class.phpmailer.php' -> 'ftp://files.000webhost.com/public_html/mail/class.phpmailer.php' (User Action)
+2017-02-14 10:24:19: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/class.phpmaileroauth.php' -> 'ftp://files.000webhost.com/public_html/mail/class.phpmaileroauth.php' (User Action)
+2017-02-14 10:24:20: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/class.phpmaileroauthgoogle.php' -> 'ftp://files.000webhost.com/public_html/mail/class.phpmaileroauthgoogle.php' (User Action)
+2017-02-14 10:24:22: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/class.pop3.php' -> 'ftp://files.000webhost.com/public_html/mail/class.pop3.php' (User Action)
+2017-02-14 10:24:23: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/class.smtp.php' -> 'ftp://files.000webhost.com/public_html/mail/class.smtp.php' (User Action)
+2017-02-14 10:24:26: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/code_generator.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/code_generator.phps' (User Action)
+2017-02-14 10:24:27: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/contactform.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/contactform.phps' (User Action)
+2017-02-14 10:24:29: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/contents.html' -> 'ftp://files.000webhost.com/public_html/mail/examples/contents.html' (User Action)
+2017-02-14 10:24:30: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/contentsutf8.html' -> 'ftp://files.000webhost.com/public_html/mail/examples/contentsutf8.html' (User Action)
+2017-02-14 10:24:32: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/DKIM.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/DKIM.phps' (User Action)
+2017-02-14 10:24:33: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/exceptions.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/exceptions.phps' (User Action)
+2017-02-14 10:24:35: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/gmail.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/gmail.phps' (User Action)
+2017-02-14 10:24:37: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/gmail_xoauth.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/gmail_xoauth.phps' (User Action)
+2017-02-14 10:24:39: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/images/phpmailer.png' -> 'ftp://files.000webhost.com/public_html/mail/examples/images/phpmailer.png' (User Action)
+2017-02-14 10:24:41: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/images/phpmailer_mini.png' -> 'ftp://files.000webhost.com/public_html/mail/examples/images/phpmailer_mini.png' (User Action)
+2017-02-14 10:24:42: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/index.html' -> 'ftp://files.000webhost.com/public_html/mail/examples/index.html' (User Action)
+2017-02-14 10:24:44: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/mail.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/mail.phps' (User Action)
+2017-02-14 10:24:45: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/mailing_list.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/mailing_list.phps' (User Action)
+2017-02-14 10:24:47: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/pop_before_smtp.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/pop_before_smtp.phps'
+2017-02-14 10:24:48: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/scripts/shAutoloader.js' -> 'ftp://files.000webhost.com/public_html/mail/examples/scripts/shAutoloader.js'
+2017-02-14 10:24:49: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/scripts/shBrushPhp.js' -> 'ftp://files.000webhost.com/public_html/mail/examples/scripts/shBrushPhp.js'
+2017-02-14 10:24:51: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/scripts/shCore.js' -> 'ftp://files.000webhost.com/public_html/mail/examples/scripts/shCore.js'
+2017-02-14 10:24:52: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/scripts/shLegacy.js' -> 'ftp://files.000webhost.com/public_html/mail/examples/scripts/shLegacy.js'
+2017-02-14 10:24:53: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/scripts/XRegExp.js' -> 'ftp://files.000webhost.com/public_html/mail/examples/scripts/XRegExp.js'
+2017-02-14 10:24:55: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/send_file_upload.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/send_file_upload.phps'
+2017-02-14 10:24:56: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/send_multiple_file_upload.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/send_multiple_file_upload.phps'
+2017-02-14 10:24:57: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/sendmail.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/sendmail.phps'
+2017-02-14 10:24:58: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/signed-mail.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/signed-mail.phps'
+2017-02-14 10:25:00: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/smtp.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/smtp.phps'
+2017-02-14 10:25:01: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/smtp_check.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/smtp_check.phps'
+2017-02-14 10:25:02: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/smtp_no_auth.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/smtp_no_auth.phps'
+2017-02-14 10:25:06: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/ssl_options.phps' -> 'ftp://files.000webhost.com/public_html/mail/examples/ssl_options.phps'
+2017-02-14 10:25:07: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCore.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCore.css'
+2017-02-14 10:25:08: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCoreDefault.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCoreDefault.css'
+2017-02-14 10:25:10: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCoreDjango.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCoreDjango.css'
+2017-02-14 10:25:11: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCoreEclipse.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCoreEclipse.css'
+2017-02-14 10:25:12: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCoreEmacs.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCoreEmacs.css'
+2017-02-14 10:25:13: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCoreFadeToGrey.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCoreFadeToGrey.css'
+2017-02-14 10:25:15: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCoreMDUltra.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCoreMDUltra.css'
+2017-02-14 10:25:16: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCoreMidnight.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCoreMidnight.css'
+2017-02-14 10:25:17: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shCoreRDark.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shCoreRDark.css'
+2017-02-14 10:25:18: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeAppleScript.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeAppleScript.css'
+2017-02-14 10:25:20: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeDefault.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeDefault.css'
+2017-02-14 10:25:21: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeDjango.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeDjango.css'
+2017-02-14 10:25:22: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeEclipse.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeEclipse.css'
+2017-02-14 10:25:25: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeEmacs.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeEmacs.css'
+2017-02-14 10:25:26: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeFadeToGrey.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeFadeToGrey.css'
+2017-02-14 10:25:27: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeMDUltra.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeMDUltra.css'
+2017-02-14 10:25:28: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeMidnight.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeMidnight.css'
+2017-02-14 10:25:29: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeRDark.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeRDark.css'
+2017-02-14 10:25:31: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/shThemeVisualStudio.css' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/shThemeVisualStudio.css'
+2017-02-14 10:25:32: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/examples/styles/wrapping.png' -> 'ftp://files.000webhost.com/public_html/mail/examples/styles/wrapping.png'
+2017-02-14 10:25:33: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/extras/EasyPeasyICS.php' -> 'ftp://files.000webhost.com/public_html/mail/extras/EasyPeasyICS.php'
+2017-02-14 10:25:35: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/extras/htmlfilter.php' -> 'ftp://files.000webhost.com/public_html/mail/extras/htmlfilter.php'
+2017-02-14 10:25:36: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/extras/ntlm_sasl_client.php' -> 'ftp://files.000webhost.com/public_html/mail/extras/ntlm_sasl_client.php'
+2017-02-14 10:25:37: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/extras/README.md' -> 'ftp://files.000webhost.com/public_html/mail/extras/README.md'
+2017-02-14 10:25:39: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/get_oauth_token.php' -> 'ftp://files.000webhost.com/public_html/mail/get_oauth_token.php'
+2017-02-14 10:25:40: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-am.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-am.php'
+2017-02-14 10:25:41: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ar.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ar.php'
+2017-02-14 10:25:42: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-az.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-az.php'
+2017-02-14 10:25:44: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-be.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-be.php'
+2017-02-14 10:25:45: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-bg.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-bg.php'
+2017-02-14 10:25:46: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ca.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ca.php'
+2017-02-14 10:25:47: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ch.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ch.php'
+2017-02-14 10:25:49: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-cs.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-cs.php'
+2017-02-14 10:25:50: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-da.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-da.php'
+2017-02-14 10:25:51: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-de.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-de.php'
+2017-02-14 10:25:52: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-el.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-el.php'
+2017-02-14 10:25:54: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-eo.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-eo.php'
+2017-02-14 10:25:55: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-es.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-es.php'
+2017-02-14 10:25:56: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-et.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-et.php'
+2017-02-14 10:25:58: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-fa.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-fa.php'
+2017-02-14 10:25:59: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-fi.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-fi.php'
+2017-02-14 10:26:00: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-fo.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-fo.php'
+2017-02-14 10:26:02: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-fr.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-fr.php'
+2017-02-14 10:26:03: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-gl.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-gl.php'
+2017-02-14 10:26:04: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-he.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-he.php'
+2017-02-14 10:26:06: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-hr.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-hr.php'
+2017-02-14 10:26:07: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-hu.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-hu.php'
+2017-02-14 10:26:09: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-id.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-id.php'
+2017-02-14 10:26:10: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-it.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-it.php'
+2017-02-14 10:26:12: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ja.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ja.php'
+2017-02-14 10:26:13: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ka.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ka.php'
+2017-02-14 10:26:14: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ko.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ko.php'
+2017-02-14 10:26:16: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-lt.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-lt.php'
+2017-02-14 10:26:17: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-lv.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-lv.php'
+2017-02-14 10:26:18: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ms.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ms.php'
+2017-02-14 10:26:19: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-nb.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-nb.php'
+2017-02-14 10:26:21: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-nl.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-nl.php'
+2017-02-14 10:26:22: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-pl.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-pl.php'
+2017-02-14 10:26:23: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-pt.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-pt.php'
+2017-02-14 10:26:25: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-pt_br.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-pt_br.php'
+2017-02-14 10:26:26: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ro.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ro.php'
+2017-02-14 10:26:27: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-ru.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-ru.php'
+2017-02-14 10:26:29: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-sk.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-sk.php'
+2017-02-14 10:26:30: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-sl.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-sl.php'
+2017-02-14 10:26:31: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-sr.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-sr.php'
+2017-02-14 10:26:33: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-sv.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-sv.php'
+2017-02-14 10:26:34: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-tr.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-tr.php'
+2017-02-14 10:26:35: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-uk.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-uk.php'
+2017-02-14 10:26:37: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-vi.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-vi.php'
+2017-02-14 10:26:38: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-zh.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-zh.php'
+2017-02-14 10:26:39: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/language/phpmailer.lang-zh_cn.php' -> 'ftp://files.000webhost.com/public_html/mail/language/phpmailer.lang-zh_cn.php'
+2017-02-14 10:26:40: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/PHPMailerAutoload.php' -> 'ftp://files.000webhost.com/public_html/mail/PHPMailerAutoload.php'
+2017-02-14 10:26:42: Copy New 'C:/Users/Cet24/Desktop/projeto-final/mail/template.php' -> 'ftp://files.000webhost.com/public_html/mail/template.php'
+2017-02-14 10:26:44: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img1@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img1@1280.jpg' (User Action)
+2017-02-14 10:26:47: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img1@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img1@1900.jpg' (User Action)
+2017-02-14 10:26:49: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img2@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img2@1280.jpg' (User Action)
+2017-02-14 10:26:52: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img2@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img2@1900.jpg' (User Action)
+2017-02-14 10:26:54: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img3@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img3@1280.jpg' (User Action)
+2017-02-14 10:26:56: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img3@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img3@1900.jpg' (User Action)
+2017-02-14 10:26:58: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img4@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img4@1280.jpg' (User Action)
+2017-02-14 10:27:01: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img4@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img4@1900.jpg' (User Action)
+2017-02-14 10:27:03: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img5@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img5@1280.jpg' (User Action)
+2017-02-14 10:27:06: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img5@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img5@1900.jpg' (User Action)
+2017-02-14 10:27:08: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img6@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img6@1280.jpg' (User Action)
+2017-02-14 10:27:11: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img6@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img6@1900.jpg' (User Action)
+2017-02-14 10:27:13: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img@1280.jpg' (User Action)
+2017-02-14 10:27:15: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/media/img@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img@1900.jpg' (User Action)
+2017-02-14 10:27:17: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/php/db-constants.php' -> 'ftp://files.000webhost.com/public_html/php/db-constants.php' (User Action)
+2017-02-14 10:27:19: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/plants-for-now.txt' -> 'ftp://files.000webhost.com/public_html/plants-for-now.txt' (User Action)
+2017-02-14 10:27:20: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/prepros-6.config' -> 'ftp://files.000webhost.com/public_html/prepros-6.config' (User Action)
+2017-02-14 10:27:32: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/projeto-final.zip' -> 'ftp://files.000webhost.com/public_html/projeto-final.zip' (User Action)
+2017-02-14 10:27:35: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/script/analytics.js' -> 'ftp://files.000webhost.com/public_html/script/analytics.js' (User Action)
+2017-02-14 10:27:36: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/script/script.js' -> 'ftp://files.000webhost.com/public_html/script/script.js' (User Action)
+2017-02-14 10:27:39: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/scss/_includes/_colors.scss' -> 'ftp://files.000webhost.com/public_html/scss/_includes/_colors.scss' (User Action)
+2017-02-14 10:27:41: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/scss/media-queries.scss' -> 'ftp://files.000webhost.com/public_html/scss/media-queries.scss' (User Action)
+2017-02-14 10:27:43: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/scss/ui.scss' -> 'ftp://files.000webhost.com/public_html/scss/ui.scss' (User Action)
+2017-02-14 10:27:45: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/contacts.php' -> 'ftp://files.000webhost.com/public_html/templates/contacts.php' (User Action)
+2017-02-14 10:27:47: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/galeria.php' -> 'ftp://files.000webhost.com/public_html/templates/galeria.php' (User Action)
+2017-02-14 10:27:48: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/index.php' -> 'ftp://files.000webhost.com/public_html/templates/index.php' (User Action)
+2017-02-14 10:27:50: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php' (User Action)
+2017-02-14 10:27:52: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/project-template.php' -> 'ftp://files.000webhost.com/public_html/templates/project-template.php' (User Action)
+2017-02-14 10:27:53: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/simple-article.php' -> 'ftp://files.000webhost.com/public_html/templates/simple-article.php' (User Action)
+2017-02-14 10:27:57: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/demo-files/demo.css' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/demo-files/demo.css' (User Action)
+2017-02-14 10:27:58: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/demo-files/demo.js' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/demo-files/demo.js' (User Action)
+2017-02-14 10:28:00: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/demo.html' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/demo.html' (User Action)
+2017-02-14 10:28:03: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/fonts/Entypo-Social-Extension.eot' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/fonts/Entypo-Social-Extension.eot' (User Action)
+2017-02-14 10:28:05: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/fonts/Entypo-Social-Extension.svg' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/fonts/Entypo-Social-Extension.svg' (User Action)
+2017-02-14 10:28:07: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/fonts/Entypo-Social-Extension.ttf' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/fonts/Entypo-Social-Extension.ttf' (User Action)
+2017-02-14 10:28:08: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/fonts/Entypo-Social-Extension.woff' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/fonts/Entypo-Social-Extension.woff' (User Action)
+2017-02-14 10:28:11: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/Read Me.txt' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/Read Me.txt' (User Action)
+2017-02-14 10:28:12: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/selection.json' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/selection.json' (User Action)
+2017-02-14 10:28:14: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/webfont/entypo social/style.css' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/style.css' (User Action)
+2017-02-14 10:28:17: == Sync Complete. Time: 00:05:03, Speed: 30.7 KB/s, OK: 196, Errors: 0
+2017-02-14 10:28:18: 

@@ -1,58 +1,51 @@
 <!DOCTYPE html>
 <html class="project-categories">
   <head><?php require_once('./includes/_header.php') ?>
-<title></title>
-    <meta name="description" content="Free Web tutorials">
-<meta name="keywords" content="HTML,CSS,XML,JavaScript">
-<meta name="author" content="John Doe">
-<meta name="robots" content="index, follow"> 
+    <?php
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@nytimesbits" />
-    <meta name="twitter:creator" content="@nickbilton" />
-    <meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
-    <meta property="og:title" content="A Twitter for My Sister" />
-    <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
-    <meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
-    <meta property="og:type" content="blog"/>
-    <meta property="og:site_name" content="David Walsh Blog"/></head>
+    require_once('./php/db-constants.php');
+    $tag = $urlStrings[2];
+    $tabela = 'projetos';
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+    //SELECT * FROM `media` WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%web-development%' LIMIT 1)
+
+    $slideHTML = '';
+    $slideControllerHTML = '';
+    $dataSlide = 1;
+
+    $queryParaSlides = "SELECT * FROM `media` WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%$tag%' LIMIT 1)";
+    $resultadoDosSlides = $conn->query($queryParaSlides);
+
+
+
+    foreach($resultadoDosSlides as $mediaSource){
+      $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg";
+      $slideHTML .="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </div>";
+      $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
+      //echo($mediaSource['src']);
+      $dataSlide+=1;
+    }
+
+    ?>
+<title>Projetos em <?php if ($urlStrings[2]) echo("de " . ucfirst(str_replace("-", " ", $urlStrings[2]))) ?>| Alice Fernandes - Web Developemnt & Design</title>
+
+<meta name="robots" content="index, follow">
+
+<meta name="twitter:card" content="Oi, estás a ver projetos da categoria <?php echo(ucfirst(str_replace("-", " ", $urlStrings[2]))) ?>. Se vires algum que gostas, recomeda aos teus amigos." />
+<!--<meta name="twitter:site" content="@nytimesbits" />
+<meta name="twitter:creator" content="@nickbilton" />-->
+<meta property="og:title" content="Portfolio | Alice Fernandes - Web Developemnt & Design" />
+<meta property="og:description" content="Oi, estás a ver projetos da categoria <?php echo(ucfirst(str_replace("-", " ", $urlStrings[2]))) ?>. Se vires algum que gostas, recomeda aos teus amigos." />
+<meta property="og:image" content="<?php echo($metaImage) ?>" />
   <body>
     <input type="checkbox" id="menu-show">
     <div class="site-container"><?php require_once('./includes/_sidebar.php')   ?>
       <div class="main-content">
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
-            <?php
+              <?php     echo($slideHTML); ?>
 
-            require_once('./php/db-constants.php');
-            $tag = $urlStrings[2];
-            $tabela = 'projetos';
-            $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-
-            //SELECT * FROM `media` WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%web-development%' LIMIT 1)
-
-            $slideHTML = '';
-            $slideControllerHTML = '';
-            $dataSlide = 1;
-
-            $queryParaSlides = "SELECT * FROM `media` WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%$tag%' LIMIT 1)";
-            $resultadoDosSlides = $conn->query($queryParaSlides);
-
-
-
-            foreach($resultadoDosSlides as $mediaSource){
-              $slideHTML .="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </div>";
-              $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
-              //echo($mediaSource['src']);
-              $dataSlide+=1;
-            }
-
-            echo($slideHTML);
-
-            ?>
-           <!--<div class="slide" style="background-image:url(<?php// echo("http://".$host . "/" ."img/slide1-dummy@1900.jpg") ?>)"; data-slide="1"></div>
-            <div class="slide" style="background-image:url(<?php //echo("http://".$host . "/" ."img/slide2-dummy@1900.jpg") ?>)"; data-slide="2"></div>
-            <div class="slide" style="background-image:url(<?php //echo("http://".$host . "/" ."img/slide3-dummy@1900.jpg") ?>)"; data-slide="3"></div>-->
           </div>
           <div class="ui-component slide-controller">
             <ul>

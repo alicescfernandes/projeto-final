@@ -1,0 +1,13 @@
+2017-02-14 10:29:54: -- Analysis Started by User
+2017-02-14 10:30:22: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 198
+2017-02-14 10:30:22: Right to Left: Copy File: 3 
+2017-02-14 10:30:22: -- Analysis Complete. Time 00:00:37, Speed: 5 files/s
+2017-02-14 10:30:22: 
+2017-02-14 10:31:36: Done.
+2017-02-14 10:31:45: Done.
+2017-02-14 10:31:49: Done.
+2017-02-14 10:32:28: Cannot connect to ftp://files.000webhost.com/public_html: Host not found: Server name is incorrect or No connection to Internet; name=files.000webhost.com; port=21
+2017-02-14 10:32:28: 
+2017-02-14 10:32:34: Stop requested by Stop By User: #1
+2017-02-14 10:32:34: Cannot connect to ftp://files.000webhost.com/public_html: receiving line: [receiving data files.000webhost.com:21]: Connection was aborted due to timeout or other failure
+2017-02-14 10:32:34: 

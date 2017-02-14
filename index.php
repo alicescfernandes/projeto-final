@@ -2,11 +2,11 @@
 <?php
 
 //Página/
-
+/*
 $request = $_SERVER['REQUEST_URI'];
 
-$urlStrings = explode("/", $request);
-
+$urlStrings = explode("/", $request);*/
+/*
 switch ($urlStrings[1]) {
 		case 'portfolio':
 			include('templates/project-category.php');
@@ -25,7 +25,8 @@ switch ($urlStrings[1]) {
 			break;
 		default:
 			include('templates/index.php');
-}
+}*/
 
+include('templates/index.php');
 
 ?>

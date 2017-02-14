@@ -1,0 +1,13 @@
+2017-02-14 10:34:54: -- Analysis Started by User
+2017-02-14 10:35:10: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 198
+2017-02-14 10:35:10: Right to Left: Delete File: 2 
+2017-02-14 10:35:10: -- Analysis Complete. Time 00:00:17, Speed: 11 files/s
+2017-02-14 10:35:10: 
+2017-02-14 10:35:32: === User Changed Action from 'COPY_RIGHT_TO_LEFT' to 'COPY_LEFT_TO_RIGHT' on item /.htaccess
+2017-02-14 10:35:32: === User Changed Action from 'COPY_RIGHT_TO_LEFT' to 'COPY_LEFT_TO_RIGHT' on item /index.php
+2017-02-14 10:35:32: Done.
+2017-02-14 10:35:36: == Sync Started by User
+2017-02-14 10:35:38: Copy New 'C:/Users/Cet24/Desktop/projeto-final/.htaccess' -> 'ftp://files.000webhost.com/public_html/.htaccess' (User Action)
+2017-02-14 10:35:39: Copy New 'C:/Users/Cet24/Desktop/projeto-final/index.php' -> 'ftp://files.000webhost.com/public_html/index.php' (User Action)
+2017-02-14 10:35:40: == Sync Complete. Time: 00:00:06, Speed: 822 bytes/s, OK: 2, Errors: 0
+2017-02-14 10:35:41: 
