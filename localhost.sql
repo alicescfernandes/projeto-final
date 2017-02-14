@@ -2,10 +2,10 @@
 -- version 4.0.4.2
 -- http://www.phpmyadmin.net
 --
--- Máquina: localhost
--- Data de Criação: 13-Fev-2017 às 23:30
--- Versão do servidor: 5.6.13
--- versão do PHP: 5.4.17
+-- Host: localhost
+-- Generation Time: Feb 14, 2017 at 12:10 PM
+-- Server version: 5.6.13
+-- PHP Version: 5.4.17
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,15 +17,15 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de Dados: `website-dados`
+-- Database: `id802211_portfolio`
 --
-CREATE DATABASE IF NOT EXISTS `website-dados` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-USE `website-dados`;
+CREATE DATABASE IF NOT EXISTS `id802211_portfolio` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+USE `id802211_portfolio`;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `external-urls`
+-- Table structure for table `external-urls`
 --
 
 CREATE TABLE IF NOT EXISTS `external-urls` (
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `external-urls` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=3 ;
 
 --
--- Extraindo dados da tabela `external-urls`
+-- Dumping data for table `external-urls`
 --
 
 INSERT INTO `external-urls` (`projeto_uri`, `id`, `github`, `codepen`, `industria-criativa`) VALUES
@@ -48,7 +48,7 @@ INSERT INTO `external-urls` (`projeto_uri`, `id`, `github`, `codepen`, `industri
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `media`
+-- Table structure for table `media`
 --
 
 CREATE TABLE IF NOT EXISTS `media` (
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `media` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=6 ;
 
 --
--- Extraindo dados da tabela `media`
+-- Dumping data for table `media`
 --
 
 INSERT INTO `media` (`id_media`, `projeto_uri`, `tipo`, `src`, `ext`, `cover`, `title`) VALUES
@@ -76,7 +76,7 @@ INSERT INTO `media` (`id_media`, `projeto_uri`, `tipo`, `src`, `ext`, `cover`, `
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `projetos`
+-- Table structure for table `projetos`
 --
 
 CREATE TABLE IF NOT EXISTS `projetos` (
@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `projetos` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=3 ;
 
 --
--- Extraindo dados da tabela `projetos`
+-- Dumping data for table `projetos`
 --
 
 INSERT INTO `projetos` (`id_projeto`, `nome`, `descricao`, `tags`, `summary-line`, `likes`, `views`, `share`, `uri`, `external-urls`) VALUES
