@@ -1,0 +1,7 @@
+2017-02-14 12:01:59: -- Analysis Started by On File Change Incremental
+2017-02-14 12:02:00: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 200
+2017-02-14 12:02:00: Left to Right: Copy File: 1 
+2017-02-14 12:02:00: == Sync Started by On File Change Incremental
+2017-02-14 12:02:01: Copy New 'C:/Users/Cet24/Desktop/projeto-final/sitemap.xml' -> 'ftp://files.000webhost.com/public_html/sitemap.xml'
+2017-02-14 12:02:03: == Sync Complete. Time: 00:00:03, Speed: 2.65 KB/s, OK: 1, Errors: 0
+2017-02-14 12:02:04: 

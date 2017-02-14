@@ -30,20 +30,20 @@
   for($i = 0; $i!=$maxImages;$i++){
     $string = $randImages[$randArray[$i]];
     $description = $randImagesDescription[$randArray[$i]];
-    $metaImage = "http://".$host . "/" ."media/".$string."@1900.jpg";
+    $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
     $resultHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"><div class=\"title\"><p>$description</p></div></div>";
   }
 ?>
 
 
- <title>Contactos | Alice Fernandes - Web Developemnt & Design</title>
+ <title>Contactos | Alice Fernandes - Web Development & Design</title>
 
 
 <meta name="robots" content="index, follow">
 <meta name="twitter:card" content="Precisas de algum developer para o teu projeto" />
 <?php /*<meta name="twitter:site" content="@nytimesbits" />
 <meta name="twitter:creator" content="@AliceFernandes" /> */?>
-<meta property="og:title" content="Contactos | Alice Fernandes - Web Developemnt & Design" />
+<meta property="og:title" content="Contactos | Alice Fernandes - Web Development & Design" />
 <meta property="og:description" content="Precisas de algum developer para o teu projeto, conctacta-me" />
 <meta property="og:image" content="<?php echo($metaImage)?>" />
 

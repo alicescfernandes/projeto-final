@@ -1,0 +1,11 @@
+2017-02-14 10:50:35: -- Analysis Started by On File Change Incremental
+2017-02-14 10:50:36: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 199
+2017-02-14 10:50:36: Left to Right: Copy File: 1 
+2017-02-14 10:50:36: == Sync Started by On File Change Incremental
+2017-02-14 10:50:38: C:/Users/Cet24/Desktop/projeto-final/php/db-constants.php: Source file has changed between Analyze and Sync from '[file] size=273 accu-time=2017-02-14 10:50:27 attr=Archive' to 'size=278 time=2017-02-14 10:50:36', noted in source file state
+2017-02-14 10:50:38: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/php/db-constants.php' -> 'ftp://files.000webhost.com/public_html/php/db-constants.php'
+2017-02-14 10:50:40: == Sync Complete. Time: 00:00:04, Speed: 1.42 KB/s, OK: 1, Errors: 0
+2017-02-14 10:50:41: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-14 10:50:41: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 199
+2017-02-14 10:50:41: -- Analysis Complete. Time 00:00:05, Speed: 39 files/s
+2017-02-14 10:50:42: 

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html class="index">
-  <head><?php require_once('./includes/_header.php') ?>
+  <head>
+    <?php require_once('./includes/_header.php') ?>
     <?php
     require_once('./php/db-constants.php');
-    /*$tabela = 'media';
+    $tabela = 'media';
     $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
     $query = 'SELECT * FROM `media` GROUP BY title';
     $result = $conn->query($query);
@@ -16,6 +17,7 @@
       $randImagesDescription[$i] = $array->title;
       $i++;
     }
+
    $maxImages = 3;
    $resultHTML = '';
    $randArray = range(0,count($randImages)-1);
@@ -24,19 +26,19 @@
 
     for($i = 0; $i!=$maxImages;$i++){
       $string = $randImages[$randArray[$i]];
-      $metaImage = "http://".$host . "/" ."media/".$string."@1900.jpg";
+      $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
       $description = $randImagesDescription[$randArray[$i]];
       $resultHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"><div class=\"title\"><p>$description</p></div></div>";
-    }*/
-     ?>
-<title>Página Inicial | Alice Fernandes - Web Developemnt & Design</title>
+    }
 
-<meta name="robots" content="index, follow">
+     ?>
+<title>Página Inicial | Alice Fernandes - Web Development & Design</title>
+
+<meta name="robots" content="index, follow"/>
 
 <meta name="twitter:card" content="Bem vindos ao meu website. Aqui vao encontrar uma seleção dos melhores trabalhos em diferentes áreas. Se tiverem alguma ideia para um projeto e precisarem de um developer, contactem-me." />
-<!--<meta name="twitter:site" content="@nytimesbits" />
-<meta name="twitter:creator" content="@nickbilton" />-->
-<meta property="og:title" content="Página Inicial | Alice Fernandes - Web Developemnt & Design" />
+
+<meta property="og:title" content="Página Inicial | Alice Fernandes - Web Development & Design" />
 <meta property="og:description" content="Bem vindos ao meu website. Aqui vao encontrar uma seleção dos melhores trabalhos em diferentes áreas. Se tiverem alguma ideia para um projeto e precisarem de um developer, contactem-me." />
 <meta property="og:image" content="<?php echo($metaImage) ?>" />
 <meta name="description" content="Bem vindos ao meu website. Aqui vao encontrar uma seleção dos melhores trabalhos em diferentes áreas. Se tiverem alguma ideia para um projeto e precisarem de um developer, contactem-me.">
@@ -49,11 +51,6 @@
         <header><span class="letring">
             <p>Alice Fernandes</p>
             <p>Design & Development</p></span></header>
-        <!--<div class="container">
-          <div class="title">
-            <p>design</p>
-          </div>
-        </div>-->
         <div class="ui-component slideshow slideshow-fullpage slideshow-absolute-pos">
           <div class="slide-container">
             <?php echo($resultHTML); ?>

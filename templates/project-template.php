@@ -16,7 +16,7 @@
     $slideControllerHTML = '';
     $dataSlide = 1;
     foreach($resultadoDosSlides as $mediaSource){
-      $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg";
+      $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.jpg";
 
       $slideHTML .="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </div>";
       $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
@@ -25,13 +25,13 @@
     }
 
     ?>
-<title>Projeto <?php echo($row['nome'])?> | Alice Fernandes - Web Developemnt & Design</title>
+<title>Projeto <?php echo($row['nome'])?> | Alice Fernandes - Web Development & Design</title>
 
 <meta name="robots" content="index, follow">
-<meta name="twitter:card" content="Projeto <?php echo($row['nome']) ?> | Alice Fernandes - Web Developemnt & Design" />
+<meta name="twitter:card" content="Projeto <?php echo($row['nome']) ?> | Alice Fernandes - Web Development & Design" />
 <!--<meta name="twitter:site" content="@nytimesbits" />
 <meta name="twitter:creator" content="@nickbilton" />-->
-<meta property="og:title" content="Projeto <?php echo($row['nome']) ?> | Alice Fernandes - Web Developemnt & Design" />
+<meta property="og:title" content="Projeto <?php echo($row['nome']) ?> | Alice Fernandes - Web Development & Design" />
 <meta property="og:description" content="<?php echo($row['descricao']) ?>" />
 <meta name="description" content="<?php echo($row['descricao']) ?>">
 

@@ -27,19 +27,19 @@
   for($i = 0; $i!=$maxImages;$i++){
     $string = $randImages[$randArray[$i]];
     $description = $randImagesDescription[$randArray[$i]];
-    $metaImage = "http://".$host . "/" ."media/".$string."@1900.jpg";
+    $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
     $resultHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"><div class=\"title\"><p>$description</p></div></div>";
   }
 ?>
-<title>Sobre Mim | Alice Fernandes - Web Developemnt & Design</title>
+<title>Sobre Mim | Alice Fernandes - Web Development & Design</title>
 
   <meta name="robots" content="index, follow">
   <meta name="twitter:card" content="Oi. Chamo-me Alice Fernandes e sou uma webdeveloper de 20 anos. Gosto de fazer de implementar projetos desde a raiz, passando por toda as fases de desenvolvimento. Já trabalhei na área e agora trabalho em regime de freelancer." />
   <!--<meta name="twitter:site" content="@nytimesbits" />
   <meta name="twitter:creator" content="@nickbilton" />-->
-  <meta property="og:title" content="Sobre Mim | Alice Fernandes - Web Developemnt & Design" />
+  <meta property="og:title" content="Sobre Mim | Alice Fernandes - Web Development & Design" />
   <meta property="og:description" content="Oi. Chamo-me Alice Fernandes e sou uma webdeveloper de 20 anos. Gosto de fazer de implementar projetos desde a raiz, passando por toda as fases de desenvolvimento. Já trabalhei na área e agora trabalho em regime de freelancer." />
-  <meta property="og:image" content="<?php $metaImage ?>" />
+  <meta property="og:image" content="<?php echo($metaImage) ?>" />
   </head>
   <body>
     <input type="checkbox" id="menu-show">

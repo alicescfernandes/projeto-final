@@ -1,0 +1,19 @@
+2017-02-14 11:05:02: -- Analysis Started by On File Change Incremental
+2017-02-14 11:05:03: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 199
+2017-02-14 11:05:03: Left to Right: Copy File: 1 
+2017-02-14 11:05:03: == Sync Started by On File Change Incremental
+2017-02-14 11:05:06: C:/Users/Cet24/Desktop/projeto-final/includes/_header.php: Source file has changed between Analyze and Sync from '[file] size=1 788 accu-time=2017-02-14 11:04:55 attr=Archive' to 'size=1 791 time=2017-02-14 11:05:02', noted in source file state
+2017-02-14 11:05:06: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php'
+2017-02-14 11:05:08: == Sync Complete. Time: 00:00:05, Speed: 1.86 KB/s, OK: 1, Errors: 0
+2017-02-14 11:05:09: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-14 11:05:09: Waiting for 8 sec on verb MLST _file_state_v4._gs: socket closed while reading reply
+2017-02-14 11:05:19: Waiting for 16 sec on verb MLST _file_state_v4._gs: [connecting files.000webhost.com:21]: Permission to access socket is denied (need a proxy?)
+2017-02-14 11:05:36: Waiting for 30 sec on verb MLST _file_state_v4._gs: [connecting files.000webhost.com:21]: Permission to access socket is denied (need a proxy?)
+2017-02-14 11:06:08: Waiting for 30 sec on verb MLST _file_state_v4._gs: [connecting files.000webhost.com:21]: Permission to access socket is denied (need a proxy?)
+2017-02-14 11:06:40: Waiting for 30 sec on verb MLST _file_state_v4._gs: [connecting files.000webhost.com:21]: Permission to access socket is denied (need a proxy?)
+2017-02-14 11:07:12: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 199
+2017-02-14 11:07:12: Left to Right: Copy File: 1 
+2017-02-14 11:07:12: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-14 11:07:14: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php'
+2017-02-14 11:07:16: == Sync Complete. Time: 00:00:04, Speed: 1.86 KB/s, OK: 1, Errors: 0
+2017-02-14 11:07:16: 

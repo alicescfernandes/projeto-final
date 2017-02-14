@@ -2,7 +2,7 @@
 <html class="project-categories">
   <head><?php require_once('./includes/_header.php') ?>
 
-<title>Fotografias | Alice Fernandes - Web Developemnt & Design</title>
+<title>Fotografias | Alice Fernandes - Web Development & Design</title>
 
 
 <meta name="robots" content="index, follow">

@@ -1,0 +1,18 @@
+2017-02-14 11:27:18: -- Analysis Started by On File Change Incremental
+2017-02-14 11:27:20: Changes: 6, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 199
+2017-02-14 11:27:20: Left to Right: Copy File: 6 
+2017-02-14 11:27:20: == Sync Started by On File Change Incremental
+2017-02-14 11:27:22: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php'
+2017-02-14 11:27:24: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/contacts.php' -> 'ftp://files.000webhost.com/public_html/templates/contacts.php'
+2017-02-14 11:27:26: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/index.php' -> 'ftp://files.000webhost.com/public_html/templates/index.php'
+2017-02-14 11:27:27: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php'
+2017-02-14 11:27:29: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/project-template.php' -> 'ftp://files.000webhost.com/public_html/templates/project-template.php'
+2017-02-14 11:27:30: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/simple-article.php' -> 'ftp://files.000webhost.com/public_html/templates/simple-article.php'
+2017-02-14 11:27:32: == Sync Complete. Time: 00:00:12, Speed: 2.61 KB/s, OK: 6, Errors: 0
+2017-02-14 11:27:33: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-14 11:27:33: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 199
+2017-02-14 11:27:33: Left to Right: Copy File: 1 
+2017-02-14 11:27:33: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-14 11:27:36: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/galeria.php' -> 'ftp://files.000webhost.com/public_html/templates/galeria.php'
+2017-02-14 11:27:38: == Sync Complete. Time: 00:00:05, Speed: 2.25 KB/s, OK: 1, Errors: 0
+2017-02-14 11:27:38: 

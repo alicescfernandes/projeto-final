@@ -1,0 +1,11 @@
+2017-02-14 11:07:23: -- Analysis Started by On File Change Incremental
+2017-02-14 11:07:24: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 199
+2017-02-14 11:07:24: Left to Right: Copy File: 1 
+2017-02-14 11:07:24: == Sync Started by On File Change Incremental
+2017-02-14 11:07:27: C:/Users/Cet24/Desktop/projeto-final/templates/index.php: Source file has changed between Analyze and Sync from '[file] size=3 068 accu-time=2017-02-14 11:06:10 attr=Archive' to 'size=3 070 time=2017-02-14 11:07:23', noted in source file state
+2017-02-14 11:07:27: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/index.php' -> 'ftp://files.000webhost.com/public_html/templates/index.php'
+2017-02-14 11:07:29: == Sync Complete. Time: 00:00:05, Speed: 2.28 KB/s, OK: 1, Errors: 0
+2017-02-14 11:07:30: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-14 11:07:30: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 199
+2017-02-14 11:07:30: -- Analysis Complete. Time 00:00:06, Speed: 33 files/s
+2017-02-14 11:07:30: 
