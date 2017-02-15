@@ -1,0 +1,9 @@
+2017-02-15 18:49:07: -- Analysis Started by User
+2017-02-15 18:49:17: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 245
+2017-02-15 18:49:17: Left to Right: Copy File: 1 
+2017-02-15 18:49:17: -- Analysis Complete. Time 00:00:12, Speed: 7 files/s
+2017-02-15 18:49:17: 
+2017-02-15 18:50:26: == Sync Started by User
+2017-02-15 18:50:30: Copy Over 'C:/Users/HP/Desktop/projeto-final/index.php' -> 'ftp://files.000webhost.com/public_html/index.php'
+2017-02-15 18:50:32: == Sync Complete. Time: 00:00:08, Speed: 462 bytes/s, OK: 1, Errors: 0
+2017-02-15 18:50:32: 

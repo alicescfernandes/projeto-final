@@ -1,0 +1,9 @@
+2017-02-15 18:51:31: -- Analysis Started by User
+2017-02-15 18:51:42: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 245
+2017-02-15 18:51:42: Left to Right: Copy File: 1 
+2017-02-15 18:51:42: -- Analysis Complete. Time 00:00:13, Speed: 7 files/s
+2017-02-15 18:51:42: 
+2017-02-15 18:51:51: == Sync Started by User
+2017-02-15 18:51:54: Copy Over 'C:/Users/HP/Desktop/projeto-final/.htaccess' -> 'ftp://files.000webhost.com/public_html/.htaccess'
+2017-02-15 18:51:56: == Sync Complete. Time: 00:00:08, Speed: 441 bytes/s, OK: 1, Errors: 0
+2017-02-15 18:51:57: 

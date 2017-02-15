@@ -1,10 +1,5 @@
-
 <?php
-
-//Página/
-
 $request = $_SERVER['REQUEST_URI'];
-
 $urlStrings = explode("/", $request);
 
 switch ($urlStrings[1]) {
@@ -26,5 +21,4 @@ switch ($urlStrings[1]) {
 		default:
 			include('templates/index.php');
 }
-
 ?>
