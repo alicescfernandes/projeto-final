@@ -1,0 +1,322 @@
+2017-02-14 21:45:57: -- Analysis Started by User
+2017-02-14 21:46:13: /jade/_includes/_footer.jade: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /jade/_includes/_head.jade: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /jade/_includes/_header.jade: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /jade/_includes/_sidebar.jade: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/code_generator.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/contactform.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/contents.html: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/contentsutf8.html: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/DKIM.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/exceptions.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/gmail.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/gmail_xoauth.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/images/phpmailer.png: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/images/phpmailer_mini.png: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/index.html: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/mail.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/mailing_list.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/pop_before_smtp.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/scripts/shAutoloader.js: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/scripts/shBrushPhp.js: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/scripts/shCore.js: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/scripts/shLegacy.js: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/scripts/XRegExp.js: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/send_file_upload.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/send_multiple_file_upload.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/sendmail.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/signed-mail.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/smtp.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/smtp_check.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/smtp_no_auth.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/ssl_options.phps: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCore.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCoreDefault.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCoreDjango.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCoreEclipse.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCoreEmacs.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCoreFadeToGrey.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCoreMDUltra.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCoreMidnight.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shCoreRDark.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeAppleScript.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeDefault.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeDjango.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeEclipse.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeEmacs.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeFadeToGrey.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeMDUltra.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeMidnight.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeRDark.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/shThemeVisualStudio.css: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/examples/styles/wrapping.png: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/extras/EasyPeasyICS.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/extras/htmlfilter.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/extras/ntlm_sasl_client.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/extras/README.md: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/get_oauth_token.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-am.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ar.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-az.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-be.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-bg.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ca.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ch.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-cs.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-da.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-de.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-el.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-eo.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-es.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-et.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-fa.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-fi.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-fo.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-fr.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-gl.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-he.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-hr.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-hu.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-id.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-it.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ja.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ka.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ko.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-lt.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-lv.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ms.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-nb.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-nl.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-pl.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-pt.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-pt_br.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ro.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-ru.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-sk.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-sl.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-sr.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-sv.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-tr.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-uk.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-vi.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-zh.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/language/phpmailer.lang-zh_cn.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/PHPMailerAutoload.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /mail/template.php: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /scss/_includes/_colors.scss: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: /scss/media-queries.scss: Warning: Older file to replace Newer file
+2017-02-14 21:46:13: Changes: 139, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 351
+2017-02-14 21:46:13: Left to Right: Copy File: 139 
+2017-02-14 21:46:13: -- Analysis Complete. Time 00:00:18, Speed: 13 files/s
+2017-02-14 21:46:13: 
+2017-02-14 21:46:23: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /scss/_includes/_colors.scss
+2017-02-14 21:46:23: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /scss/media-queries.scss
+2017-02-14 21:46:23: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /scss/ui.scss
+2017-02-14 21:46:23: Done.
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/code_generator.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/contactform.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/contents.html
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/contentsutf8.html
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/DKIM.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/exceptions.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/gmail.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/gmail_xoauth.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/images/phpmailer.png
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/images/phpmailer_mini.png
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/index.html
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/mail.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/mailing_list.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/pop_before_smtp.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/shAutoloader.js
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/shBrushPhp.js
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/shCore.js
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/shLegacy.js
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/XRegExp.js
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/send_file_upload.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/send_multiple_file_upload.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/sendmail.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/signed-mail.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/smtp.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/smtp_check.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/smtp_no_auth.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/ssl_options.phps
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCore.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreDefault.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreDjango.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreEclipse.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreEmacs.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreFadeToGrey.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreMDUltra.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreMidnight.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreRDark.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeAppleScript.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeDefault.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeDjango.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeEclipse.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeEmacs.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeFadeToGrey.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeMDUltra.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeMidnight.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeRDark.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeVisualStudio.css
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/wrapping.png
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/extras/EasyPeasyICS.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/extras/htmlfilter.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/extras/ntlm_sasl_client.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/extras/README.md
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/get_oauth_token.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-am.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ar.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-az.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-be.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-bg.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ca.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ch.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-cs.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-da.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-de.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-el.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-eo.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-es.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-et.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-fa.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-fi.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-fo.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-fr.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-gl.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-he.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-hr.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-hu.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-id.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-it.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ja.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ka.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ko.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-lt.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-lv.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ms.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-nb.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-nl.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-pl.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-pt.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-pt_br.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ro.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ru.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-sk.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-sl.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-sr.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-sv.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-tr.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-uk.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-vi.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-zh.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-zh_cn.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/PHPMailerAutoload.php
+2017-02-14 21:46:25: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/template.php
+2017-02-14 21:46:25: Done.
+2017-02-14 21:46:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_footer.jade
+2017-02-14 21:46:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_head.jade
+2017-02-14 21:46:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_header.jade
+2017-02-14 21:46:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_sidebar.jade
+2017-02-14 21:46:26: Done.
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/.gitattributes
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/.gitignore
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/bower.json
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/CHANGELOG.md
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/composer.json
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/1_b.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/1_s.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/2_b.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/2_s.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/3_b.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/3_s.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/4_b.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/4_s.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/5_b.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/5_s.jpg
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/ajax.txt
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/iframe.html
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/index.html
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/fancybox.jquery.json
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/gulpfile.js
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib/jquery-1.10.2.min.js
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib/jquery.mousewheel.pack.js
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/package.json
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/README.md
+2017-02-14 21:46:27: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/sprite.psd
+2017-02-14 21:46:27: Done.
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/.gitattributes
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/.gitignore
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/bower.json
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/CHANGELOG.md
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/composer.json
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/1_b.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/1_s.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/2_b.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/2_s.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/3_b.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/3_s.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/4_b.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/4_s.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/5_b.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/5_s.jpg
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/ajax.txt
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/iframe.html
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/index.html
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/fancybox.jquery.json
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/gulpfile.js
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib/jquery-1.10.2.min.js
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib/jquery.mousewheel.pack.js
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/package.json
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/README.md
+2017-02-14 21:46:28: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/sprite.psd
+2017-02-14 21:46:28: Done.
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/.gitattributes
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/.gitignore
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/bower.json
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/CHANGELOG.md
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/composer.json
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/1_b.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/1_s.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/2_b.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/2_s.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/3_b.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/3_s.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/4_b.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/4_s.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/5_b.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/5_s.jpg
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/ajax.txt
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/iframe.html
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/index.html
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/fancybox.jquery.json
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/gulpfile.js
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib/jquery-1.10.2.min.js
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib/jquery.mousewheel.pack.js
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/package.json
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/README.md
+2017-02-14 21:46:29: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/sprite.psd
+2017-02-14 21:46:29: Done.
+2017-02-14 21:46:31: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a.zip
+2017-02-14 21:46:31: Done.
+2017-02-14 21:46:37: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_footer.jade
+2017-02-14 21:46:37: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_head.jade
+2017-02-14 21:46:37: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_header.jade
+2017-02-14 21:46:37: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_sidebar.jade
+2017-02-14 21:46:37: Done.
+2017-02-14 21:46:40: Done.
+2017-02-14 21:46:44: == Sync Started by User
+2017-02-14 21:46:47: Copy Over 'C:/Users/HP/Desktop/projeto-final/localhost.sql' -> 'ftp://files.000webhost.com/public_html/localhost.sql'
+2017-02-14 21:46:49: Copy Over 'C:/Users/HP/Desktop/projeto-final/script/script.js' -> 'ftp://files.000webhost.com/public_html/script/script.js'
+2017-02-14 21:46:52: == Sync Complete. Time: 00:00:11, Speed: 1,99 KB/s, OK: 2, Errors: 0
+2017-02-14 21:46:52: 

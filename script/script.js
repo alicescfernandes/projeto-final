@@ -14,7 +14,6 @@ window.onload = function() {
     for(var i = 0; i!= slides.length;i++){
       slides[i].style.width = screenW + "px";
     }
-
     var intervalo = window.setInterval(function() {
 
         if (currentSlide <= slides.length - 1) {

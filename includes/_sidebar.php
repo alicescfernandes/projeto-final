@@ -8,7 +8,7 @@
     <ul>
       <li class="menu-item"> <a href="http://<?php echo($_SERVER['HTTP_HOST']) ?>">Home</a></li>
       <li class="menu-item">
-        <label for="submenu-toggle">Portfolio</label>
+        <label for="submenu-toggle">Portfolio <i class="icon-chevron-down"></i></label>
       </li>
       <input type="checkbox" id="submenu-toggle"/>
       <ul class="sub-menu">

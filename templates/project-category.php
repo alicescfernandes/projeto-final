@@ -88,8 +88,8 @@
              $media = $resultImages->fetch_assoc();
 
 
-              $resultHTML = "<div class=\"panel panel-small\"><a class=\"panel-link\" href=\"/projeto/".$row['uri']."\"></a>
-                             <div style=\"background-image:url(http://$host/media/".$media['src']."@1280.jpg)\" class=\"panel-image\"> <h3>$nome</h3></div>
+              $resultHTML = "<div class=\"panel panel-small\"><a style=\"background-image:url(http://$host/media/".$media['src']."@1280.jpg)\" class=\"panel-image panel-link\" href=\"/projeto/".$row['uri']."\"> <h3>$nome</h3></a>
+
 
                               <div class=\"panel-small-bottom\">$tagsHTML</div>
                               </div>";

@@ -4,8 +4,8 @@ GOALS TO BECOME THE ULTIMATE CODEBENDER (ง ͠° ͟ل͜ ͡°)ง
 
 
 - Implement favicon
-- Implement open graph for social
 - Implement/finish meta tags for seo
+- Clean Up the files & directories
 [OPTIONAL]- Prepare databse for analytics
 	[OPTIONAL]- Implement analytics-retrieve data for server-sider
 		[OPTIONAL]-Implement generated graph views for saved analytics data

@@ -28,7 +28,7 @@
     $string = $randImages[$randArray[$i]];
     $description = $randImagesDescription[$randArray[$i]];
     $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
-    $resultHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"><div class=\"title\"><p>$description</p></div></div>";
+    $resultHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"></div>";
   }
 ?>
 <title>Sobre Mim | Alice Fernandes - Web Development & Design</title>

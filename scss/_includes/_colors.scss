@@ -16,12 +16,23 @@ $black-submenu-background: #1f1f1f;
 $black-submenu-foreground: #686a67;
 $black-body-background: #292929;
 $black-card-background: #2e2e2e;
-
 $black-panel-border: #212121;
 
 //Dark green color scheme
 $green-body-background: #272827;
 $green-card-background: #2c2e2c;
+
+
+//Actual variables for the layout
+$btn-menu-background: $black-btn-menu-background;
+$btn-menu-foreground: $black-btn-menu-foreground;
+$menu-background: $black-menu-background;
+$menu-foreground: $black-menu-foreground;
+$submenu-background: $black-submenu-background;
+$submenu-foreground: $black-submenu-foreground;
+$body-background: $green-body-background;
+$card-background: $green-card-background;
+$panel-border: $black-panel-border;
 
 
 

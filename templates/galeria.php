@@ -21,9 +21,9 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
    $randImagesDescription[$a] = $row->title;
    $a++;
 
-   $resultHTML.='<div class="panel panel-small panel-foto "><a rel="galeria" class="panel-link fancybox" href="http://'.$host.'/media/'.$row->src.'@1280.jpg" style="background-image:url(http://'.$host.'/media/'.$row->src.'@1280.jpg);" title="'.$row->nome.'"></a>
-                      <h3>'.$row->nome.'</h3>
-                   </div>';
+   $resultHTML.='<div class="panel panel-small panel-foto "><a rel="galeria" class="panel-link fancybox" href="http://'.$host.'/media/'.$row->src.'@1280.jpg" style="background-image:url(http://'.$host.'/media/'.$row->src.'@1280.jpg);" title="'.$row->nome.'">
+                 <h3>'.$row->nome.'</h3>
+                 </a></div>';
  }
   $maxImages = 3;
   $slideHTML = '';
@@ -34,7 +34,7 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
      $string = $randImages[$randArray[$i]];
      $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
      $description = $randImagesDescription[$randArray[$i]];
-     $slideHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"><div class=\"title\"><p>$description</p></div></div>";
+     $slideHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"></div>";
    }
 
  ?>

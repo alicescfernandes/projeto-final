@@ -1,0 +1,117 @@
+2017-02-15 18:35:09: -- Analysis Started by User
+2017-02-15 18:35:09: Delete abandoned lock file at C:/Users/HP/Desktop/projeto-final
+2017-02-15 18:35:11: Delete abandoned lock file at ftp://files.000webhost.com/public_html
+2017-02-15 18:35:24: /mail/examples/code_generator.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/contactform.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/contents.html: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/contentsutf8.html: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/DKIM.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/exceptions.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/gmail.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/gmail_xoauth.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/images/phpmailer.png: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/images/phpmailer_mini.png: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/index.html: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/mail.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/mailing_list.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/pop_before_smtp.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/scripts/shAutoloader.js: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/scripts/shBrushPhp.js: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/scripts/shCore.js: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/scripts/shLegacy.js: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/scripts/XRegExp.js: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/send_file_upload.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/send_multiple_file_upload.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/sendmail.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/signed-mail.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/smtp.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/smtp_check.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/smtp_no_auth.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/ssl_options.phps: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCore.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCoreDefault.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCoreDjango.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCoreEclipse.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCoreEmacs.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCoreFadeToGrey.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCoreMDUltra.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCoreMidnight.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shCoreRDark.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeAppleScript.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeDefault.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeDjango.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeEclipse.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeEmacs.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeFadeToGrey.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeMDUltra.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeMidnight.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeRDark.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/shThemeVisualStudio.css: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/examples/styles/wrapping.png: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/extras/EasyPeasyICS.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/extras/htmlfilter.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/extras/ntlm_sasl_client.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/extras/README.md: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/get_oauth_token.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-am.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ar.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-az.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-be.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-bg.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ca.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ch.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-cs.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-da.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-de.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-el.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-eo.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-es.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-et.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-fa.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-fi.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-fo.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-fr.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-gl.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-he.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-hr.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-hu.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-id.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-it.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ja.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ka.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ko.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-lt.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-lv.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ms.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-nb.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-nl.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-pl.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-pt.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-pt_br.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ro.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-ru.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-sk.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-sl.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-sr.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-sv.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-tr.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-uk.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-vi.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-zh.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/language/phpmailer.lang-zh_cn.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/PHPMailerAutoload.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: /mail/template.php: Warning: Older file to replace Newer file
+2017-02-15 18:35:24: Changes: 107, Conflicts: 0, CopyTime: 0, CopyState: 0/30, Errors: 0, All: 350
+2017-02-15 18:35:24: Left to Right: Copy File: 107 
+2017-02-15 18:35:24: -- Analysis Complete. Time 00:00:16, Speed: 12 files/s
+2017-02-15 18:35:24: 
+2017-02-15 18:35:32: == Sync Started by User
+2017-02-15 18:35:36: Copy Over 'C:/Users/HP/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-15 18:35:38: Stop requested by Stop By User: #1
+2017-02-15 18:35:38: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php'
+- ERROR: stopped by Stop By User
+2017-02-15 18:35:41: stopped by Stop By User
+2017-02-15 18:35:41: 
+2017-02-15 18:36:17: Stop requested by Stop By User: #1
+2017-02-15 18:36:17: Cannot connect to ftp://files.000webhost.com/public_html: receiving line: [receiving data files.000webhost.com:21]: Connection was aborted due to timeout or other failure
+2017-02-15 18:36:17: 

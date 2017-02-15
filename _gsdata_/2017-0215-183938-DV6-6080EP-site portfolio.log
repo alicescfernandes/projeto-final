@@ -1,0 +1,16 @@
+2017-02-15 18:39:40: -- Analysis Started by User
+2017-02-15 18:39:50: Changes: 8, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 350
+2017-02-15 18:39:50: Left to Right: Copy File: 8 
+2017-02-15 18:39:50: -- Analysis Complete. Time 00:00:12, Speed: 7 files/s
+2017-02-15 18:39:50: 
+2017-02-15 18:40:13: == Sync Started by User
+2017-02-15 18:40:15: Create Folder 'ftp://files.000webhost.com/public_html/templates'
+2017-02-15 18:40:16: Copy New 'C:/Users/HP/Desktop/projeto-final/index.php' -> 'ftp://files.000webhost.com/public_html/index.php'
+2017-02-15 18:40:18: Copy New 'C:/Users/HP/Desktop/projeto-final/templates/contacts.php' -> 'ftp://files.000webhost.com/public_html/templates/contacts.php'
+2017-02-15 18:40:19: Copy New 'C:/Users/HP/Desktop/projeto-final/templates/galeria.php' -> 'ftp://files.000webhost.com/public_html/templates/galeria.php'
+2017-02-15 18:40:21: Copy New 'C:/Users/HP/Desktop/projeto-final/templates/index.php' -> 'ftp://files.000webhost.com/public_html/templates/index.php'
+2017-02-15 18:40:23: Copy New 'C:/Users/HP/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php'
+2017-02-15 18:40:24: Copy New 'C:/Users/HP/Desktop/projeto-final/templates/project-template.php' -> 'ftp://files.000webhost.com/public_html/templates/project-template.php'
+2017-02-15 18:40:26: Copy New 'C:/Users/HP/Desktop/projeto-final/templates/simple-article.php' -> 'ftp://files.000webhost.com/public_html/templates/simple-article.php'
+2017-02-15 18:40:29: == Sync Complete. Time: 00:00:19, Speed: 2,14 KB/s, OK: 8, Errors: 0
+2017-02-15 18:40:29: 

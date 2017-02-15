@@ -1,0 +1,395 @@
+2017-02-14 21:33:27: -- Analysis Started by User
+2017-02-14 21:33:27: User Override Deleted Lock at C:/Users/HP/Desktop/projeto-final
+2017-02-14 21:33:45: /.gitattributes: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /.htaccess: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /css/media-queries.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /img/bg-dummy@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /img/bg-dummy@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /img/slide1-dummy@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /img/slide1-dummy@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /img/slide2-dummy@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /img/slide2-dummy@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /img/slide3-dummy@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /img/slide3-dummy@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /includes/_footer.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /includes/_head.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /includes/_sidebar.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/_includes/_footer.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/_includes/_head.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/_includes/_header.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/_includes/_sidebar.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/contacts.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/galeria.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/index.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/project-category.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/project-template.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /jade/simple-article.jade: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/class.phpmailer.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/class.phpmaileroauth.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/class.phpmaileroauthgoogle.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/class.pop3.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/class.smtp.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/code_generator.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/contactform.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/contents.html: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/contentsutf8.html: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/DKIM.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/exceptions.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/gmail.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/gmail_xoauth.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/images/phpmailer.png: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/images/phpmailer_mini.png: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/index.html: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/mail.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/mailing_list.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/pop_before_smtp.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/scripts/shAutoloader.js: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/scripts/shBrushPhp.js: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/scripts/shCore.js: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/scripts/shLegacy.js: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/scripts/XRegExp.js: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/send_file_upload.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/send_multiple_file_upload.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/sendmail.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/signed-mail.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/smtp.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/smtp_check.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/smtp_no_auth.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/ssl_options.phps: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCore.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCoreDefault.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCoreDjango.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCoreEclipse.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCoreEmacs.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCoreFadeToGrey.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCoreMDUltra.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCoreMidnight.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shCoreRDark.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeAppleScript.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeDefault.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeDjango.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeEclipse.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeEmacs.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeFadeToGrey.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeMDUltra.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeMidnight.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeRDark.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/shThemeVisualStudio.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/examples/styles/wrapping.png: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/extras/EasyPeasyICS.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/extras/htmlfilter.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/extras/ntlm_sasl_client.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/extras/README.md: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/get_oauth_token.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-am.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ar.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-az.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-be.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-bg.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ca.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ch.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-cs.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-da.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-de.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-el.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-eo.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-es.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-et.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-fa.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-fi.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-fo.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-fr.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-gl.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-he.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-hr.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-hu.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-id.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-it.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ja.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ka.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ko.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-lt.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-lv.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ms.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-nb.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-nl.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-pl.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-pt.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-pt_br.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ro.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-ru.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-sk.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-sl.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-sr.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-sv.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-tr.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-uk.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-vi.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-zh.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/language/phpmailer.lang-zh_cn.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/PHPMailerAutoload.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /mail/template.php: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img1@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img1@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img2@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img2@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img3@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img3@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img4@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img4@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img5@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img5@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img6@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img6@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img@1280.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /media/img@1900.jpg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /plants-for-now.txt: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /projeto-final.zip: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /script/analytics.js: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /scss/_includes/_colors.scss: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /scss/media-queries.scss: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/demo-files/demo.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/demo-files/demo.js: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/demo.html: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/fonts/Entypo-Social-Extension.eot: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/fonts/Entypo-Social-Extension.svg: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/fonts/Entypo-Social-Extension.ttf: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/fonts/Entypo-Social-Extension.woff: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/Read Me.txt: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/selection.json: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/entypo social/style.css: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: /webfont/source sans.txt: Warning: Older file to replace Newer file
+2017-02-14 21:33:45: Changes: 214, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 351
+2017-02-14 21:33:45: Left to Right: Copy File: 214 
+2017-02-14 21:33:45: -- Analysis Complete. Time 00:00:19, Speed: 12 files/s
+2017-02-14 21:33:45: 
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/.gitattributes
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/.gitignore
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/bower.json
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/CHANGELOG.md
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/composer.json
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/1_b.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/1_s.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/2_b.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/2_s.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/3_b.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/3_s.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/4_b.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/4_s.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/5_b.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/5_s.jpg
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/ajax.txt
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/iframe.html
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/index.html
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/fancybox.jquery.json
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/gulpfile.js
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib/jquery-1.10.2.min.js
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/lib/jquery.mousewheel.pack.js
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/package.json
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/README.md
+2017-02-14 21:34:26: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/sprite.psd
+2017-02-14 21:34:26: Done.
+2017-02-14 21:34:30: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /fancyapps-fancyBox-v2.1.6-0-gc00852a.zip
+2017-02-14 21:34:30: Done.
+2017-02-14 21:34:34: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_footer.jade
+2017-02-14 21:34:34: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_head.jade
+2017-02-14 21:34:34: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_header.jade
+2017-02-14 21:34:34: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /jade/_includes/_sidebar.jade
+2017-02-14 21:34:34: Done.
+2017-02-14 21:34:38: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /localhost.sql
+2017-02-14 21:34:38: Done.
+2017-02-14 21:34:44: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'COPY_RIGHT_TO_LEFT' on item /projeto-final.zip
+2017-02-14 21:34:44: Done.
+2017-02-14 21:34:48: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /scss/_includes/_colors.scss
+2017-02-14 21:34:48: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /scss/media-queries.scss
+2017-02-14 21:34:48: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /scss/ui.scss
+2017-02-14 21:34:48: Done.
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/code_generator.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/contactform.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/contents.html
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/contentsutf8.html
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/DKIM.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/exceptions.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/gmail.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/gmail_xoauth.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/images/phpmailer.png
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/images/phpmailer_mini.png
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/index.html
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/mail.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/mailing_list.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/pop_before_smtp.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/shAutoloader.js
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/shBrushPhp.js
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/shCore.js
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/shLegacy.js
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/scripts/XRegExp.js
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/send_file_upload.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/send_multiple_file_upload.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/sendmail.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/signed-mail.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/smtp.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/smtp_check.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/smtp_no_auth.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/ssl_options.phps
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCore.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreDefault.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreDjango.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreEclipse.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreEmacs.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreFadeToGrey.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreMDUltra.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreMidnight.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shCoreRDark.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeAppleScript.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeDefault.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeDjango.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeEclipse.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeEmacs.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeFadeToGrey.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeMDUltra.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeMidnight.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeRDark.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/shThemeVisualStudio.css
+2017-02-14 21:35:02: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/examples/styles/wrapping.png
+2017-02-14 21:35:02: Done.
+2017-02-14 21:35:03: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/extras/EasyPeasyICS.php
+2017-02-14 21:35:03: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/extras/htmlfilter.php
+2017-02-14 21:35:03: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/extras/ntlm_sasl_client.php
+2017-02-14 21:35:03: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/extras/README.md
+2017-02-14 21:35:03: Done.
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-am.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ar.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-az.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-be.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-bg.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ca.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ch.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-cs.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-da.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-de.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-el.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-eo.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-es.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-et.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-fa.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-fi.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-fo.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-fr.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-gl.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-he.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-hr.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-hu.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-id.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-it.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ja.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ka.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ko.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-lt.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-lv.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ms.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-nb.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-nl.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-pl.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-pt.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-pt_br.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ro.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-ru.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-sk.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-sl.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-sr.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-sv.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-tr.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-uk.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-vi.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-zh.php
+2017-02-14 21:35:04: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/language/phpmailer.lang-zh_cn.php
+2017-02-14 21:35:04: Done.
+2017-02-14 21:35:06: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/PHPMailerAutoload.php
+2017-02-14 21:35:07: Done.
+2017-02-14 21:35:07: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/template.php
+2017-02-14 21:35:07: Done.
+2017-02-14 21:35:08: === User Changed Action from 'COPY_LEFT_TO_RIGHT' to 'NO_COPY' on item /mail/get_oauth_token.php
+2017-02-14 21:35:08: Done.
+2017-02-14 21:35:14: == Sync Started by User
+2017-02-14 21:35:15: Create Folder 'ftp://files.000webhost.com/public_html/fancybox'
+2017-02-14 21:35:18: Copy Over 'C:/Users/HP/Desktop/projeto-final/.gitattributes' -> 'ftp://files.000webhost.com/public_html/.gitattributes'
+2017-02-14 21:35:19: Copy Over 'C:/Users/HP/Desktop/projeto-final/.htaccess' -> 'ftp://files.000webhost.com/public_html/.htaccess'
+2017-02-14 21:35:21: Copy Over 'C:/Users/HP/Desktop/projeto-final/css/media-queries.css' -> 'ftp://files.000webhost.com/public_html/css/media-queries.css'
+2017-02-14 21:35:23: Copy Over 'C:/Users/HP/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-14 21:35:25: Copy New 'C:/Users/HP/Desktop/projeto-final/fancybox/blank.gif' -> 'ftp://files.000webhost.com/public_html/fancybox/blank.gif'
+2017-02-14 21:35:26: Copy New 'C:/Users/HP/Desktop/projeto-final/fancybox/fancybox_loading.gif' -> 'ftp://files.000webhost.com/public_html/fancybox/fancybox_loading.gif'
+2017-02-14 21:35:28: Copy New 'C:/Users/HP/Desktop/projeto-final/fancybox/fancybox_loading@2x.gif' -> 'ftp://files.000webhost.com/public_html/fancybox/fancybox_loading@2x.gif'
+2017-02-14 21:35:29: Copy New 'C:/Users/HP/Desktop/projeto-final/fancybox/fancybox_overlay.png' -> 'ftp://files.000webhost.com/public_html/fancybox/fancybox_overlay.png'
+2017-02-14 21:35:30: Copy New 'C:/Users/HP/Desktop/projeto-final/fancybox/fancybox_sprite.png' -> 'ftp://files.000webhost.com/public_html/fancybox/fancybox_sprite.png'
+2017-02-14 21:35:32: Copy New 'C:/Users/HP/Desktop/projeto-final/fancybox/fancybox_sprite@2x.png' -> 'ftp://files.000webhost.com/public_html/fancybox/fancybox_sprite@2x.png'
+2017-02-14 21:35:33: Copy New 'C:/Users/HP/Desktop/projeto-final/fancybox/jquery.fancybox.css' -> 'ftp://files.000webhost.com/public_html/fancybox/jquery.fancybox.css'
+2017-02-14 21:35:36: Copy New 'C:/Users/HP/Desktop/projeto-final/fancybox/jquery.fancybox.js' -> 'ftp://files.000webhost.com/public_html/fancybox/jquery.fancybox.js'
+2017-02-14 21:35:40: Copy Over 'C:/Users/HP/Desktop/projeto-final/img/bg-dummy@1280.jpg' -> 'ftp://files.000webhost.com/public_html/img/bg-dummy@1280.jpg'
+2017-02-14 21:35:44: Copy Over 'C:/Users/HP/Desktop/projeto-final/img/bg-dummy@1900.jpg' -> 'ftp://files.000webhost.com/public_html/img/bg-dummy@1900.jpg'
+2017-02-14 21:35:49: Copy Over 'C:/Users/HP/Desktop/projeto-final/img/slide1-dummy@1280.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide1-dummy@1280.jpg'
+2017-02-14 21:35:51: Copy Over 'C:/Users/HP/Desktop/projeto-final/img/slide1-dummy@1900.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide1-dummy@1900.jpg'
+2017-02-14 21:35:54: Copy Over 'C:/Users/HP/Desktop/projeto-final/img/slide2-dummy@1280.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide2-dummy@1280.jpg'
+2017-02-14 21:35:57: Copy Over 'C:/Users/HP/Desktop/projeto-final/img/slide2-dummy@1900.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide2-dummy@1900.jpg'
+2017-02-14 21:35:59: Copy Over 'C:/Users/HP/Desktop/projeto-final/img/slide3-dummy@1280.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide3-dummy@1280.jpg'
+2017-02-14 21:36:02: Copy Over 'C:/Users/HP/Desktop/projeto-final/img/slide3-dummy@1900.jpg' -> 'ftp://files.000webhost.com/public_html/img/slide3-dummy@1900.jpg'
+2017-02-14 21:36:04: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_footer.php' -> 'ftp://files.000webhost.com/public_html/includes/_footer.php'
+2017-02-14 21:36:06: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_head.php' -> 'ftp://files.000webhost.com/public_html/includes/_head.php'
+2017-02-14 21:36:07: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php'
+2017-02-14 21:36:09: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_sidebar.php' -> 'ftp://files.000webhost.com/public_html/includes/_sidebar.php'
+2017-02-14 21:36:10: Copy Over 'C:/Users/HP/Desktop/projeto-final/index.php' -> 'ftp://files.000webhost.com/public_html/index.php'
+2017-02-14 21:36:12: Copy Over 'C:/Users/HP/Desktop/projeto-final/jade/contacts.jade' -> 'ftp://files.000webhost.com/public_html/jade/contacts.jade'
+2017-02-14 21:36:14: Copy Over 'C:/Users/HP/Desktop/projeto-final/jade/galeria.jade' -> 'ftp://files.000webhost.com/public_html/jade/galeria.jade'
+2017-02-14 21:36:16: Copy Over 'C:/Users/HP/Desktop/projeto-final/jade/index.jade' -> 'ftp://files.000webhost.com/public_html/jade/index.jade'
+2017-02-14 21:36:17: Copy Over 'C:/Users/HP/Desktop/projeto-final/jade/project-category.jade' -> 'ftp://files.000webhost.com/public_html/jade/project-category.jade'
+2017-02-14 21:36:19: Copy Over 'C:/Users/HP/Desktop/projeto-final/jade/project-template.jade' -> 'ftp://files.000webhost.com/public_html/jade/project-template.jade'
+2017-02-14 21:36:21: Copy Over 'C:/Users/HP/Desktop/projeto-final/jade/simple-article.jade' -> 'ftp://files.000webhost.com/public_html/jade/simple-article.jade'
+2017-02-14 21:36:24: Copy Over 'C:/Users/HP/Desktop/projeto-final/mail/class.phpmailer.php' -> 'ftp://files.000webhost.com/public_html/mail/class.phpmailer.php'
+2017-02-14 21:36:26: Copy Over 'C:/Users/HP/Desktop/projeto-final/mail/class.phpmaileroauth.php' -> 'ftp://files.000webhost.com/public_html/mail/class.phpmaileroauth.php'
+2017-02-14 21:36:28: Copy Over 'C:/Users/HP/Desktop/projeto-final/mail/class.phpmaileroauthgoogle.php' -> 'ftp://files.000webhost.com/public_html/mail/class.phpmaileroauthgoogle.php'
+2017-02-14 21:36:29: Copy Over 'C:/Users/HP/Desktop/projeto-final/mail/class.pop3.php' -> 'ftp://files.000webhost.com/public_html/mail/class.pop3.php'
+2017-02-14 21:36:32: Copy Over 'C:/Users/HP/Desktop/projeto-final/mail/class.smtp.php' -> 'ftp://files.000webhost.com/public_html/mail/class.smtp.php'
+2017-02-14 21:36:36: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img1@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img1@1280.jpg'
+2017-02-14 21:36:39: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img1@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img1@1900.jpg'
+2017-02-14 21:36:43: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img2@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img2@1280.jpg'
+2017-02-14 21:36:47: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img2@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img2@1900.jpg'
+2017-02-14 21:36:50: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img3@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img3@1280.jpg'
+2017-02-14 21:36:52: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img3@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img3@1900.jpg'
+2017-02-14 21:36:55: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img4@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img4@1280.jpg'
+2017-02-14 21:36:58: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img4@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img4@1900.jpg'
+2017-02-14 21:37:00: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img5@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img5@1280.jpg'
+2017-02-14 21:37:05: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img5@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img5@1900.jpg'
+2017-02-14 21:37:08: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img6@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img6@1280.jpg'
+2017-02-14 21:37:11: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img6@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img6@1900.jpg'
+2017-02-14 21:37:13: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/img@1280.jpg'
+2017-02-14 21:37:16: Copy Over 'C:/Users/HP/Desktop/projeto-final/media/img@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/img@1900.jpg'
+2017-02-14 21:37:18: Copy Over 'C:/Users/HP/Desktop/projeto-final/php/db-constants.php' -> 'ftp://files.000webhost.com/public_html/php/db-constants.php'
+2017-02-14 21:37:20: Copy Over 'C:/Users/HP/Desktop/projeto-final/plants-for-now.txt' -> 'ftp://files.000webhost.com/public_html/plants-for-now.txt'
+2017-02-14 21:37:21: Copy Over 'C:/Users/HP/Desktop/projeto-final/prepros-6.config' -> 'ftp://files.000webhost.com/public_html/prepros-6.config'
+2017-02-14 21:37:25: Copy Over 'ftp://files.000webhost.com/public_html/projeto-final.zip' -> 'C:/Users/HP/Desktop/projeto-final/projeto-final.zip' (User Action)
+2017-02-14 21:37:27: Copy Over 'C:/Users/HP/Desktop/projeto-final/script/analytics.js' -> 'ftp://files.000webhost.com/public_html/script/analytics.js'
+2017-02-14 21:37:29: Copy Over 'C:/Users/HP/Desktop/projeto-final/script/script.js' -> 'ftp://files.000webhost.com/public_html/script/script.js'
+2017-02-14 21:37:30: Copy Over 'C:/Users/HP/Desktop/projeto-final/sitemap.xml' -> 'ftp://files.000webhost.com/public_html/sitemap.xml'
+2017-02-14 21:37:33: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/contacts.php' -> 'ftp://files.000webhost.com/public_html/templates/contacts.php'
+2017-02-14 21:37:34: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/galeria.php' -> 'ftp://files.000webhost.com/public_html/templates/galeria.php'
+2017-02-14 21:37:36: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/index.php' -> 'ftp://files.000webhost.com/public_html/templates/index.php'
+2017-02-14 21:37:38: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php'
+2017-02-14 21:37:40: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/project-template.php' -> 'ftp://files.000webhost.com/public_html/templates/project-template.php'
+2017-02-14 21:37:42: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/simple-article.php' -> 'ftp://files.000webhost.com/public_html/templates/simple-article.php'
+2017-02-14 21:37:43: Copy Over 'C:/Users/HP/Desktop/projeto-final/user.txt' -> 'ftp://files.000webhost.com/public_html/user.txt'
+2017-02-14 21:37:45: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/demo-files/demo.css' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/demo-files/demo.css'
+2017-02-14 21:37:47: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/demo-files/demo.js' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/demo-files/demo.js'
+2017-02-14 21:37:49: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/demo.html' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/demo.html'
+2017-02-14 21:37:52: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/fonts/Entypo-Social-Extension.eot' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/fonts/Entypo-Social-Extension.eot'
+2017-02-14 21:37:56: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/fonts/Entypo-Social-Extension.svg' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/fonts/Entypo-Social-Extension.svg'
+2017-02-14 21:37:58: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/fonts/Entypo-Social-Extension.ttf' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/fonts/Entypo-Social-Extension.ttf'
+2017-02-14 21:38:00: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/fonts/Entypo-Social-Extension.woff' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/fonts/Entypo-Social-Extension.woff'
+2017-02-14 21:38:02: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/Read Me.txt' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/Read Me.txt'
+2017-02-14 21:38:06: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/selection.json' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/selection.json'
+2017-02-14 21:38:08: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/entypo social/style.css' -> 'ftp://files.000webhost.com/public_html/webfont/entypo social/style.css'
+2017-02-14 21:38:09: Copy Over 'C:/Users/HP/Desktop/projeto-final/webfont/source sans.txt' -> 'ftp://files.000webhost.com/public_html/webfont/source sans.txt'
+2017-02-14 21:38:12: == Sync Complete. Time: 00:03:00, Speed: 50,1 KB/s, OK: 76, Errors: 0
+2017-02-14 21:38:12: 
