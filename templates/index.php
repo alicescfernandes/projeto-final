@@ -18,7 +18,7 @@
       $i++;
     }
 
-   $maxImages = 3;
+   $maxImages = 5;
    $resultHTML = '';
    $randArray = range(0,count($randImages)-1);
    shuffle($randArray);
@@ -60,6 +60,8 @@
               <li class="slider-control" data-slide="1"> </li>
               <li class="slider-control" data-slide="2"></li>
               <li class="slider-control" data-slide="3"></li>
+              <li class="slider-control" data-slide="4"></li>
+              <li class="slider-control" data-slide="5"></li>
             </ul>
           </div>
         </div>

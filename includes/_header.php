@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900" rel="stylesheet"/>
 <link rel="stylesheet" media="all" href="https://cdn.rawgit.com/alicescfernandes/entypo-webfont/0fef4a46/style.css"/>
 <link rel="stylesheet" href="http://<?php echo($host) ?>/fancybox/jquery.fancybox.css"/>
-<link rel="stylesheet" href="http://<?php echo($host) ?>/css/ui.css?v2.8"/>
+<link rel="stylesheet" href="http://<?php echo($host) ?>/css/ui.css?v2.10"/>
 <link rel="stylesheet" href="http://<?php echo($host) ?>/webfont/entypo social/style.css"/>
 <script src="http://<?php echo($host) ?>/script/script.js?v1.7"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- RESPONSIVE STUFF -->

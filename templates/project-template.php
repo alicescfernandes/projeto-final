@@ -18,7 +18,7 @@
     foreach($resultadoDosSlides as $mediaSource){
       $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.jpg";
 
-      $slideHTML .="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </div>";
+      $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </a>";
       $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
       //echo($mediaSource['src']);
       $dataSlide+=1;
@@ -63,11 +63,11 @@
 
 
           <div class="panel panel-noshadow panel-fullwidth align-center panel-title panel-nobackground">
-            <h3><?php echo($row['nome']) ?></h3>
-            <p><i><?php echo($row['summary-line']) ?></i></p>
+            <h3><?php echo(mb_convert_encoding($row['nome'], 'UTF-8')) ?></h3>
+            <p><i><?php echo(mb_convert_encoding($row['summary-line'], 'UTF-8')) ?></i></p>
           </div>
           <div class="panel">
-            <?php echo($row['descricao']) ?></div>
+            <?php echo(mb_convert_encoding($row['descricao'], 'UTF-8')) ?></div>
           <div class="panel">
 
             <?php
@@ -75,7 +75,7 @@
             $tags = explode(",", $row['tags']);
             $tagsHTML = "";
             foreach($tags as $tag){
-              $tagsHTML.="<a class=\"tag\" href=\"/portfolio/".str_replace(" ", "", $tag)."\">
+              $tagsHTML.="<a class=\"tag\" href=\"/portfolio/".htmlentities(str_replace(" ", "", $tag))."\">
               <p>".str_replace("-", " ", $tag)."</p>
              </a>";
             }

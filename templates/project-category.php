@@ -23,7 +23,7 @@
     $resultadoDosSlides = $conn->query($queryParaSlides);
     foreach($resultadoDosSlides as $mediaSource){
       $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.jpg";
-      $slideHTML .="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </div>";
+      $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </a>";
       $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
       //echo($mediaSource['src']);
       $dataSlide+=1;
@@ -74,7 +74,7 @@
               $tags = explode(",", $row['tags']);
               $tagsHTML = "";
               foreach($tags as $tag){
-                $tagsHTML.="<a class=\"tag\" href=\"/portfolio/".str_replace(" ", "", $tag)."\">
+                $tagsHTML.="<a class=\"tag\" href=\"/portfolio/".htmlentities(str_replace(" ", "", $tag))."\">
                 <p>".str_replace("-", " ", $tag)."</p>
                </a>";
               }
@@ -88,10 +88,10 @@
              $media = $resultImages->fetch_assoc();
 
 
-              $resultHTML = "<div class=\"panel panel-small\"><a style=\"background-image:url(http://$host/media/".$media['src']."@1280.jpg)\" class=\"panel-image panel-link\" href=\"/projeto/".$row['uri']."\"> <h3>$nome</h3></a>
+              $resultHTML = "<div class=\"panel panel-small\"><a style=\"background-image:url(http://$host/media/".$media['src']."@1280.jpg)\" class=\"panel-image panel-link\" href=\"/projeto/".$row['uri']."\"> <h3>".mb_convert_encoding($nome, 'UTF-8')."</h3></a>
 
 
-                              <div class=\"panel-small-bottom\">$tagsHTML</div>
+                              <div class=\"panel-small-bottom\">".$tagsHTML."</div>
                               </div>";
 
             echo($resultHTML);

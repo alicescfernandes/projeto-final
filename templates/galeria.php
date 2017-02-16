@@ -18,7 +18,7 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
  while($row = $result->fetch_object()){
    $randImages[$a] = $row->src;
-   $randImagesDescription[$a] = $row->title;
+   $randImagesDescription[$a] = $row->nome;
    $a++;
 
    $resultHTML.='<div class="panel panel-small panel-foto "><a rel="galeria" class="panel-link fancybox" href="http://'.$host.'/media/'.$row->src.'@1280.jpg" style="background-image:url(http://'.$host.'/media/'.$row->src.'@1280.jpg);" title="'.$row->nome.'">
@@ -34,7 +34,7 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
      $string = $randImages[$randArray[$i]];
      $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
      $description = $randImagesDescription[$randArray[$i]];
-     $slideHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"></div>";
+     $slideHTML.="<a href=\"http://".$host . "/" ."media/".$string."@1900.jpg\" rel=\"galeria\"class=\"slide fancybox\" title=\"$description\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"></a>";
    }
 
  ?>

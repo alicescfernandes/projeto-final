@@ -15,7 +15,7 @@
         <div class="padding-box">
           <li class="submenu-item"><a href="/portfolio/3d">3D</a></li>
           <li class="submenu-item"><a href="/portfolio/web-development">Web Development</a></li>
-          <li class="submenu-item"><a href="/portfolio/design-grafico">Design Gráfico</a></li>
+          <li class="submenu-item"><a href="/portfolio/design-gr&#x26;#xE1fico">Design Gráfico</a></li>
           <li class="submenu-item"><a href="/fotografia">Fotografia</a></li>
         </div>
       </ul>
