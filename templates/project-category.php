@@ -17,7 +17,7 @@
     if($tag){
          $queryParaSlides.="WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%$tag%' LIMIT 1)";
     }else{
-       $queryParaSlides.=' LIMIT 3';
+       $queryParaSlides.= "WHERE projeto_uri NOT LIKE '%fotografia%' ORDER BY rand() LIMIT 3";
     }
 
     $resultadoDosSlides = $conn->query($queryParaSlides);
@@ -25,20 +25,19 @@
       $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.jpg";
       $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </a>";
       $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
-      //echo($mediaSource['src']);
       $dataSlide+=1;
     }
 
     ?>
-<title>Projetos em <?php if ($urlStrings[2]) echo("de " . ucwords(str_replace("-", " ", $urlStrings[2]))) ?> | Alice Fernandes - Web Development & Design</title>
+<title>Projetos em <?php if ($urlStrings[2]) echo("de " . rawurldecode(ucwords(str_replace("-", " ", $urlStrings[2])))) ?> | Alice Fernandes - Web Development & Design</title>
 
 <meta name="robots" content="index, follow">
 
-<meta name="twitter:card" content="Oi, estás a ver projetos da categoria <?php echo(ucfirst(str_replace("-", " ", $urlStrings[2]))) ?>. Se vires algum que gostas, recomeda aos teus amigos." />
+<meta name="twitter:card" content="Oi, estás a ver projetos da categoria <?php echo(rawurldecode(ucfirst(str_replace("-", " ", $urlStrings[2])))) ?>. Se vires algum que gostas, recomeda aos teus amigos." />
 <!--<meta name="twitter:site" content="@nytimesbits" />
 <meta name="twitter:creator" content="@nickbilton" />-->
 <meta property="og:title" content="Portfolio | Alice Fernandes - Web Development & Design" />
-<meta property="og:description" content="Oi, estás a ver projetos da categoria <?php echo(ucfirst(str_replace("-", " ", $urlStrings[2]))) ?>. Se vires algum que gostas, recomeda aos teus amigos." />
+<meta property="og:description" content="Oi, estás a ver projetos da categoria <?php echo(rawurldecode(ucfirst(str_replace("-", " ", $urlStrings[2])), 'UTF-8')) ?>. Se vires algum que gostas, recomeda aos teus amigos." />
 <meta property="og:image" content="<?php echo($metaImage) ?>" />
   <body>
     <input type="checkbox" id="menu-show">
@@ -75,7 +74,7 @@
               $tagsHTML = "";
               foreach($tags as $tag){
                 $tagsHTML.="<a class=\"tag\" href=\"/portfolio/".htmlentities(str_replace(" ", "", $tag))."\">
-                <p>".str_replace("-", " ", $tag)."</p>
+                <p>".rawurldecode(str_replace("-", " ", $tag))."</p>
                </a>";
               }
 

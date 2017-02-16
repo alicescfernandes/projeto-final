@@ -75,8 +75,8 @@
             $tags = explode(",", $row['tags']);
             $tagsHTML = "";
             foreach($tags as $tag){
-              $tagsHTML.="<a class=\"tag\" href=\"/portfolio/".htmlentities(str_replace(" ", "", $tag))."\">
-              <p>".str_replace("-", " ", $tag)."</p>
+              $tagsHTML.="<a class=\"tag\" href=\"/portfolio/".str_replace(" ", "", $tag)."\">
+              <p>".rawurldecode(str_replace("-", " ", $tag))."</p>
              </a>";
             }
             echo($tagsHTML);

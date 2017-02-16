@@ -247,6 +247,7 @@ header {
     -ms-user-select: none;
     user-select: none;
     display: block;
+    z-index: 97;
 
     p:first-child {
         font-weight: bold;
@@ -359,11 +360,14 @@ i.icon-cross {
         width: $bullet-size;
         height: $bullet-size;
         display: inline-block;
+        background-color: rgba(255,255,255,0.2);
         margin-right: 20px;
         border: 1px solid $bullet-color;
         border-radius: 100%;
         cursor: pointer;
         transition: background-color 0.5s;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.70);
+
     }
 
     li.active {

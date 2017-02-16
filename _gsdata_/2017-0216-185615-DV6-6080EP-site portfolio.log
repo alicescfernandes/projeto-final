@@ -1,0 +1,43 @@
+2017-02-16 18:56:17: -- Analysis Started by User
+2017-02-16 18:56:28: Changes: 35, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 273
+2017-02-16 18:56:28: Left to Right: Copy File: 35 
+2017-02-16 18:56:28: -- Analysis Complete. Time 00:00:13, Speed: 9 files/s
+2017-02-16 18:56:28: 
+2017-02-16 18:57:03: == Sync Started by User
+2017-02-16 18:57:07: Copy Over 'C:/Users/HP/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-16 18:57:09: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php'
+2017-02-16 18:57:11: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_sidebar.php' -> 'ftp://files.000webhost.com/public_html/includes/_sidebar.php'
+2017-02-16 18:57:13: Copy New 'C:/Users/HP/Desktop/projeto-final/media/3d-01@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/3d-01@1280.jpg'
+2017-02-16 18:57:15: Copy New 'C:/Users/HP/Desktop/projeto-final/media/3d-01@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/3d-01@1900.jpg'
+2017-02-16 18:57:17: Copy New 'C:/Users/HP/Desktop/projeto-final/media/3d-02@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/3d-02@1280.jpg'
+2017-02-16 18:57:20: Copy New 'C:/Users/HP/Desktop/projeto-final/media/3d-02@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/3d-02@1900.jpg'
+2017-02-16 18:57:22: Copy New 'C:/Users/HP/Desktop/projeto-final/media/3d-03@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/3d-03@1280.jpg'
+2017-02-16 18:57:24: Copy New 'C:/Users/HP/Desktop/projeto-final/media/3d-03@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/3d-03@1900.jpg'
+2017-02-16 18:57:26: Copy New 'C:/Users/HP/Desktop/projeto-final/media/car-01@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/car-01@1280.jpg'
+2017-02-16 18:57:29: Copy New 'C:/Users/HP/Desktop/projeto-final/media/car-01@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/car-01@1900.jpg'
+2017-02-16 18:57:33: Copy New 'C:/Users/HP/Desktop/projeto-final/media/cinel-01@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/cinel-01@1280.jpg'
+2017-02-16 18:57:38: Copy New 'C:/Users/HP/Desktop/projeto-final/media/cinel-01@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/cinel-01@1900.jpg'
+2017-02-16 18:57:41: Copy New 'C:/Users/HP/Desktop/projeto-final/media/cinel-02@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/cinel-02@1280.jpg'
+2017-02-16 18:57:45: Copy New 'C:/Users/HP/Desktop/projeto-final/media/cinel-02@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/cinel-02@1900.jpg'
+2017-02-16 18:57:47: Copy New 'C:/Users/HP/Desktop/projeto-final/media/cinel-03@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/cinel-03@1280.jpg'
+2017-02-16 18:57:50: Copy New 'C:/Users/HP/Desktop/projeto-final/media/cinel-03@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/cinel-03@1900.jpg'
+2017-02-16 18:57:53: Copy New 'C:/Users/HP/Desktop/projeto-final/media/connect-01@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/connect-01@1280.jpg'
+2017-02-16 18:57:56: Copy New 'C:/Users/HP/Desktop/projeto-final/media/connect-01@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/connect-01@1900.jpg'
+2017-02-16 18:57:58: Copy New 'C:/Users/HP/Desktop/projeto-final/media/diga-01@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/diga-01@1280.jpg'
+2017-02-16 18:58:01: Copy New 'C:/Users/HP/Desktop/projeto-final/media/diga-01@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/diga-01@1900.jpg'
+2017-02-16 18:58:03: Copy New 'C:/Users/HP/Desktop/projeto-final/media/kiosk-01@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/kiosk-01@1280.jpg'
+2017-02-16 18:58:06: Copy New 'C:/Users/HP/Desktop/projeto-final/media/kiosk-01@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/kiosk-01@1900.jpg'
+2017-02-16 18:58:09: Copy New 'C:/Users/HP/Desktop/projeto-final/media/maasai-01@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/maasai-01@1280.jpg'
+2017-02-16 18:58:12: Copy New 'C:/Users/HP/Desktop/projeto-final/media/maasai-01@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/maasai-01@1900.jpg'
+2017-02-16 18:58:14: Copy New 'C:/Users/HP/Desktop/projeto-final/media/unicuidar-01@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/unicuidar-01@1280.jpg'
+2017-02-16 18:58:17: Copy New 'C:/Users/HP/Desktop/projeto-final/media/unicuidar-01@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/unicuidar-01@1900.jpg'
+2017-02-16 18:58:19: Copy New 'C:/Users/HP/Desktop/projeto-final/media/unicuidar-02@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/unicuidar-02@1280.jpg'
+2017-02-16 18:58:21: Copy New 'C:/Users/HP/Desktop/projeto-final/media/unicuidar-02@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/unicuidar-02@1900.jpg'
+2017-02-16 18:58:24: Copy New 'C:/Users/HP/Desktop/projeto-final/media/unicuidar-03@1280.jpg' -> 'ftp://files.000webhost.com/public_html/media/unicuidar-03@1280.jpg'
+2017-02-16 18:58:26: Copy New 'C:/Users/HP/Desktop/projeto-final/media/unicuidar-03@1900.jpg' -> 'ftp://files.000webhost.com/public_html/media/unicuidar-03@1900.jpg'
+2017-02-16 18:58:29: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/galeria.php' -> 'ftp://files.000webhost.com/public_html/templates/galeria.php'
+2017-02-16 18:58:31: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/index.php' -> 'ftp://files.000webhost.com/public_html/templates/index.php'
+2017-02-16 18:58:32: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php'
+2017-02-16 18:58:34: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/project-template.php' -> 'ftp://files.000webhost.com/public_html/templates/project-template.php'
+2017-02-16 18:58:38: == Sync Complete. Time: 00:01:38, Speed: 86,2 KB/s, OK: 35, Errors: 0
+2017-02-16 18:58:38: 

@@ -6,20 +6,27 @@
 
   require_once('./php/db-constants.php');
   $tabela = 'media';
+  $maxImages = 3;
+  $resultHTML = '';
   $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-  $query = 'SELECT * FROM `media` GROUP BY title';
+  $query = 'SELECT * FROM `media` ORDER BY RAND() LIMIT 3';
   $result = $conn->query($query);
-  $randImages = [];
-  $randImagesDescription = [];
+  #$randImages = [];
+  #$randImagesDescription = [];
 
   $i = 0;
-  while($array = $result->fetch_object()){
+
+  while($row = $result->fetch_object()){
+    $string = $row->src;
+    $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
+    $resultHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$row->src."@1900.jpg\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$row->src."@1900.jpg)\" data-slide=\"".($i+1)."\"> </a>";
+    $i++;
+  }
+ /* while($array = $result->fetch_object()){
     $randImages[$i] = $array->src;
     $randImagesDescription[$i] = $array->title;
     $i++;
   }
-  $maxImages = 3;
-  $resultHTML = '';
   $randArray = range(0,count($randImages)-1);
   shuffle($randArray);
   $randArray = array_slice($randArray, 0, $maxImages);
@@ -29,7 +36,7 @@
     $description = $randImagesDescription[$randArray[$i]];
     $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
     $resultHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"></div>";
-  }
+  }*/
 ?>
 <title>Sobre Mim | Alice Fernandes - Web Development & Design</title>
 

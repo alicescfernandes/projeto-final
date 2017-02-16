@@ -1,0 +1,10 @@
+2017-02-16 21:14:27: -- Analysis Started by User
+2017-02-16 21:14:37: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 273
+2017-02-16 21:14:37: Left to Right: Copy File: 2 
+2017-02-16 21:14:37: -- Analysis Complete. Time 00:00:12, Speed: 10 files/s
+2017-02-16 21:14:37: 
+2017-02-16 21:15:03: == Sync Started by User
+2017-02-16 21:15:07: Copy Over 'C:/Users/HP/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-16 21:15:09: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php'
+2017-02-16 21:15:12: == Sync Complete. Time: 00:00:12, Speed: 1,54 KB/s, OK: 2, Errors: 0
+2017-02-16 21:15:13: 
