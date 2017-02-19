@@ -6,7 +6,7 @@
 <?php include_once('./includes/_header.php') ?>
 
 <?php
-
+/*
   require_once('./php/db-constants.php');
   $tabela = 'media';
   $maxImages = 3;
@@ -63,14 +63,7 @@
       <div class="main-content">
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
-            <?php echo($resultHTML); ?>
-          </div>
-          <div class="ui-component slide-controller">
-            <ul>
-              <li class="slider-control" data-slide="1"></li>
-              <li class="slider-control" data-slide="2"></li>
-              <li class="slider-control" data-slide="3"></li>
-            </ul>
+            <div rel="portfolio" href="http://localhost/media/unicuidar-03@1900.jpg" class="slide" style="background-image: url(&quot;http://localhost/media/unicuidar-03@1900.jpg&quot;); width: 1366px;"> </div>
           </div>
         </div>
         <div class="panel-container">
@@ -102,7 +95,7 @@
             $mail->Username = $email;
             $mail->Password = $passwordDoMail;
             $mail->setFrom($_POST['email'],$_POST['nome']);
-            $mail->Subject = "Novo Pedido de contacto";
+            $mail->Subject = "Nova Mensagem - ".$_POST['subject'];
             $mail->IsHTML(true);
             $mail->Body = "<p>Recebeste um novo pedido de contacto de ".$_POST['nome']."</p>
                            <p>O email é ".$_POST['email']."</p>
@@ -137,7 +130,11 @@
               </div>
               </div>
               <div class="row col70">
-              <div class="form-row">
+               <div class="form-row">
+                 <label for="subject">Título da mensagem</label>
+                 <input  type="text" id="subject" name="subject" required>
+               </div>
+               <div class="form-row">
                 <label for="mensagem">Mensagem: </label>
                 <textarea placeholder="Sem spam por favor :)" id="mensagem" name="mensagem" required minlength="10" maxlength="230"></textarea>
               </div>

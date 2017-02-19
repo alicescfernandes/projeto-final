@@ -55,20 +55,13 @@
       <div class="main-content">
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
-            <?php echo($resultHTML); ?>
-          </div>
-          <div class="ui-component slide-controller">
-            <ul>
-              <li class="slider-control" data-slide="1"></li>
-              <li class="slider-control" data-slide="2"></li>
-              <li class="slider-control" data-slide="3"></li>
-            </ul>
+            <div class="slide" style="background-image: url(&quot;http://localhost/media/unicuidar-03@1900.jpg&quot;); width: 1366px;"> </div>
           </div>
         </div>
         <div class="panel-container">
           <div class="panel panel-noshadow panel-fullwidth align-center panel-title panel-nobackground">
             <h3>Sobre Mim</h3>
-            <p><i>Alice Fernandes: Junior Javascript Wizard</i></p>
+            <p><i>Web Developer com conhecimentos de Design Gráfico e Web Design.</i></p>
           </div>
           <div class="panel panel-simple">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur hendrerit purus, ut volutpat enim posuere a. Donec efficitur quam nec orci aliquam, ac fringilla ipsum vehicula. Praesent sagittis lacinia diam. Suspendisse fringilla varius diam, in rhoncus libero auctor ut. Aliquam sed justo lorem. Vivamus venenatis lacus ligula, faucibus aliquet enim malesuada at. Sed vel eros nunc. Donec erat risus, tincidunt vitae commodo vel, congue eget lectus.</p>

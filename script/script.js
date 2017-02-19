@@ -2,6 +2,9 @@ function clickFunction() {
     document.querySelector('#menu-show').checked = false;
 }
 window.onload = function() {
+    document.querySelector(".audio").onclick = function(){
+    document.getElementsByTagName("audio")[0].paused ? document.querySelector(".play").classList.remove("icon-controller-play") & document.querySelector(".play").classList.add("icon-controller-paus") & document.getElementsByTagName("audio")[0].play() : document.getElementsByTagName("audio")[0].pause() & document.querySelector(".play").classList.remove("icon-controller-paus") & document.querySelector(".play").classList.add("icon-controller-play");
+    }
 
     var currentSlide = 1;
     document.querySelector('li[data-slide="' + currentSlide + '"]').classList.add("active")

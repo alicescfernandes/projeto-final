@@ -6,7 +6,7 @@
     require_once('./php/db-constants.php');
     $maxImages = 5;
     $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-    $query = "SELECT * FROM `media` GROUP BY title ORDER BY RAND() LIMIT $maxImages";
+    $query = "SELECT * FROM `media` WHERE title IS NOT NULL GROUP BY title ORDER BY RAND() LIMIT $maxImages";
     $result = $conn->query($query);
     $resultHTML = '';
 

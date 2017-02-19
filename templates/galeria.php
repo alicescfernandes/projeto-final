@@ -5,36 +5,52 @@
 <title>Fotografias | Alice Fernandes - Web Development & Design</title>
 
 <?php
+$request =  explode("/", $_SERVER['REQUEST_URI']);
 require_once('./php/db-constants.php');
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
- $query = "SELECT * FROM `media` WHERE projeto_uri='fotografia'";
+ $query = "SELECT * FROM `media` WHERE projeto_uri='".$request[1]."' ORDER BY RAND()";
  $result = $conn->query($query);
 
  $resultHTML = "";
  $randImages = [];
  $randImagesDescription = [];
+ $randImagesEXT = [];
  $a = 0;
 
  while($row = $result->fetch_object()){
    $randImages[$a] = $row->src;
    $randImagesDescription[$a] = $row->nome;
+   $randImagesEXT[$a] = $row->ext;
    $a++;
-
-   $resultHTML.='<div class="panel panel-small panel-foto "><a rel="galeria" class="panel-link fancybox" href="http://'.$host.'/media/'.$row->src.'@1280.jpg" style="background-image:url(http://'.$host.'/media/'.$row->src.'@1280.jpg);" title="'.$row->nome.'">
+   //Create panels
+   $resultHTML.='<div class="panel panel-small panel-foto "><a rel="galeria" class="panel-link fancybox" href="http://'.$host.'/media/'.$row->src.'@1280.'.$row->ext.'" style="background-image:url(http://'.$host.'/media/'.$row->src.'@1280.'.$row->ext.');" title="'.$row->nome.'">
                  <h3>'.$row->nome.'</h3>
                  </a></div>';
  }
   $maxImages = 3;
-  $slideHTML = '';
-  $randArray = range(0,count($randImages)-1);
+ $slideHTML = '';
+ /* $randArray = range(0,count($randImages)-1);
   shuffle($randArray);
   $randArray = array_slice($randArray, 0, $maxImages);
    for($i = 0; $i!=$maxImages; $i++){
+      $Sliderow = $result->fetch_object()
      $string = $randImages[$randArray[$i]];
      $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
      $description = $randImagesDescription[$randArray[$i]];
-     $slideHTML.="<a href=\"http://".$host . "/" ."media/".$string."@1900.jpg\" rel=\"galeria\"class=\"slide fancybox\" title=\"$description\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"></a>";
+     $slideHTML.="<a href=\"http://".$host . "/" ."media/".$string."@1900.".$randImagesEXT[$randArray[$i]]."\" rel=\"galeria\"class=\"slide fancybox\" title=\"$description\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.".$randImagesEXT[$randArray[$i]].")\" data-slide=\"".($i+1)."\"></a>";
+   }*/
+
+   $result2 = $conn->query($query);
+
+   for($i = 0; $i!=$maxImages; $i++){
+     $slideRow = $result2->fetch_object();
+     if($slideRow->cover){
+     $src = $slideRow->src;
+     $metaImage = "http://".$host . "/" ."media/".$src."@1280.".$slideRow->ext."";
+     $description = $slideRow->nome;
+     $slideHTML.="<a href=\"http://".$host . "/" ."media/".$src."@1900.".$slideRow->ext."\" rel=\"galeria\"class=\"slide fancybox\" title=\"$description\" style=\"background-image:url(http://".$host . "/" ."media/".$src."@1900.".$slideRow->ext.")\" data-slide=\"".($i+1)."\"></a>";
+     }
    }
 
  ?>

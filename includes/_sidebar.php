@@ -1,4 +1,3 @@
-
 <label class="menu-label" for="menu-show"><i class="icon-menu"></i></label>
 <nav class="sidebar">
   <label for="menu-show">
@@ -17,6 +16,7 @@
           <li class="submenu-item"><a href="/portfolio/web-development">Web Development</a></li>
           <li class="submenu-item"><a href="/portfolio/design-gráfico">Design Gráfico</a></li>
           <li class="submenu-item"><a href="/fotografia">Fotografia</a></li>
+            <li class="submenu-item"><a href="/animacao">Animação</a></li>
         </div>
       </ul>
       <li class="menu-item"><a href="/sobre-mim">Sobre mim</a></li>
@@ -24,3 +24,6 @@
     </ul>
   </div>
 </nav>
+<?php
+include 'templates/_audio.php';
+?>

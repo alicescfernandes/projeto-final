@@ -9,6 +9,7 @@ switch ($urlStrings[1]) {
 		case 'projeto':
 			include('templates/project-template.php');
 			break;
+		case 'animacao':
 		case 'fotografia':
 			include('templates/galeria.php');
 			break;

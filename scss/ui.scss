@@ -22,6 +22,7 @@ body {
     width: 120%;
     overflow: hidden;
     background-color: $body-background;
+    text-align: justify;
 }
 
 h1,
@@ -305,6 +306,7 @@ i.icon-cross {
     height: 300px;
     width: 100vw;
     overflow: hidden;
+
 
     .slide {
         background-size: cover;
@@ -750,12 +752,14 @@ form {
         outline: none;
         border-color: #3a3a3a;
         transition: border 0.2s;
+        letter-spacing: 0.85px;
     }
 
     input[type=email]::-webkit-input-placeholder,
     input[type=text]::-webkit-input-placeholder,
     textarea::-webkit-input-placeholder {
         color: #676767;
+        letter-spacing: 0.85px;
     }
 
     textarea {
@@ -771,6 +775,7 @@ form {
         line-height: 25px;
         letter-spacing: 0.55px;
         transition: border 0.2s;
+        letter-spacing: 0.85px;
     }
 
     label[for="mensagem"] {
@@ -789,6 +794,9 @@ form {
     }
 }
 
+label[for="subject"], #subject{
+  width: 600px;
+}
 .row {
     display: inline-block;
     vertical-align: top;
@@ -805,4 +813,12 @@ form {
 .col70 {
     width: 69%;
 }
+
+
+.project-page{
+  .slideshow-medium{
+    height: 75vh;
+  }
+}
+@import "video-audio";
 @import "media-queries";

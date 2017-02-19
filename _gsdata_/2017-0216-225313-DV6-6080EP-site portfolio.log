@@ -1,0 +1,16 @@
+2017-02-16 22:53:15: -- Analysis Started by User
+2017-02-16 22:53:25: Changes: 8, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 273
+2017-02-16 22:53:25: Left to Right: Copy File: 8 
+2017-02-16 22:53:25: -- Analysis Complete. Time 00:00:12, Speed: 10 files/s
+2017-02-16 22:53:25: 
+2017-02-16 22:54:04: == Sync Started by User
+2017-02-16 22:54:08: Copy Over 'C:/Users/HP/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-16 22:54:10: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_header.php' -> 'ftp://files.000webhost.com/public_html/includes/_header.php'
+2017-02-16 22:54:12: Copy Over 'C:/Users/HP/Desktop/projeto-final/includes/_sidebar.php' -> 'ftp://files.000webhost.com/public_html/includes/_sidebar.php'
+2017-02-16 22:54:14: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/contacts.php' -> 'ftp://files.000webhost.com/public_html/templates/contacts.php'
+2017-02-16 22:54:16: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/index.php' -> 'ftp://files.000webhost.com/public_html/templates/index.php'
+2017-02-16 22:54:17: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php'
+2017-02-16 22:54:19: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/project-template.php' -> 'ftp://files.000webhost.com/public_html/templates/project-template.php'
+2017-02-16 22:54:21: Copy Over 'C:/Users/HP/Desktop/projeto-final/templates/simple-article.php' -> 'ftp://files.000webhost.com/public_html/templates/simple-article.php'
+2017-02-16 22:54:24: == Sync Complete. Time: 00:00:22, Speed: 2,07 KB/s, OK: 8, Errors: 0
+2017-02-16 22:54:24: 

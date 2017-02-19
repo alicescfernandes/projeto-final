@@ -1,0 +1,41 @@
+.video-js, .video-dimensions {
+  width: initial !important;
+  height: initial  !important;
+}
+
+.video-js {
+  height: 450px !important;
+  width: 800px !important;
+}
+
+.video-js .vjs-control-bar {
+  background-color: rgba(93, 134, 243, 0.2) !important;
+}
+
+.audio {
+  z-index: 97;
+  width: 70px;
+  /* height: 139px; */
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 150px;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0px;
+  opacity: 0.5;
+  transition: 0.3s opacity;
+}
+
+.buttons .fa {
+  display: block;
+  font-size: 1.2em;
+  line-height: 31px;
+  cursor: pointer;
+}
+
+.audio:hover {
+  opacity: 1;
+  transition: 0.3s opacity;
+}
