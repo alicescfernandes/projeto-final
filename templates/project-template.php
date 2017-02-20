@@ -67,21 +67,22 @@
             <p><i><?php echo(mb_convert_encoding($row['summary-line'], 'UTF-8')) ?></i></p>
           </div>
           <div class="panel">
-            <?php echo(mb_convert_encoding($row['descricao'], 'UTF-8')) ?></div>
+            <?php echo(mb_convert_encoding($row['descricao'], 'UTF-8')) ?>
+          </div>
 
-
-            <div class="panel">adasd
             <?php
               $queryParaVideo = "SELECT * FROM `media` WHERE `tipo`='video' AND `projeto_uri`='$projeto'";
-              //secho($queryParaVideo);
+              $resultVideo = $conn->query($queryParaVideo);
+              if($resultVideo->num_rows != 0){
 
-              if($conn->query($queryParaVideo)){
-                $result = $conn->query($queryParaVideo);
-                $row = $result->fetch_object();
-                echo('<video controls><source src="'.'http://localhost/media/passeios.mp4'.'"type="video/mp4" ></video>');
-              }
+                $rowVideo = $resultVideo->fetch_object();
               ?>
-            </div>
+              <div class="panel">
+                <div class="video video-js vjs-default-skin vjs-controls-enabled"><video  data-setup="{}" id="video" controls><source src="http://localhost/media/passeios.mp4" type="video/mp4"></video></div>
+              </div>
+            <?php
+          }
+             ?>
           <div class="panel">
 
             <?php
@@ -151,5 +152,18 @@
         </div><?php require_once('./includes/_footer.php') ?>
       </div>
     </div>
+
+    <script>
+    window.addEventListener('onload', function(){
+
+      var myPlayer = videojs('video').ready(function(){
+        this.on("ended", function(){
+        closePopup();
+        });
+      })
+    })
+
+    </script>
+
   </body>
 </html>

@@ -1,0 +1,42 @@
+2017-02-20 15:55:46: -- Analysis Started by On File Change Incremental
+2017-02-20 15:55:48: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 1/0, Errors: 0, All: 371
+2017-02-20 15:55:48: Left to Right: Copy File: 2 Copy State: 1 
+2017-02-20 15:55:48: == Sync Started by On File Change Incremental
+2017-02-20 15:55:48: Create Folder 'ftp://files.000webhost.com/public_html/.git'
+2017-02-20 15:55:48: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/4a'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:51: == Sync Complete. Time: 00:00:03, Speed: 0 bytes/s, OK: 2, Errors: 1
+2017-02-20 15:55:52: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-20 15:55:52: Changes: 29, Conflicts: 0, CopyTime: 0, CopyState: 0/1, Errors: 0, All: 399
+2017-02-20 15:55:52: Left to Right: Copy File: 29 
+2017-02-20 15:55:52: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-20 15:55:52: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/0c'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:52: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/4a'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:53: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/5e'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:53: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/7e'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:53: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/86'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:53: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/9c'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:53: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/a0'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:53: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/ab'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:53: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/bc'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:54: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/bd'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:54: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/be'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:54: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/c9'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:54: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/cf'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:54: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/e9'
+- ERROR: Cannot create folder: Server says: Can't create directory: No such file or directory
+2017-02-20 15:55:57: == Sync Complete. Time: 00:00:05, Speed: 3.50 KB/s, OK: 1, Errors: 14
+2017-02-20 15:55:57: 

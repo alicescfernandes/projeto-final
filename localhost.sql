@@ -2,10 +2,10 @@
 -- version 4.0.4.2
 -- http://www.phpmyadmin.net
 --
--- Máquina: localhost
--- Data de Criação: 19-Fev-2017 às 23:47
--- Versão do servidor: 5.6.13
--- versão do PHP: 5.4.17
+-- Host: localhost
+-- Generation Time: Feb 20, 2017 at 04:09 PM
+-- Server version: 5.6.13
+-- PHP Version: 5.4.17
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de Dados: `id802211_portfolio`
+-- Database: `id802211_portfolio`
 --
 CREATE DATABASE IF NOT EXISTS `id802211_portfolio` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 USE `id802211_portfolio`;
@@ -25,7 +25,7 @@ USE `id802211_portfolio`;
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `external-urls`
+-- Table structure for table `external-urls`
 --
 
 CREATE TABLE IF NOT EXISTS `external-urls` (
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `external-urls` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=3 ;
 
 --
--- Extraindo dados da tabela `external-urls`
+-- Dumping data for table `external-urls`
 --
 
 INSERT INTO `external-urls` (`projeto_uri`, `id`, `github`, `codepen`, `industria-criativa`) VALUES
@@ -48,7 +48,7 @@ INSERT INTO `external-urls` (`projeto_uri`, `id`, `github`, `codepen`, `industri
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `media`
+-- Table structure for table `media`
 --
 
 CREATE TABLE IF NOT EXISTS `media` (
@@ -61,10 +61,10 @@ CREATE TABLE IF NOT EXISTS `media` (
   `title` varchar(1000) COLLATE utf8_bin DEFAULT NULL,
   `nome` varchar(100) COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`id_media`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=26 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=30 ;
 
 --
--- Extraindo dados da tabela `media`
+-- Dumping data for table `media`
 --
 
 INSERT INTO `media` (`id_media`, `projeto_uri`, `tipo`, `src`, `ext`, `cover`, `title`, `nome`) VALUES
@@ -89,12 +89,16 @@ INSERT INTO `media` (`id_media`, `projeto_uri`, `tipo`, `src`, `ext`, `cover`, `
 (21, 'car', 'image', 'car-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'CarExpress'),
 (22, 'animacao', 'image', 'rocket_exportacao', 'gif', NULL, NULL, 'Animação Rocket'),
 (24, 'animacao', 'image', 'retro', 'gif', NULL, NULL, 'Animação Retro'),
-(25, 'animacao', 'image', 'rocket_exportacao', 'gif', NULL, NULL, 'Animação Rocket');
+(25, 'animacao', 'image', 'rocket_exportacao', 'gif', NULL, NULL, 'Animação Rocket'),
+(26, 'passeios', 'video', 'passeios', 'mp4', NULL, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa'''),
+(27, 'passeios', 'image', 'passeios_1', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa'''),
+(28, 'passeios', 'image', 'passeios_2', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa'''),
+(29, 'passeios', 'image', 'passeios_3', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa''');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `projetos`
+-- Table structure for table `projetos`
 --
 
 CREATE TABLE IF NOT EXISTS `projetos` (
@@ -109,10 +113,10 @@ CREATE TABLE IF NOT EXISTS `projetos` (
   `uri` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `external-urls` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id_projeto`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=13 ;
 
 --
--- Extraindo dados da tabela `projetos`
+-- Dumping data for table `projetos`
 --
 
 INSERT INTO `projetos` (`id_projeto`, `nome`, `descricao`, `tags`, `summary-line`, `likes`, `views`, `share`, `uri`, `external-urls`) VALUES
@@ -123,7 +127,8 @@ INSERT INTO `projetos` (`id_projeto`, `nome`, `descricao`, `tags`, `summary-line
 (8, 'Kiosk Digital', 'sdafjdajkdhakjsdhakjsdhaksjdhakjsd', 'web-development,css,html,php, web-design', 'A tua porta para a internet', 0, 0, 0, 'kiosk', NULL),
 (9, 'Maasai', 'adjkajdaksldjaksdj', 'design-gr%C3%A1fico, logomarca, estacion%C3%A1rio', 'Empresa de joias baseada em tribo aficana', 0, 0, 0, 'maasai', NULL),
 (10, 'UniCuidar', 'adaklsdjaljdaksdj', 'design-gr%C3%A1fico, logomarca,estacion%C3%A1rio', 'Serviços de enfermagem personalizados', 0, 0, 0, 'unicuidar', NULL),
-(11, 'CarExpress', 'asdasdasdjl', 'design-gr%C3%A1fico, logomarca', 'Marca ficticia de oficina automóvel', 0, 0, 0, 'car', NULL);
+(11, 'CarExpress', 'asdasdasdjl', 'design-gr%C3%A1fico, logomarca', 'Marca ficticia de oficina automóvel', 0, 0, 0, 'car', NULL),
+(12, 'Passeios', 'Viadasda', 'video', 'Video inserido na temática ''As Cores de Lisboa''', 0, 0, 0, 'passeios', NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

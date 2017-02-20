@@ -1,0 +1,121 @@
+2017-02-20 15:57:11: -- Analysis Started by On File Change Incremental
+2017-02-20 15:59:31: Changes: 138, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 517
+2017-02-20 15:59:31: Left to Right: Copy File: 138 
+2017-02-20 15:59:31: == Sync Started by On File Change Incremental
+2017-02-20 15:59:32: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/03'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:32: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/07'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:32: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/0c'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:32: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/0e'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:32: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/14'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:32: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/1e'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:32: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/20'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:32: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/24'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:33: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/29'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:33: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/2b'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:33: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/34'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:33: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/47'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:33: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/48'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:33: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/49'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:33: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/4a'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:33: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/51'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:34: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/5b'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:34: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/5e'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:34: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/62'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:34: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/6a'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:34: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/6c'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:34: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/6d'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:34: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/76'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:35: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/7a'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:35: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/7c'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:35: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/7d'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:35: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/7e'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:35: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/85'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:35: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/86'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:35: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/92'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:35: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/94'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:36: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/9c'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:36: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/a0'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:36: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/a3'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:36: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/a4'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:36: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/a5'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:36: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/ab'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:36: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/bc'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:37: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/bd'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:37: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/be'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:37: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/c5'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:37: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/c6'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:37: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/c9'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:37: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/cc'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:37: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/cf'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:37: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/dc'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:38: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/dd'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:38: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/df'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:38: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/e0'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:38: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/e4'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:38: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/e9'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:38: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/ee'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:38: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/f4'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:39: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/fb'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:39: Create Folder 'ftp://files.000webhost.com/public_html/.git/objects/fd'
+- ERROR: Cannot create folder: Server says: MKD: Broken pipe
+2017-02-20 15:59:39: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/project-template.php' -> 'ftp://files.000webhost.com/public_html/templates/project-template.php'
+- ERROR: Error copying file: PASV says: 425: PASV: Broken pipe
+2017-02-20 15:59:39: Save State File 
+- ERROR: Cannot upload temp state file: PASV says: 425: PASV: Broken pipe
+2017-02-20 15:59:39: Cannot determine whether to cleanup: bad server reply to MLST: mlst: broken pipe
+2017-02-20 15:59:39: == Sync Complete. Time: 00:00:08, Speed: 0 bytes/s, OK: 0, Errors: 57
+2017-02-20 15:59:39: 
