@@ -12,18 +12,18 @@
     $slideControllerHTML = '';
     $dataSlide = 1;
 
-    $queryParaSlides = "SELECT * FROM `media`";
+    $queryParaSlides = "SELECT * FROM `media` WHERE `tipo`='image'";
 
     if($tag){
-         $queryParaSlides.="WHERE projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%$tag%' LIMIT 1)";
+         $queryParaSlides.="AND projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%$tag%' LIMIT 1)";
     }else{
-       $queryParaSlides.= "WHERE projeto_uri NOT LIKE '%fotografia%' ORDER BY rand() LIMIT 3";
+       $queryParaSlides.= "AND projeto_uri NOT LIKE '%fotografia%' ORDER BY rand() LIMIT 3";
     }
 
     $resultadoDosSlides = $conn->query($queryParaSlides);
     foreach($resultadoDosSlides as $mediaSource){
-      $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.jpg";
-      $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </a>";
+      $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.".$mediaSource['ext']."";
+      $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext']."\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext'].")\" data-slide=\"".$dataSlide."\"> </a>";
       $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
       $dataSlide+=1;
     }
@@ -80,14 +80,12 @@
 
 
               //Query for media;
-
-
-             $queryImages = "SELECT * FROM media WHERE projeto_uri='".$row['uri']."' LIMIT 1";
+             $queryImages = "SELECT * FROM media WHERE projeto_uri='".$row['uri']."' AND `tipo`='image' ORDER BY RAND() LIMIT 1 ";
              $resultImages = $conn->query($queryImages);
              $media = $resultImages->fetch_assoc();
 
 
-              $resultHTML = "<div class=\"panel panel-small\"><a style=\"background-image:url(http://$host/media/".$media['src']."@1280.jpg)\" class=\"panel-image panel-link\" href=\"/projeto/".$row['uri']."\"> <h3>".mb_convert_encoding($nome, 'UTF-8')."</h3></a>
+              $resultHTML = "<div class=\"panel panel-small\"><a style=\"background-image:url(http://$host/media/".$media['src']."@1280.".$media["ext"].")\" class=\"panel-image panel-link\" href=\"/projeto/".$row['uri']."\"> <h3>".mb_convert_encoding($nome, 'UTF-8')."</h3></a>
 
 
                               <div class=\"panel-small-bottom\">".$tagsHTML."</div>

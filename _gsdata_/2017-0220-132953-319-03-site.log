@@ -1,0 +1,89 @@
+2017-02-20 13:29:57: -- Analysis Started by On File Change Incremental
+2017-02-20 13:29:58: Delete abandoned lock file at ftp://files.000webhost.com/public_html
+2017-02-20 13:32:42: /localhost.sql: Conflict: New files that differ
+2017-02-20 13:32:42: /mail/class.phpmailer.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /mail/class.phpmaileroauth.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /mail/class.phpmaileroauthgoogle.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /mail/class.pop3.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /mail/class.smtp.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /mail/PHPMailerAutoload.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/3d-01@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/3d-01@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/3d-02@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/3d-02@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/3d-03@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/3d-03@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/car-01@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/car-01@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/cinel-01@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/cinel-01@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/cinel-02@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/cinel-02@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/cinel-03@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/cinel-03@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/connect-01@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/connect-01@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/diga-01@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/diga-01@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img1@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img1@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img2@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img2@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img3@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img3@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img4@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img4@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img5@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img5@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img6@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img6@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/img@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/kiosk-01@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/kiosk-01@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/maasai-01@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/maasai-01@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/unicuidar-01@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/unicuidar-01@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/unicuidar-02@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/unicuidar-02@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/unicuidar-03@1280.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /media/unicuidar-03@1900.jpg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /php/db-constants.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /plants-for-now.txt: Conflict: New files that differ
+2017-02-20 13:32:42: /prepros-6.config: Conflict: New files that differ
+2017-02-20 13:32:42: /script/analytics.js: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /script/script.js: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /scss: Conflict: New files that differ
+2017-02-20 13:32:42: /sitemap.xml: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /templates: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /templates/contacts.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /templates/galeria.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /templates/index.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /templates/project-category.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /templates/project-template.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /templates/simple-article.php: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /user.txt: Conflict: New files that differ
+2017-02-20 13:32:42: /webfont/entypo social/demo-files/demo.css: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/demo-files/demo.js: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/demo.html: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/fonts/Entypo-Social-Extension.eot: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/fonts/Entypo-Social-Extension.svg: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/fonts/Entypo-Social-Extension.ttf: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/fonts/Entypo-Social-Extension.woff: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/Read Me.txt: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/selection.json: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/entypo social/style.css: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /webfont/source sans.txt: Conflito: Ficheiro Modificado em ambos os lados
+2017-02-20 13:32:42: /scss/_includes: Parent folder conflict propagated down to children
+2017-02-20 13:32:42: /scss/_includes/_colors.scss: Parent folder conflict propagated down to children
+2017-02-20 13:32:42: /scss/media-queries.scss: Parent folder conflict propagated down to children
+2017-02-20 13:32:42: /scss/ui.scss: Parent folder conflict propagated down to children
+2017-02-20 13:32:42: /scss/video-audio.scss: Parent folder conflict propagated down to children
+2017-02-20 13:32:42: /templates/_audio.php: Parent folder conflict propagated down to children
+2017-02-20 13:32:42: /.htaccess: Atenção: Arquivo novo será substituído por um antigo
+2017-02-20 13:32:42: Changes: 299, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 461
+2017-02-20 13:32:42: Left to Right: Copy File: 299 
+2017-02-20 13:32:42: == Sync Started by On File Change Incremental
+2017-02-20 13:32:42: 92% (299 / 324) ficheiros modificados, desde um ponto principal de 50%. Por isso a tarefa nao sincronizará automaticamente.
+2017-02-20 13:32:42: 

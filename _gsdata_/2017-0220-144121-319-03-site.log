@@ -1,0 +1,13 @@
+2017-02-20 14:41:25: -- Analysis Started by On File Change Incremental
+2017-02-20 14:41:27: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 356
+2017-02-20 14:41:27: Left to Right: Rename/Move File/Folder: 2 
+2017-02-20 14:41:27: == Sync Started by On File Change Incremental
+2017-02-20 14:41:27: Move File ftp://files.000webhost.com/public_html/media/passeios_2.png -> ftp://files.000webhost.com/public_html/media/passeios_2@1900.png
+2017-02-20 14:41:30: == Sync Complete. Time: 00:00:03, Speed: 7.24 KB/s, OK: 2, Errors: 0
+2017-02-20 14:41:31: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-20 14:41:31: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 357
+2017-02-20 14:41:31: Left to Right: Rename/Move File/Folder: 2 
+2017-02-20 14:41:31: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-20 14:41:32: Move File ftp://files.000webhost.com/public_html/media/passeios_3.png -> ftp://files.000webhost.com/public_html/media/passeios_3@1900.png
+2017-02-20 14:41:35: == Sync Complete. Time: 00:00:04, Speed: 7.25 KB/s, OK: 2, Errors: 0
+2017-02-20 14:41:35: 

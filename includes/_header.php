@@ -16,8 +16,8 @@
 <link rel="stylesheet" href="http://<?php echo($host) ?>/css/ui.css?v2.16"/>
 <link rel="stylesheet" href="http://<?php echo($host) ?>/webfont/entypo social/style.css"/>
 <script src="http://<?php echo($host) ?>/script/script.js?v1.7"></script>
-<!--<script src="js/videojs/video.js"></script>
-<link href="js/videojs/video-js.css" rel="stylesheet">-->
+<script src="http://<?php echo($host) ?>/js/videojs/video.js"></script>
+<link href="http://<?php echo($host) ?>/js/videojs/video-js.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- RESPONSIVE STUFF -->
 <meta name="google-site-verification" content="iBlnRfkaUpwtA2UetXygzPveYuglRbIm7oKPwiv942k" />
 <meta name="description" content="Hi there, welcome to my portfolio website. I am a web developer that turns website into art pieces. I have knowledge on php, mysql & databses, html,css and javascript related languages. Feel free to explore the website and let me know  if you need any gig.">

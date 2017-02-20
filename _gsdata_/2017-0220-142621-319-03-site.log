@@ -1,0 +1,12 @@
+2017-02-20 14:26:23: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-20 14:26:42: Changes: 4, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 350
+2017-02-20 14:26:42: Left to Right: Copy File: 4 
+2017-02-20 14:26:42: -- Analysis Complete. Time 00:00:21, Speed: 14 files/s
+2017-02-20 14:26:42: 
+2017-02-20 14:27:08: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-20 14:27:09: Create Folder 'ftp://files.000webhost.com/public_html/script'
+2017-02-20 14:27:10: Copy New 'C:/Users/Cet24/Desktop/projeto-final/script/analytics.js' -> 'ftp://files.000webhost.com/public_html/script/analytics.js'
+2017-02-20 14:27:11: Copy New 'C:/Users/Cet24/Desktop/projeto-final/script/script.js' -> 'ftp://files.000webhost.com/public_html/script/script.js'
+2017-02-20 14:27:12: Copy New 'C:/Users/Cet24/Desktop/projeto-final/script/tariff.js' -> 'ftp://files.000webhost.com/public_html/script/tariff.js'
+2017-02-20 14:27:15: == Sync Complete. Time: 00:00:10, Speed: 1.88 KB/s, OK: 4, Errors: 0
+2017-02-20 14:27:16: 

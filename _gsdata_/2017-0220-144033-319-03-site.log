@@ -1,0 +1,15 @@
+2017-02-20 14:40:37: -- Analysis Started by On File Change Incremental
+2017-02-20 14:40:38: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 355
+2017-02-20 14:40:38: Left to Right: Copy File: 1 
+2017-02-20 14:40:38: == Sync Started by On File Change Incremental
+2017-02-20 14:40:41: C:/Users/Cet24/Desktop/projeto-final/templates/project-category.php: Source file has changed during Sync from '[file] size=4 567 accu-time=2017-02-20 14:40:31 attr=Archive' to 'size=4 577 time=2017-02-20 14:40:39', will be retried
+2017-02-20 14:40:41: Destination side file adjusted to '[file] size=4 567 accu-time=2017-02-20 14:40:36 file-time=2017-02-20 14:40:39 attr=Archive', to force retry
+2017-02-20 14:40:41: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php'
+2017-02-20 14:40:44: == Sync Complete. Time: 00:00:06, Speed: 2.66 KB/s, OK: 1, Errors: 0
+2017-02-20 14:40:45: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-20 14:40:45: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 355
+2017-02-20 14:40:45: Left to Right: Copy File: 1 
+2017-02-20 14:40:45: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-20 14:40:48: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php'
+2017-02-20 14:40:51: == Sync Complete. Time: 00:00:06, Speed: 3.55 KB/s, OK: 1, Errors: 0
+2017-02-20 14:40:51: 

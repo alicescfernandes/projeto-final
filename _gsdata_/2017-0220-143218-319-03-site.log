@@ -1,0 +1,16 @@
+2017-02-20 14:32:22: -- Analysis Started by On File Change Incremental
+2017-02-20 14:32:24: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 352
+2017-02-20 14:32:24: Left to Right: Copy File: 1 
+2017-02-20 14:32:24: == Sync Started by On File Change Incremental
+2017-02-20 14:36:24: FTP: Control connection lost was after good data transfer, so we assume data transfer was OK: receiving line: [receiving data files.000webhost.com:21]: Time out
+2017-02-20 14:37:42: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/passeios.mp4' -> 'ftp://files.000webhost.com/public_html/media/passeios.mp4'
+2017-02-20 14:37:46: == Sync Complete. Time: 00:05:22, Speed: 235 KB/s, OK: 1, Errors: 0
+2017-02-20 14:37:47: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-20 14:37:47: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 355
+2017-02-20 14:37:47: Left to Right: Copy File: 3 
+2017-02-20 14:37:47: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-20 14:37:54: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/passeios_1.png' -> 'ftp://files.000webhost.com/public_html/media/passeios_1.png'
+2017-02-20 14:38:01: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/passeios_2.png' -> 'ftp://files.000webhost.com/public_html/media/passeios_2.png'
+2017-02-20 14:38:08: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/passeios_3.png' -> 'ftp://files.000webhost.com/public_html/media/passeios_3.png'
+2017-02-20 14:38:11: == Sync Complete. Time: 00:00:24, Speed: 292 KB/s, OK: 3, Errors: 0
+2017-02-20 14:38:11: 

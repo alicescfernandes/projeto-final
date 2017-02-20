@@ -1,9 +1,0 @@
-2017-02-14 10:47:23: -- Analysis Started by On File Change 1st Full Analyze
-2017-02-14 10:47:38: /templates/index.php: Conflito: Ficheiro Modificado em ambos os lados
-2017-02-14 10:47:38: /templates/index.php: Atenção: Arquivo novo será substituído por um antigo
-2017-02-14 10:47:38: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 198
-2017-02-14 10:47:38: Left to Right: Copy File: 1 
-2017-02-14 10:47:38: == Sync Started by On File Change 1st Full Analyze
-2017-02-14 10:47:40: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/index.php' -> 'ftp://files.000webhost.com/public_html/templates/index.php'
-2017-02-14 10:47:41: == Sync Complete. Time: 00:00:03, Speed: 3.47 KB/s, OK: 1, Errors: 0
-2017-02-14 10:47:42: 

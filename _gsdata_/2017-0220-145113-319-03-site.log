@@ -1,0 +1,7 @@
+2017-02-20 14:51:16: -- Analysis Started by On File Change Incremental
+2017-02-20 14:51:17: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 364
+2017-02-20 14:51:17: Left to Right: Copy File: 1 
+2017-02-20 14:51:17: == Sync Started by On File Change Incremental
+2017-02-20 14:51:20: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/project-category.php' -> 'ftp://files.000webhost.com/public_html/templates/project-category.php'
+2017-02-20 14:51:22: == Sync Complete. Time: 00:00:05, Speed: 3.62 KB/s, OK: 1, Errors: 0
+2017-02-20 14:51:24: 

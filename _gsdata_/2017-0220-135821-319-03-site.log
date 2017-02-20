@@ -1,0 +1,10 @@
+2017-02-20 13:58:25: -- Analysis Started by On File Change 1st Full Analyze
+2017-02-20 13:58:26: Delete abandoned lock file at ftp://files.000webhost.com/public_html
+2017-02-20 13:58:36: /.htaccess: Atenção: Arquivo novo será substituído por um antigo
+2017-02-20 13:58:36: /php/db-constants.php: Atenção: Arquivo novo será substituído por um antigo
+2017-02-20 13:58:36: /sitemap.xml: Atenção: Arquivo novo será substituído por um antigo
+2017-02-20 13:58:36: Changes: 298, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 351
+2017-02-20 13:58:36: Left to Right: Copy File: 298 
+2017-02-20 13:58:36: == Sync Started by On File Change 1st Full Analyze
+2017-02-20 13:58:36: 95% (298 / 313) ficheiros modificados, desde um ponto principal de 50%. Por isso a tarefa nao sincronizará automaticamente.
+2017-02-20 13:58:36: 

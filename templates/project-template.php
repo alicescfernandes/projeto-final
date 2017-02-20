@@ -16,9 +16,9 @@
     $slideControllerHTML = '';
     $dataSlide = 1;
     foreach($resultadoDosSlides as $mediaSource){
-      $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.jpg";
+      $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.".$mediaSource['ext']."";
 
-      $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.jpg)\" data-slide=\"".$dataSlide."\"> </a>";
+      $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext']."\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext'].")\" data-slide=\"".$dataSlide."\"> </a>";
       $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
       //echo($mediaSource['src']);
       $dataSlide+=1;
@@ -68,6 +68,20 @@
           </div>
           <div class="panel">
             <?php echo(mb_convert_encoding($row['descricao'], 'UTF-8')) ?></div>
+
+
+            <div class="panel">adasd
+            <?php
+              $queryParaVideo = "SELECT * FROM `media` WHERE `tipo`='video' AND `projeto_uri`='$projeto'";
+              //secho($queryParaVideo);
+
+              if($conn->query($queryParaVideo)){
+                $result = $conn->query($queryParaVideo);
+                $row = $result->fetch_object();
+                echo('<video controls><source src="'.'http://localhost/media/passeios.mp4'.'"type="video/mp4" ></video>');
+              }
+              ?>
+            </div>
           <div class="panel">
 
             <?php
@@ -83,10 +97,13 @@
 
              ?>
           </div>
+
+
+
           <div class="panel panel-noshadow panel-nobackground align-center">
 
             <?php
-                $externalURlsHTML = '';
+            $externalURlsHTML = '';
             if($row['external-urls']){
             $projetoURI = $row['uri'];
             $queryURL = "SELECT `github`, `codepen` FROM `external-urls` WHERE `projeto_uri`='$projetoURI'";
