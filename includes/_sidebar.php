@@ -14,9 +14,11 @@
         <div class="padding-box">
           <li class="submenu-item"><a href="/portfolio/3d">3D</a></li>
           <li class="submenu-item"><a href="/portfolio/web-development">Web Development</a></li>
+          <li class="submenu-item"><a href="/portfolio/web-design">Web Design</a></li>
           <li class="submenu-item"><a href="/portfolio/design-gráfico">Design Gráfico</a></li>
           <li class="submenu-item"><a href="/fotografia">Fotografia</a></li>
-            <li class="submenu-item"><a href="/animacao">Animação</a></li>
+          <li class="submenu-item"><a href="/animacao">Animação</a></li>
+         <li class="submenu-item"><a href="/portfolio/video">Vídeo</a></li>
         </div>
       </ul>
       <li class="menu-item"><a href="/sobre-mim">Sobre mim</a></li>

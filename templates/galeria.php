@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html class="project-categories">
-  <head><?php require_once('./includes/_header.php') ?>
+  <head><?php require_once('./includes/_header.php'); $request =  explode("/", $_SERVER['REQUEST_URI']); ?>
 
-<title>Fotografias | Alice Fernandes - Web Development & Design</title>
+<title><?PHP switch($request[1]){
+  case 'animacao':
+    echo('Animação');
+    break;
+  default:
+    echo('Fotografia');
+} ?> | Alice Fernandes - Web Development & Design</title>
 
 <?php
-$request =  explode("/", $_SERVER['REQUEST_URI']);
 require_once('./php/db-constants.php');
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
@@ -25,15 +30,16 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
    $a++;
    //Create panels
    $resultHTML.='<div class="panel panel-small panel-foto "><a rel="galeria" class="panel-link fancybox" href="http://'.$host.'/media/'.$row->src.'@1280.'.$row->ext.'" style="background-image:url(http://'.$host.'/media/'.$row->src.'@1280.'.$row->ext.');" title="'.$row->nome.'">
-                 <h3>'.$row->nome.'</h3>
+                 <h3>'.mb_convert_encoding($row->nome,'UTF-8').'</h3>
                  </a></div>';
  }
   $maxImages = 3;
  $slideHTML = '';
+ $slideControllerHTML = '';
  /* $randArray = range(0,count($randImages)-1);
   shuffle($randArray);
   $randArray = array_slice($randArray, 0, $maxImages);
-   for($i = 0; $i!=$maxImages; $i++){
+   for($i = 0; $i!=$maxImages; $i++){)
       $Sliderow = $result->fetch_object()
      $string = $randImages[$randArray[$i]];
      $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
@@ -50,9 +56,9 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
      $metaImage = "http://".$host . "/" ."media/".$src."@1280.".$slideRow->ext."";
      $description = $slideRow->nome;
      $slideHTML.="<a href=\"http://".$host . "/" ."media/".$src."@1900.".$slideRow->ext."\" rel=\"galeria\"class=\"slide fancybox\" title=\"$description\" style=\"background-image:url(http://".$host . "/" ."media/".$src."@1900.".$slideRow->ext.")\" data-slide=\"".($i+1)."\"></a>";
+     $slideControllerHTML.='<li class="slider-control" data-slide="'.($i+1).'"></li>';
      }
    }
-
  ?>
 
 <meta name="robots" content="index, follow">
@@ -74,15 +80,19 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
           </div>
           <div class="ui-component slide-controller">
             <ul>
-              <li class="slider-control" data-slide="1"></li>
-              <li class="slider-control" data-slide="2"></li>
-              <li class="slider-control" data-slide="3"></li>
+              <?php echo($slideControllerHTML)?>
             </ul>
           </div>
         </div>
         <div class="panel-container">
           <div class="panel panel-noshadow panel-fullwidth align-center panel-title panel-nobackground">
-            <h3>Fotografias</h3>
+            <h3><?PHP switch($request[1]){
+              case 'animacao':
+                echo('Animação');
+                break;
+              default:
+                echo('Fotografia');
+            } ?></h3>
             <p> <i>*snap* *snap*</i></p>
           </div>
 

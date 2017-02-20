@@ -139,7 +139,8 @@ li.menu-item:before {
 #submenu-toggle:checked + .sub-menu {
     //padding-top: 20px;
     //padding-bottom: 20px;
-    max-height: 200px;
+
+    max-height: 330px;
     transition: 0.2s max-height;
 }
 

@@ -10,7 +10,7 @@
     $result = $conn->query($query);
     $row = $result->fetch_assoc();
 
-    $queryParaSlides = "SELECT * FROM media WHERE projeto_uri='".$row['uri']."'";
+    $queryParaSlides = "SELECT * FROM media WHERE projeto_uri='".$row['uri']."'  AND `tipo`='image'";
     $resultadoDosSlides = $conn->query($queryParaSlides);
     $slideHTML = '';
     $slideControllerHTML = '';
@@ -25,7 +25,7 @@
     }
 
     ?>
-<title>Projeto <?php echo($row['nome'])?> | Alice Fernandes - Web Development & Design</title>
+<title>Projeto <?php echo(mb_convert_encoding($row['nome'],'UTF-8'))?> | Alice Fernandes - Web Development & Design</title>
 
 <meta name="robots" content="index, follow">
 <meta name="twitter:card" content="Projeto <?php echo($row['nome']) ?> | Alice Fernandes - Web Development & Design" />
@@ -47,8 +47,6 @@
           <div class="slide-container">
             <?php
              //SLIDES :)
-
-
              echo($slideHTML);
 
               ?>

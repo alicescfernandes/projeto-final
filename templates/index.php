@@ -68,7 +68,6 @@
               <li class="slider-control" data-slide="2"></li>
               <li class="slider-control" data-slide="3"></li>
               <li class="slider-control" data-slide="4"></li>
-              <li class="slider-control" data-slide="5"></li>
             </ul>
           </div>
         </div>
