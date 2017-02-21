@@ -1,0 +1,10 @@
+2017-02-21 09:40:49: -- Analysis Started by User
+2017-02-21 09:41:08: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 372
+2017-02-21 09:41:08: Left to Right: Copy File: 2 
+2017-02-21 09:41:08: -- Analysis Complete. Time 00:00:21, Speed: 14 files/s
+2017-02-21 09:41:08: 
+2017-02-21 09:41:14: == Sync Started by User
+2017-02-21 09:41:17: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-21 09:41:19: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_sidebar.php' -> 'ftp://files.000webhost.com/public_html/includes/_sidebar.php'
+2017-02-21 09:41:22: == Sync Complete. Time: 00:00:11, Speed: 2.16 KB/s, OK: 2, Errors: 0
+2017-02-21 09:41:22: 

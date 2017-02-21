@@ -7,10 +7,11 @@ window.onload = function() {
     }
 
     var currentSlide = 1;
-    document.querySelector('li[data-slide="' + currentSlide + '"]').classList.add("active")
+
     var slideContainer = document.querySelector('.slide-container');
     var screenW = window.screen.availWidth;
-    var slides = document.getElementsByClassName('slide');
+    var slides = document.getElementsByClassName('slide') || null;
+    if(document.querySelector('li[data-slide="' + currentSlide + '"]')) document.querySelector('li[data-slide="' + currentSlide + '"]').classList.add("active")
     var slideDuration = 6 //6 segundos
 
     slideContainer.style.width = screenW * slides.length + "px";

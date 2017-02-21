@@ -18,7 +18,7 @@ button i {
 body {
     margin: 0;
     padding: 0;
-    width: 112%;
+    //width: 112%;
     width: 120%;
     overflow: hidden;
     background-color: $body-background;
@@ -140,7 +140,7 @@ li.menu-item:before {
     //padding-top: 20px;
     //padding-bottom: 20px;
 
-    max-height: 330px;
+    max-height: 370px;
     transition: 0.2s max-height;
 }
 
@@ -203,7 +203,7 @@ li.menu-item:before {
 
 .main-content {
     display: inline-block;
-    width: 83%; //88%
+    width: calc(84% - 13px); //88%
     position: relative;
     height: 100vh;
     overflow-y: auto;
