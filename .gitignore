@@ -1,0 +1,4 @@
+*.log
+*._gs
+*._gs
+_gsdata_/lock.gsl
