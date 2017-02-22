@@ -1,0 +1,12 @@
+2017-02-22 15:41:37: -- Analysis Started by On File Change Incremental
+2017-02-22 15:41:39: Changes: 6, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 385
+2017-02-22 15:41:39: Left to Right: Copy File: 6 
+2017-02-22 15:41:39: == Sync Started by On File Change Incremental
+2017-02-22 15:41:40: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/stopmotion-1@1280.png' -> 'ftp://files.000webhost.com/public_html/media/stopmotion-1@1280.png'
+2017-02-22 15:41:42: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/stopmotion-1@1900.png' -> 'ftp://files.000webhost.com/public_html/media/stopmotion-1@1900.png'
+2017-02-22 15:41:44: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/stopmotion-2@1280.png' -> 'ftp://files.000webhost.com/public_html/media/stopmotion-2@1280.png'
+2017-02-22 15:41:45: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/stopmotion-2@1900.png' -> 'ftp://files.000webhost.com/public_html/media/stopmotion-2@1900.png'
+2017-02-22 15:41:47: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/stopmotion-3@1280.png' -> 'ftp://files.000webhost.com/public_html/media/stopmotion-3@1280.png'
+2017-02-22 15:41:48: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/stopmotion-3@1900.png' -> 'ftp://files.000webhost.com/public_html/media/stopmotion-3@1900.png'
+2017-02-22 15:41:51: == Sync Complete. Time: 00:00:12, Speed: 39.1 KB/s, OK: 6, Errors: 0
+2017-02-22 15:41:53: 

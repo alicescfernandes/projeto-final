@@ -74,9 +74,11 @@
               if($resultVideo->num_rows != 0){
 
                 $rowVideo = $resultVideo->fetch_object();
+                $src = $rowVideo->src;
+                $ext = $rowVideo->ext
               ?>
               <div class="panel">
-                <div class="video video-js vjs-default-skin vjs-controls-enabled"><video  data-setup="{}" id="video" controls><source src="http://localhost/media/passeios.mp4" type="video/mp4"></video></div>
+                <div class="video video-js vjs-default-skin vjs-controls-enabled"><video  data-setup="{}" id="video" controls><source src="<?php echo("http://$host/media/$src.$ext")?>" type="video/mp4"></video></div>
               </div>
             <?php
           }

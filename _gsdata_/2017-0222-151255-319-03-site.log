@@ -1,0 +1,7 @@
+2017-02-22 15:12:58: -- Analysis Started by On File Change Incremental
+2017-02-22 15:13:00: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 377
+2017-02-22 15:13:00: Left to Right: Copy File: 1 
+2017-02-22 15:13:00: == Sync Started by On File Change Incremental
+2017-02-22 15:13:03: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-22 15:13:06: == Sync Complete. Time: 00:00:06, Speed: 6.14 KB/s, OK: 1, Errors: 0
+2017-02-22 15:13:07: 

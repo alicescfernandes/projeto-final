@@ -5,9 +5,9 @@
   </label>
   <div class="container">
     <ul>
-      <li class="menu-item"> <a href="http://<?php echo($_SERVER['HTTP_HOST']) ?>">Home</a></li>
+      <li class="menu-item"> <a href="http://<?php echo($_SERVER['HTTP_HOST']) ?>">Página Inicial</a></li>
       <li class="menu-item">
-        <label for="submenu-toggle">Portfolio <i class="icon-chevron-down"></i></label>
+        <label for="submenu-toggle">O meu Portfolio <i class="icon-chevron-down"></i></label>
       </li>
       <input type="checkbox" id="submenu-toggle"/>
       <ul class="sub-menu">

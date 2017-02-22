@@ -1,0 +1,13 @@
+2017-02-22 15:36:29: -- Analysis Started by On File Change Incremental
+2017-02-22 15:36:30: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 378
+2017-02-22 15:36:30: Left to Right: Delete File: 1 
+2017-02-22 15:36:30: == Sync Started by On File Change Incremental
+2017-02-22 15:36:31: Delete File 'ftp://files.000webhost.com/public_html/CINEL Stop Motion - Khrystyna & Alice - CET24 2016.mp4'
+2017-02-22 15:36:34: == Sync Complete. Time: 00:00:04, Speed: 7.52 KB/s, OK: 1, Errors: 0
+2017-02-22 15:36:35: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-22 15:36:35: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 379
+2017-02-22 15:36:35: Left to Right: Copy File: 1 
+2017-02-22 15:36:35: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-22 15:36:43: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/stopmotion.mp4' -> 'ftp://files.000webhost.com/public_html/media/stopmotion.mp4'
+2017-02-22 15:36:46: == Sync Complete. Time: 00:00:11, Speed: 167 KB/s, OK: 1, Errors: 0
+2017-02-22 15:36:46: 

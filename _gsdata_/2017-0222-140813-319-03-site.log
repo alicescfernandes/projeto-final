@@ -1,0 +1,15 @@
+2017-02-22 14:08:18: -- Analysis Started by On File Change Incremental
+2017-02-22 14:08:19: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 372
+2017-02-22 14:08:19: Left to Right: Copy File: 1 
+2017-02-22 14:08:19: == Sync Started by On File Change Incremental
+2017-02-22 14:08:22: C:/Users/Cet24/Desktop/projeto-final/css/ui.css: Source file has changed during Sync from '[file] size=11 605 accu-time=2017-02-22 14:08:11 attr=Archive' to 'size=11 604 time=2017-02-22 14:08:22', will be retried
+2017-02-22 14:08:22: Destination side file adjusted to '[file] size=11 605 accu-time=2017-02-22 14:08:19 file-time=2017-02-22 14:08:20 attr=Archive', to force retry
+2017-02-22 14:08:22: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-22 14:08:25: == Sync Complete. Time: 00:00:06, Speed: 6.01 KB/s, OK: 1, Errors: 0
+2017-02-22 14:08:26: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-22 14:08:26: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 372
+2017-02-22 14:08:26: Left to Right: Copy File: 1 
+2017-02-22 14:08:26: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-22 14:08:28: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-22 14:08:31: == Sync Complete. Time: 00:00:05, Speed: 6.02 KB/s, OK: 1, Errors: 0
+2017-02-22 14:08:32: 

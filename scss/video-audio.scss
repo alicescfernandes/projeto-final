@@ -18,14 +18,19 @@
   /* height: 139px; */
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
-  top: 150px;
-  border-radius: 0px 10px 10px 0px;
+  top: 20px;
+  right: 17px;
+  border-radius: 10px 0px 0px 10px;
   color: white;
   display: inline-block;
   text-align: center;
-  padding: 20px 0px;
+  //padding: 20px 0px;
+  padding: 10px 0px;
   opacity: 0.5;
   transition: 0.3s opacity;
+  i{
+    font-size: 23px;
+  }
 }
 
 .buttons .fa {

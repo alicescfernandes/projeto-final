@@ -1,0 +1,15 @@
+2017-02-22 15:10:43: -- Analysis Started by On File Change Incremental
+2017-02-22 15:10:45: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 1/0, Errors: 0, All: 377
+2017-02-22 15:10:45: Left to Right: Copy File: 2 Delete File: 1 Copy State: 1 
+2017-02-22 15:10:45: == Sync Started by On File Change Incremental
+2017-02-22 15:10:47: Delete File 'ftp://files.000webhost.com/public_html/media/mesa_bilhar.gif'
+2017-02-22 15:11:24: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/mesa_bilhar@1280.gif' -> 'ftp://files.000webhost.com/public_html/media/mesa_bilhar@1280.gif'
+2017-02-22 15:11:52: Copy New 'C:/Users/Cet24/Desktop/projeto-final/media/mesa_bilhar@1900.gif' -> 'ftp://files.000webhost.com/public_html/media/mesa_bilhar@1900.gif'
+2017-02-22 15:11:55: == Sync Complete. Time: 00:01:10, Speed: 1.07 MB/s, OK: 4, Errors: 0
+2017-02-22 15:11:56: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-22 15:11:56: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 377
+2017-02-22 15:11:56: Left to Right: Copy File: 1 
+2017-02-22 15:11:56: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-22 15:11:59: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/includes/_sidebar.php' -> 'ftp://files.000webhost.com/public_html/includes/_sidebar.php'
+2017-02-22 15:12:02: == Sync Complete. Time: 00:00:06, Speed: 2.82 KB/s, OK: 1, Errors: 0
+2017-02-22 15:12:02: 

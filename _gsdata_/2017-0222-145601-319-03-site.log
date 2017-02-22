@@ -1,0 +1,13 @@
+2017-02-22 14:56:04: -- Analysis Started by On File Change Incremental
+2017-02-22 14:56:06: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 372
+2017-02-22 14:56:06: Left to Right: Copy File: 1 
+2017-02-22 14:56:06: == Sync Started by On File Change Incremental
+2017-02-22 14:56:08: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/templates/contacts.php' -> 'ftp://files.000webhost.com/public_html/templates/contacts.php'
+2017-02-22 14:56:11: == Sync Complete. Time: 00:00:05, Speed: 4.35 KB/s, OK: 1, Errors: 0
+2017-02-22 14:56:12: -- Analysis Started by On File Change PostSync Re-Analyze
+2017-02-22 14:56:12: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 372
+2017-02-22 14:56:12: Left to Right: Copy File: 1 
+2017-02-22 14:56:12: == Sync Started by On File Change PostSync Re-Analyze
+2017-02-22 14:56:15: Copy Over 'C:/Users/Cet24/Desktop/projeto-final/css/ui.css' -> 'ftp://files.000webhost.com/public_html/css/ui.css'
+2017-02-22 14:56:17: == Sync Complete. Time: 00:00:05, Speed: 6.08 KB/s, OK: 1, Errors: 0
+2017-02-22 14:56:18: 

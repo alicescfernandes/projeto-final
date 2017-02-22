@@ -15,6 +15,7 @@ button i {
     margin-right: 12px;
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -94,6 +95,11 @@ input[type="text"] {
         display: inline-block;
         width: 80%;
     }
+
+    &:hover{
+    background-color: #191919;
+    transition: background-color 0.2s;
+    }
 }
 
 li.menu-item:before {
@@ -103,12 +109,21 @@ li.menu-item:before {
 }
 
 .submenu-item {
-  position: relative;
-    font-size: 13px;
-    padding: 5px 5px 5px 60px;
-    line-height: 30px;
-    font-weight: 600;
-    color: $submenu-foreground;
+      a{
+      position: relative;
+      font-size: 13px;
+      padding: 5px 5px 5px 60px;
+      line-height: 30px;
+      font-weight: 600;
+      color: $submenu-foreground;
+      display: block;
+
+        &:hover{
+        background-color: #232323;
+        transition: background-color 0.1s;
+        }
+    }
+
 }
 
 .sidebar .container {
@@ -249,7 +264,7 @@ header {
     -ms-user-select: none;
     user-select: none;
     display: block;
-    z-index: 97;
+    //z-index: 97;
 
     p:first-child {
         font-weight: bold;
@@ -414,6 +429,16 @@ i.icon-cross {
         padding: 10px;
         box-sizing: border-box;
         background-color: rgba(0,0,0,0.5);
+        line-height: 25px;
+        font-weight: 900;
+        line-height: 25px;
+        padding: 10px 23px;
+
+        sup,sub{
+          font-size: 14px;
+          text-transform: initial;
+          font-weight: 300;
+        }
     }
 
     .panel-link {
@@ -502,7 +527,7 @@ h5 {
         color: white;
     }
 
-    i.icon-thumbs-up {
+    i.icon-emoji-happy {
         font-size: 62px;
         margin-bottom: 30px;
         display: block;
@@ -581,7 +606,7 @@ h5 {
         text-transform: uppercase;
         font-weight: 300;
         font-size: 1.17em;
-        z-index: 97;
+        //z-index: 97;
         position: absolute;
         bottom: 0;
         background-color: rgba(0, 0, 0, 0.6);
@@ -589,8 +614,10 @@ h5 {
         line-height: 40px;
         left: 0;
         box-sizing: border-box;
-        padding-left: 23px;
+        padding: 0px 23px;
     }
+
+
 
    .panel-small-bottom {
       position: relative;
@@ -705,7 +732,7 @@ footer {
 
 label[for="submenu-toggle"] {
     display: inline-block;
-    width: 100px;
+    width: 140px;
     height: inherit;
 }
 

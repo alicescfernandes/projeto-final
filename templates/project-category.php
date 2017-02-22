@@ -17,7 +17,7 @@
     if($tag){
          $queryParaSlides.="AND projeto_uri = (SELECT uri FROM `projetos` WHERE tags LIKE '%$tag%' LIMIT 1)";
     }else{
-       $queryParaSlides.= "AND projeto_uri NOT LIKE '%fotografia%' ORDER BY rand() LIMIT 3";
+       $queryParaSlides.= "AND projeto_uri != 'fotografia' AND projeto_uri != 'animacao' ORDER BY rand() LIMIT 3";
     }
 
     $resultadoDosSlides = $conn->query($queryParaSlides);
@@ -29,7 +29,7 @@
     }
 
     ?>
-<title>Projetos em <?php if ($urlStrings[2]) echo("de " . rawurldecode(ucwords(str_replace("-", " ", $urlStrings[2])))) ?> | Alice Fernandes - Web Development & Design</title>
+<title>Projetos <?php if ($urlStrings[2]) echo("em  " . rawurldecode(ucwords(str_replace("-", " ", $urlStrings[2])))) ?> | Alice Fernandes - Web Development & Design</title>
 
 <meta name="robots" content="index, follow">
 
@@ -57,13 +57,10 @@
         <div class="panel-container">
           <div class="panel panel-noshadow panel-fullwidth align-center panel-title panel-nobackground">
             <h3>o meu portfólio</h3>
-            <p> <i>Just another random subtitle </i></p>
+            <p> <i> Todos os projetos <?php if ($urlStrings[2]) echo("em  " . rawurldecode(ucwords(str_replace("-", " ", $urlStrings[2])))) ?> </i></p>
           </div>
 
-
-
          <?php
-
          $query = "SELECT * FROM  $tabela  WHERE  `tags` LIKE  '%$tag%'";
           if($conn->query($query)){
             $result = $conn->query($query);
@@ -77,7 +74,6 @@
                 <p>".rawurldecode(str_replace("-", " ", $tag))."</p>
                </a>";
               }
-
 
               //Query for media;
              $queryImages = "SELECT * FROM media WHERE projeto_uri='".$row['uri']."' AND `tipo`='image' ORDER BY RAND() LIMIT 1 ";

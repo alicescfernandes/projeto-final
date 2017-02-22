@@ -121,22 +121,22 @@
 
               <div class="row col30">
               <div class="form-row">
-                <label for="nome">Nome</label>
-                <input placeholder="O teu nome, óbvio"  type="text" id="nome" name="nome" required>
+                <label for="nome">Nome:</label>
+                <input placeholder="Nome próprio e apelido."  type="text" id="nome" name="nome" required>
               </div>
               <div class="form-row">
-                <label for="email">Endereço de Contacto</label>
-                <input placeholder="O teu mail, para eu te contactar de volta" type="email" id="email" name="email" required>
+                <label for="email">Correio electrónico:</label>
+                <input placeholder="O teu mail." type="email" id="email" name="email" required>
               </div>
               </div>
               <div class="row col70">
                <div class="form-row">
-                 <label for="subject">Título da mensagem</label>
+                 <label for="subject">Título da mensagem:</label>
                  <input  type="text" id="subject" name="subject" required>
                </div>
                <div class="form-row">
                 <label for="mensagem">Mensagem: </label>
-                <textarea placeholder="Sem spam por favor :)" id="mensagem" name="mensagem" required minlength="10" maxlength="230"></textarea>
+                <textarea placeholder="Diz-me em que te posso ajudar :)" id="mensagem" name="mensagem" required minlength="10" maxlength="230"></textarea>
               </div>
               </div>
 
@@ -151,7 +151,7 @@
 
           ?>
             <div class="panel panel-contacts align-center">
-              <i class="icon-thumbs-up"></i><h3>E-mail enviado com sucesso</h3><p>Agora é só esperar que eu te responda :) </p>
+              <i class="icon-emoji-happy"></i><h3>Email enviado com sucesso!</h3><p>Responderei o mais rápido possível.</p>
             </div>
          <?php }?>
        </div>
