@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 0;
     //width: 112%;
-    width: 120%;
+    width: calc(100vw + 230px);
     overflow: hidden;
     background-color: $body-background;
     text-align: justify;
@@ -67,7 +67,7 @@ input[type="text"] {
 
 .sidebar {
     display: inline-block;
-    width: 12%;
+    width: 230px; //12%;
     position: relative;
     background-color: $menu-background;
     height: 100vh;
@@ -133,7 +133,7 @@ li.menu-item:before {
 
 .site-container {
     position: relative;
-    left: -12%;
+    left: -230px;
     transition: left 0.5s;
 }
 
@@ -218,7 +218,7 @@ li.menu-item:before {
 
 .main-content {
     display: inline-block;
-    width: calc(84% - 13px); //88%
+    width: 100vw; //88%
     position: relative;
     height: 100vh;
     overflow-y: auto;

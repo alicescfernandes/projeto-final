@@ -37,8 +37,14 @@
     $metaImage = "http://".$host . "/" ."media/".$string."@1280.jpg";
     $resultHTML.="<div class=\"slide\" style=\"background-image:url(http://".$host . "/" ."media/".$string."@1900.jpg)\" data-slide=\"".($i+1)."\"></div>";
   }*/
+
+
+ //ARTICLE content
+ $queryContent = "SELECT * FROM `articles` WHERE `uri`='$urlStrings[1]'";
+ $resultContent =  $conn->query($queryContent);
+ $rowContent = $resultContent->fetch_object();
 ?>
-<title>Sobre Mim | Alice Fernandes - Web Development & Design</title>
+<title><?php echo($rowContent->title) ?> | Alice Fernandes - Web Development & Design</title>
 
   <meta name="robots" content="index, follow">
   <meta name="twitter:card" content="Oi. Chamo-me Alice Fernandes e sou uma webdeveloper de 20 anos. Gosto de fazer de implementar projetos desde a raiz, passando por toda as fases de desenvolvimento. Já trabalhei na área e agora trabalho em regime de freelancer." />
@@ -60,18 +66,12 @@
         </div>
         <div class="panel-container">
           <div class="panel panel-noshadow panel-fullwidth align-center panel-title panel-nobackground">
-            <h3>Sobre Mim</h3>
-            <p><i>Web Developer com conhecimentos de Design Gráfico e Web Design.</i></p>
+            <h3><?php echo(mb_convert_encoding($rowContent->title,'UTF-8')) ?> </h3>
+            <p><i><?php echo(mb_convert_encoding($rowContent->subtitle,'UTF-8')) ?> </i></p>
           </div>
           <div class="panel panel-simple">
-            <p>Olá, chamo-me Alice Fernandes e trabalho como Web Developer, mas tenho conhecimentos na área de Web Design, Fotografia e Vídeo.</p>
-            <p>Entrei nesta área à cerca de cinco anos, quando tirei um Curso Profissional de Multimédia na Escola Secundária D.Dinis em Lisboa. Nesse curso aprendi sobre multimédia e sobre <em>softwares</em> da área, mas aquilo que sempre gostei mais foi programação. Ainda no curso, aprendi SQL, JavaScript, HTML e CSS, mas saber só isso não foi o suficiente para mim.</p>
-            <p>Foi neste curso e durante o estágio do mesmo que desenvolvi grande parte do meu portfólio em Design Gráfico. Posso dizer que no geral (do curso) tive o privilégio de trabalhar com pessoas de renome e outras, não tanto conhecidas, mas que me deram igual possibilidade de desenvolver as minhas habilidades.</p>
-            <p>Depois de acabar o curso decidi dedicar-me a fundo na área da programação. Após alguns meses, já reunia conhecimentos sólidos em JavaScript e PHP.</p>
-            <p>Hoje dedico-me ao desenvolvimento Web em pleno. Desenvolvo projetos próprios e realizo em conjunto com developers outros. Gosto daquilo que faço e gosto de mostrar isso.</p>
-            <p>Para além de desenvolvimento web, gosto de desenhar e conceber websites desde a sua raíz. Todos os meus projetos começam sempre num documento em branco no Photoshop.</p>
-            <p>Se tiveres algumas ideias em mente, e necessitares de algum site ou plataforma web, contacta-me. Eu terei todo o prazer em trabalhar contigo.</p>
-          </div><!--include _includes/_footer.jade-->
+            <?php echo(mb_convert_encoding($rowContent->article,'UTF-8')) ?>
+            </div><!--include _includes/_footer.jade-->
         </div><?php include_once('./includes/_footer.php') ?>
       </div>
     </div>

@@ -54,7 +54,11 @@
   <body>
     <input type="checkbox" id="menu-show">
     <div class="site-container"><?php require_once('./includes/_sidebar.php') ?>
+
       <div class="main-content">
+        <?php
+        include '_audio.php';
+        ?>
         <header><span class="letring">
             <p>Alice Fernandes</p>
             <p>Design & Development</p></span></header>

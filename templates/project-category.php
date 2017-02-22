@@ -43,6 +43,9 @@
     <input type="checkbox" id="menu-show">
     <div class="site-container"><?php require_once('./includes/_sidebar.php')   ?>
       <div class="main-content">
+        <?php
+        include '_audio.php';
+        ?>
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
               <?php     echo($slideHTML); ?>

@@ -16,6 +16,7 @@ switch ($urlStrings[1]) {
 		case 'contactos':
 			include('templates/contacts.php');
 			break;
+		case 'sobre-projeto':
 		case 'sobre-mim':
 			include('templates/simple-article.php');
 			break;

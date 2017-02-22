@@ -22,11 +22,10 @@
          <li class="submenu-item"><a href="/portfolio/video">Vídeo</a></li>
         </div>
       </ul>
+      <li class="menu-item"><a href="/procurar">Pesquisar</a></li>
       <li class="menu-item"><a href="/sobre-mim">Sobre mim</a></li>
+      <li class="menu-item"><a href="/sobre-projeto">Sobre o projeto</a></li>
       <li class="menu-item"><a href="/contactos">Contactos</a></li>
     </ul>
   </div>
 </nav>
-<?php
-include 'templates/_audio.php';
-?>
