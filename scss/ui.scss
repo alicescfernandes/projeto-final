@@ -340,7 +340,7 @@ i.icon-cross {
 }
 
 .slide {
-    width: 33.33%; //36.33%
+    width: 100%; //36.33%
     height: 100%;
     display: block;
     float: left;
@@ -519,12 +519,14 @@ h5 {
     font-size: 28.55px;
 }
 
-.panel-contacts {
+.panel-contacts, .panel-search {
     h3,
-    h4,
-    h5 {
+    h4{
         font-size: 20px;
-        color: white;
+    }
+
+    h5{
+      font-size: 18px;
     }
 
     i.icon-emoji-happy {
@@ -533,6 +535,13 @@ h5 {
         display: block;
         color: white;
     }
+}
+
+.panel-search{
+  h1,h2,h3{
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 
 .panel-title {
@@ -850,6 +859,15 @@ label[for="subject"], #subject{
   .slideshow-medium{
     height: 75vh;
   }
+}
+
+.search{
+  .panel-small:nth-child(even) {
+    margin-right: 0;
+}
+.panel-small:nth-child(odd) {
+    margin-right: 10%;
+}
 }
 @import "video-audio";
 @import "media-queries";

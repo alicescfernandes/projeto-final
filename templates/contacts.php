@@ -63,7 +63,7 @@
       <div class="main-content">
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
-            <div rel="portfolio" href="http://<?php echo($host)?>/media/unicuidar-03@1900.jpg" class="slide" style="background-image: url(&quot;http://localhost/media/unicuidar-03@1900.jpg&quot;); width: 1366px;"> </div>
+            <div rel="portfolio" href="http://<?php echo($host)?>/media/unicuidar-03@1900.jpg" class="slide" style="background-image: url(&quot;http://<?php echo($host) ?>/media/unicuidar-03@1900.jpg&quot;); "> </div>
           </div>
         </div>
         <div class="panel-container">

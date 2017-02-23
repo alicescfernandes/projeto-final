@@ -61,7 +61,7 @@
       <div class="main-content">
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
-            <div class="slide" style="background-image: url(&quot;http:///<?php echo($host)?>/media/unicuidar-03@1900.jpg&quot;); width: 1366px;"> </div>
+            <div class="slide" style="background-image: url(&quot;http:///<?php echo($host)?>/media/unicuidar-03@1900.jpg&quot;);"> </div>
           </div>
         </div>
         <div class="panel-container">
