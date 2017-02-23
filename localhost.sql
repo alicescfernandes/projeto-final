@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Feb 23, 2017 at 03:02 PM
+-- Generation Time: Feb 23, 2017 at 03:32 PM
 -- Server version: 5.6.13
 -- PHP Version: 5.4.17
 
@@ -83,40 +83,45 @@ CREATE TABLE IF NOT EXISTS `media` (
   `cover` tinyint(1) DEFAULT NULL,
   `title` varchar(1000) COLLATE utf8_bin DEFAULT NULL,
   `nome` varchar(100) COLLATE utf8_bin NOT NULL,
+  `descricao` varchar(300) COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`id_media`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=31 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=35 ;
 
 --
 -- Dumping data for table `media`
 --
 
-INSERT INTO `media` (`id_media`, `projeto_uri`, `tipo`, `src`, `ext`, `cover`, `title`, `nome`) VALUES
-(1, 'fotografia', 'image', 'img', 'jpg', 1, 'fotografia', 'Ponte'),
-(2, 'fotografia', 'image', 'img1', 'jpg', 1, 'fotografia', 'Parado no Movimento'),
-(3, '', 'image', 'img2', 'jpg', 1, 'web development', '&#x3C;CODE&#x3E;'),
-(4, 'fotografia', 'image', 'img3', 'jpg', 1, 'fotografia', 'MAAT'),
-(5, 'fotografia', 'image', 'img4', 'jpg', 1, 'fotografia', 'Ponte #2'),
-(6, '3d', 'image', '3d-01', 'jpg', 1, '3d', 'Mesa Bilhar'),
-(7, '3d', 'image', '3d-02', 'jpg', 1, '3d', 'Mesa Bilhar #2'),
-(8, '3d', 'image', '3d-03', 'jpg', 1, '3d', 'Mesa Bilhar #3'),
-(9, 'maasai', 'image', 'maasai-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenho de logomarca para negócio de joias'),
-(11, 'cinel', 'image', 'cinel-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'Brochura de Eletrónica'),
-(12, 'cinel', 'image', 'cinel-03', 'jpg', 1, 'Design Gr&#xE1;fico', 'Pré-visualização de um MUPI'),
-(13, 'cinel', 'image', 'cinel-02', 'jpg', 1, 'Design Gr&#xE1;fico', 'Pré-visualização de um Outdoor'),
-(14, 'connect', 'image', 'connect-01', 'jpg', 1, NULL, 'Website fictício para uma empresa de serviços de comunicação'),
-(15, 'diga', 'image', 'diga-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenho final do logótipo'),
-(16, 'kiosk', 'image', 'kiosk-01', 'jpg', 1, NULL, 'Desenho e desevolvimento de uma plataforma noticiosa'),
-(18, 'unicuidar', 'image', 'unicuidar-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenho de marca e branding para negócio de serviços de enfermagem'),
-(19, 'unicuidar', 'image', 'unicuidar-02', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenhode marca e branding para negócio de serviços de enfermagem'),
-(20, 'unicuidar', 'image', 'unicuidar-03', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenhode marca e branding para negócio de serviços de enfermagem'),
-(21, 'car', 'image', 'car-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'CarExpress'),
-(24, 'animacao', 'image', 'retro', 'gif', NULL, NULL, 'Animação Retro'),
-(25, 'animacao', 'image', 'rocket_exportacao', 'gif', NULL, NULL, 'Animação Rocket'),
-(26, 'passeios', 'video', 'passeios', 'mp4', NULL, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa'''),
-(27, 'passeios', 'image', 'passeios_1', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa'''),
-(28, 'passeios', 'image', 'passeios_2', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa'''),
-(29, 'passeios', 'image', 'passeios_3', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa'''),
-(30, 'animacao', 'image', 'retro', 'gif', NULL, NULL, 'Animação Retro');
+INSERT INTO `media` (`id_media`, `projeto_uri`, `tipo`, `src`, `ext`, `cover`, `title`, `nome`, `descricao`) VALUES
+(1, 'fotografia', 'image', 'img', 'jpg', 1, 'fotografia', 'o lado do céu<br><sup>Doca de Santo Amaro, Alcântara, Lisboa</sup>', ''),
+(2, 'fotografia', 'image', 'img1', 'jpg', 1, 'fotografia', 'A cidade no seu melhor<br><sup>Rua de Alcântara, Alcântara, Lisboa</sup>', ''),
+(3, '', 'image', 'img2', 'jpg', 1, 'web development', '&#x3C;CODE&#x3E;', ''),
+(4, 'fotografia', 'image', 'img3', 'jpg', 1, 'fotografia', 'Repetição<br> <sub>Museu de Arte, Arquitetura e Tecnologia, Belém, Lisboa</sup>', ''),
+(5, 'fotografia', 'image', 'img4', 'jpg', 1, 'fotografia', 'Um ponto de vista<br> <sub>Calçada de Santo Amaro, Alcântara, Lisboa</sup>', ''),
+(6, '3d', 'image', '3d-01', 'jpg', 1, '3d', 'Mesa Bilhar', ''),
+(7, '3d', 'image', '3d-02', 'jpg', 1, '3d', 'Mesa Bilhar #2', ''),
+(8, '3d', 'image', '3d-03', 'jpg', 1, '3d', 'Mesa Bilhar #3', ''),
+(9, 'maasai', 'image', 'maasai-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenho de logomarca para negócio de joias', ''),
+(11, 'cinel', 'image', 'cinel-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'Brochura de Eletrónica', ''),
+(12, 'cinel', 'image', 'cinel-03', 'jpg', 1, 'Design Gr&#xE1;fico', 'Pré-visualização de um MUPI', ''),
+(13, 'cinel', 'image', 'cinel-02', 'jpg', 1, 'Design Gr&#xE1;fico', 'Pré-visualização de um Outdoor', ''),
+(14, 'connect', 'image', 'connect-01', 'jpg', 1, NULL, 'Website fictício para uma empresa de serviços de comunicação', ''),
+(15, 'diga', 'image', 'diga-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenho final do logótipo', ''),
+(16, 'kiosk', 'image', 'kiosk-01', 'jpg', 1, NULL, 'Desenho e desevolvimento de uma plataforma noticiosa', ''),
+(18, 'unicuidar', 'image', 'unicuidar-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenho de marca e branding para negócio de serviços de enfermagem', ''),
+(19, 'unicuidar', 'image', 'unicuidar-02', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenhode marca e branding para negócio de serviços de enfermagem', ''),
+(20, 'unicuidar', 'image', 'unicuidar-03', 'jpg', 1, 'Design Gr&#xE1;fico', 'Desenhode marca e branding para negócio de serviços de enfermagem', ''),
+(21, 'car', 'image', 'car-01', 'jpg', 1, 'Design Gr&#xE1;fico', 'CarExpress', ''),
+(24, 'animacao', 'image', 'retro', 'gif', NULL, NULL, 'Animação Retro', ''),
+(25, 'animacao', 'image', 'rocket_exportacao', 'gif', NULL, NULL, 'Animação Rocket', ''),
+(26, 'passeios', 'video', 'passeios', 'mp4', NULL, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa''', ''),
+(27, 'passeios', 'image', 'passeios_1', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa''', ''),
+(28, 'passeios', 'image', 'passeios_2', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa''', ''),
+(29, 'passeios', 'image', 'passeios_3', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa''', ''),
+(30, 'animacao', 'image', 'mesa_bilhar', 'gif', NULL, NULL, 'Animação "Abertura Perfeita"', ''),
+(31, 'stopmotion', 'video', 'stopmotion', 'mp4', 0, '', 'Video sobre a oferta formativa que o cinel dispõe\r\n', '0'),
+(32, 'stopmotion', 'image', 'stopmotion-1', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa''', '0'),
+(33, 'stopmotion', 'image', 'stopmotion-2', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa''', '0'),
+(34, 'stopmotion', 'image', 'stopmotion-3', 'png', 1, NULL, 'Video sobre a tematica passeios inserida no tema ''As Cores de Lisboa''', '0');
 
 -- --------------------------------------------------------
 
@@ -136,7 +141,7 @@ CREATE TABLE IF NOT EXISTS `projetos` (
   `uri` varchar(100) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `external-urls` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id_projeto`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=14 ;
 
 --
 -- Dumping data for table `projetos`
@@ -151,7 +156,8 @@ INSERT INTO `projetos` (`id_projeto`, `nome`, `descricao`, `tags`, `summary-line
 (9, 'Maasai', '<p>Esta marca foi desenvolvida para um neg&#xF3;cio de venda de joias de luxo. O nome &#xE9; inspirado numa tribo africana com o mesmo nome, que usa lan&#xE7;as para se defenderem. No briefing que me foi dado, foi me pedido para incorporar os s&#xED;mbolos dessa tribo no log&#xF3;tipo</p><p>Foram também desenvolvidos cartões de visita, carimbos, cartões de agradecimento, envelopes, pastas e papel de carta</p><p>Foi também desenvolvido um manual de normas gráficas.</p>', 'design-gr%C3%A1fico, logomarca, estacion%C3%A1rio', 'Empresa de joias baseada em tribo aficana', 0, 0, 0, 'maasai', NULL),
 (10, 'UniCuidar', '<p>Neste projeto foi me pedido para desenvolver um logótipo para um serviço de cuidados personalizados. O meu cliente, um enfermeiro, já tinha este serviço, mas quis fazer um rebranding.</p><p>Este logótipo tem influências nos simbolos que caracterizam a profissão de enfermeiro: a lamarina com a chama. O nome já existia.</p><p>Para além do logótipo, foi também desenvolvido a pintura da viatura, flyers, cartões com os contactos dos enfermeiros e uma folha de toma de medicação a ser distribuida pelas farmácias.</p>', 'design-gr%C3%A1fico, logomarca,estacion%C3%A1rio', 'Serviços de enfermagem personalizados', 0, 0, 0, 'unicuidar', NULL),
 (11, 'CarExpress', '<p>Este é um logótip feito para um exercício de branding. Foram distribuidos temas pelos formandos e a mim calhou-me mecânica automóvel</p><p>CarExpress é uma empresa de reparação automóvel,\ncom serviços na manutenção e revisão de veículos.\nPretende ser uma referênçia no mercado,\ncom atendimento permanente durante todo o dia.\nPor isso a marca foi baseada no conceito de ser\num serviço que está sempre com a porta aberta, e\ncom serviços rápidos e eficazes.</p><p>Foi desenvolvido um minikit de normas em forma de desdobravel</p>', 'design-gr%C3%A1fico, logomarca', 'Marca ficticia de oficina automóvel', 0, 0, 0, 'car', NULL),
-(12, 'Passeios', 'Neste trabalho pretendo demonstrar a arte que existe nos passeios em Lisboa. Vou tentar fotografar passeios desenhados de forma diferente, ou tentar captar os passeios de uma perspectiva diferente. Pretendo usar a luz e a cor para retratar os passeios, de forma a ficarem com mais contraste e cheios de cor, como nunca os vemos. Gostava também de captar passeios diferentes, e alguns mais desgastados, porque representam também a evolução e a passagem do tempo pelas cidades.\n', 'video', 'Video inserido na temática ''As Cores de Lisboa''', 0, 0, 0, 'passeios', NULL);
+(12, 'As Cores de Lisboa -Passeios', 'Neste trabalho pretendo demonstrar a arte que existe nos passeios em Lisboa. Vou tentar fotografar passeios desenhados de forma diferente, ou tentar captar os passeios de uma perspectiva diferente. Pretendo usar a luz e a cor para retratar os passeios, de forma a ficarem com mais contraste e cheios de cor, como nunca os vemos. Gostava também de captar passeios diferentes, e alguns mais desgastados, porque representam também a evolução e a passagem do tempo pelas cidades.\n', 'video', 'Video inserido na temática ''As Cores de Lisboa''', 0, 0, 0, 'passeios', NULL),
+(13, 'Stopmotion - CINEL', 'Neste trabalho pretendo demonstrar a arte que existe nos passeios em Lisboa. Vou tentar fotografar passeios desenhados de forma diferente, ou tentar captar os passeios de uma perspectiva diferente. Pretendo usar a luz e a cor para retratar os passeios, de forma a ficarem com mais contraste e cheios de cor, como nunca os vemos. Gostava também de captar passeios diferentes, e alguns mais desgastados, porque representam também a evolução e a passagem do tempo pelas cidades.', 'video, stopmotion', 'Video sobre a oferta formativa do CINEL', 0, 0, 0, 'stopmotion', NULL);
 
 -- --------------------------------------------------------
 
