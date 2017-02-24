@@ -29,7 +29,7 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
    $randImagesEXT[$a] = $row->ext;
    $a++;
    //Create panels
-   $resultHTML.='<div class="panel panel-small panel-foto "><a rel="galeria" class="panel-link fancybox" href="http://'.$host.'/media/'.$row->src.'@1280.'.$row->ext.'" style="background-image:url(http://'.$host.'/media/'.$row->src.'@1280.'.$row->ext.');" title="'.$row->nome.'">
+   $resultHTML.='<div class="panel panel-small panel-foto "><a data-fancybox="galeria" class="panel-link fancybox" href="http://'.$host.'/media/'.$row->src.'@1280.'.$row->ext.'" style="background-image:url(http://'.$host.'/media/'.$row->src.'@1280.'.$row->ext.');" title="'.$row->nome.'">
                  <h3>'.mb_convert_encoding($row->nome,'UTF-8').'</h3>
                  </a></div>';
  }
@@ -48,14 +48,13 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
    }*/
 
    $result2 = $conn->query($query);
-
    for($i = 0; $i!=$maxImages; $i++){
      $slideRow = $result2->fetch_object();
      if($slideRow->cover){
      $src = $slideRow->src;
      $metaImage = "http://".$host . "/" ."media/".$src."@1280.".$slideRow->ext."";
      $description = $slideRow->nome;
-     $slideHTML.="<a href=\"http://".$host . "/" ."media/".$src."@1900.".$slideRow->ext."\" rel=\"galeria\"class=\"slide fancybox\" title=\"$description\" style=\"background-image:url(http://".$host . "/" ."media/".$src."@1900.".$slideRow->ext.")\" data-slide=\"".($i+1)."\"></a>";
+     $slideHTML.="<a href=\"http://".$host . "/" ."media/".$src."@1900.".$slideRow->ext."\" data-fancybox=\"galeria\"class=\"slide fancybox\" title=\"$description\" style=\"background-image:url(http://".$host . "/" ."media/".$src."@1900.".$slideRow->ext.")\" data-slide=\"".($i+1)."\"></a>";
      $slideControllerHTML.='<li class="slider-control" data-slide="'.($i+1).'"></li>';
      }
    }
@@ -75,6 +74,8 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
     <input type="checkbox" id="menu-show">
     <div class="site-container"><?php require_once('./includes/_sidebar.php') ?>
       <div class="main-content">
+        <?php include_once ('./templates/_audio.php') ?>
+
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container"><?php echo($slideHTML)?>
           </div>
@@ -93,7 +94,7 @@ $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
               default:
                 echo('Fotografia');
             } ?></h3>
-            <p> <i>*snap* *snap*</i></p>
+            <p> <i> </i></p>
           </div>
 
           <?php

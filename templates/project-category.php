@@ -23,7 +23,7 @@
     $resultadoDosSlides = $conn->query($queryParaSlides);
     foreach($resultadoDosSlides as $mediaSource){
       $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.".$mediaSource['ext']."";
-      $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext']."\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext'].")\" data-slide=\"".$dataSlide."\"> </a>";
+      $slideHTML .="<a data-fancybox=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext']."\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext'].")\" data-slide=\"".$dataSlide."\"> </a>";
       $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
       $dataSlide+=1;
     }

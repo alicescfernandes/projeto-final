@@ -18,7 +18,7 @@
     foreach($resultadoDosSlides as $mediaSource){
       $metaImage = "http://".$host . "/" ."media/".$mediaSource['src']."@1280.".$mediaSource['ext']."";
 
-      $slideHTML .="<a rel=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext']."\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext'].")\" data-slide=\"".$dataSlide."\"> </a>";
+      $slideHTML .="<a data-fancybox=\"portfolio\" href=\"http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext']."\" class=\"slide fancybox\" style=\"background-image:url(http://".$host . "/" ."media/".$mediaSource['src']."@1900.".$mediaSource['ext'].")\" data-slide=\"".$dataSlide."\"> </a>";
       $slideControllerHTML.= "<li class=\"slider-control\" data-slide=\"".$dataSlide."\"></li>";
       //echo($mediaSource['src']);
       $dataSlide+=1;
@@ -43,6 +43,9 @@
     <input type="checkbox" id="menu-show">
     <div class="site-container"><?php require_once('./includes/_sidebar.php') ?>
       <div class="main-content">
+        <?php
+        include '_audio.php';
+        ?>
         <div class="ui-component slideshow slideshow-medium panel-shadow">
           <div class="slide-container">
             <?php
