@@ -8,41 +8,122 @@
 
 <url>
   <loc>http://alicefernandes.000webhostapp.com/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://alicefernandes.000webhostapp.com/portfolio/3d</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://alicefernandes.000webhostapp.com/portfolio/web-development</loc>
-</url>
-<url>
-  <loc>http://alicefernandes.000webhostapp.com/portfolio/design-grafico</loc>
-</url>
-<url>
-  <loc>http://alicefernandes.000webhostapp.com/fotografia</loc>
-</url>
-<url>
-  <loc>http://alicefernandes.000webhostapp.com/sobre-mim</loc>
-</url>
-<url>
-  <loc>http://alicefernandes.000webhostapp.com/contactos</loc>
-</url>
-<url>
-  <loc>http://alicefernandes.000webhostapp.com/projeto/dummy-project</loc>
-</url>
-<url>
-  <loc>http://alicefernandes.000webhostapp.com/portfolio/html</loc>
-</url>
-<url>
-  <loc>http://alicefernandes.000webhostapp.com/portfolio/css</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://alicefernandes.000webhostapp.com/portfolio/web-design</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://alicefernandes.000webhostapp.com/projeto/dummy-project2</loc>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/design-gráfico</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://alicefernandes.000webhostapp.com/portfolio/branding</loc>
+  <loc>http://alicefernandes.000webhostapp.com/fotografia</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/animacao</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/video</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/procurar</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/sobre-mim</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/sobre-projeto</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/contactos</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/3d</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/cinel</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/design-gr%C3%A1fico</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/connect</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/css</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/diga</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/logomarca</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/estacion%C3%A1rio</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/kiosk</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/maasai</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/unicuidar</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/car</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/passeios</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/projeto/stopmotion</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://alicefernandes.000webhostapp.com/portfolio/stopmotion</loc>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
